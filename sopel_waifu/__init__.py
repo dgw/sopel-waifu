@@ -15,12 +15,19 @@ from sopel import formatting, module
 def setup(bot):
     filename = os.path.join(os.path.dirname(__file__), 'waifu.json')
     with open(filename, 'r') as file:
-        bot.memory['waifu-data'] = json.load(file)
+        data = json.load(file)
+
+    bot.memory['waifu-list'] = []
+    for franchise, waifus in data.items():
+        bot.memory['waifu-list'].extend([
+                '{waifu} ({franchise})'.format(waifu=waifu, franchise=franchise)
+                for waifu in waifus
+            ])
 
 
 def shutdown(bot):
     try:
-        del bot.memory['waifu-data']
+        del bot.memory['waifu-list']
     except KeyError:
         pass
 
@@ -31,14 +38,15 @@ def shutdown(bot):
 def waifu(bot, trigger):
     """Pick a random waifu for yourself or the given nick."""
     target = trigger.group(3)
-    choice = random.choice(bot.memory['waifu-data']['1'])
+    choice = random.choice(bot.memory['waifu-list'])
 
     # handle formatting syntax of the original waifu-bot
     choice = choice.replace('$c', formatting.CONTROL_COLOR)
 
     if target:
-        msg = bot.memory['waifu-data']['2pre'].replace('$t', target)
+        msg = "{target}'s waifu is {waifu}"
     else:
-        msg = bot.memory['waifu-data']['1pre'].replace('$s', trigger.nick)
+        target = trigger.nick
+        msg = '{target}, your waifu is {waifu}'
 
-    bot.say(msg + choice)
+    bot.say(msg.format(target=target, waifu=choice))
