@@ -35,10 +35,6 @@ def waifu(bot, trigger):
 
     # handle formatting syntax of the original waifu-bot
     choice = choice.replace('$c', formatting.CONTROL_COLOR)
-    # TODO: need a function like xkcd-Bucket's &someone() subroutine
-    # to get a random nick that's spoken recently, so as to avoid HLing
-    # idle users in waifu spam
-    choice = choice.replace('${randomchannelnick}', bot.nick)
 
     if target:
         msg = bot.memory['waifu-data']['2pre'].replace('$t', target)
