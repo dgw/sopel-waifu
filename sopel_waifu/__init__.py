@@ -24,6 +24,11 @@ def setup(bot):
                 for waifu in waifus
             ])
 
+    bot.memory['waifu-list-fgo'] = [
+        waifu for waifu in bot.memory['waifu-list']
+        if 'Fate/Grand Order' in waifu
+    ]
+
 
 def shutdown(bot):
     try:
@@ -32,13 +37,19 @@ def shutdown(bot):
         pass
 
 
-@module.commands('waifu')
+@module.commands('waifu', 'fgowaifu', 'fgowf')
 @module.example('.waifu Peorth', user_help=True)
 @module.example('.waifu', user_help=True)
 def waifu(bot, trigger):
     """Pick a random waifu for yourself or the given nick."""
     target = trigger.group(3)
-    choice = random.choice(bot.memory['waifu-list'])
+    command = trigger.group(1)
+    if command == 'waifu':
+        choice = random.choice(bot.memory['waifu-list'])
+    elif command in ['fgowaifu', 'fgowf']:
+        choice = random.choice(bot.memory['waifu-list-fgo'])
+    else:
+        choice = 'buggy code (please tell {} this happened)'.format(bot.owner)
 
     # handle formatting syntax of the original waifu-bot
     choice = choice.replace('$c', formatting.CONTROL_COLOR)
