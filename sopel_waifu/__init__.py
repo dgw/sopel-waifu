@@ -9,11 +9,22 @@ import json
 import os
 import random
 
-from sopel import formatting, module
+from sopel import config, formatting, module
+
+
+class WaifuSection(config.types.StaticSection):
+    json_path = config.types.FilenameAttribute('json_path', relative=False)
+    """JSON file from which to load list of possible waifus."""
 
 
 def setup(bot):
-    filename = os.path.join(os.path.dirname(__file__), 'waifu.json')
+    bot.config.define_section('waifu', WaifuSection)
+
+    if bot.config.waifu.json_path:
+        filename = bot.config.waifu.json_path
+    else:
+        filename = os.path.join(os.path.dirname(__file__), 'waifu.json')
+
     with open(filename, 'r') as file:
         data = json.load(file)
 
@@ -44,12 +55,14 @@ def waifu(bot, trigger):
     """Pick a random waifu for yourself or the given nick."""
     target = trigger.group(3)
     command = trigger.group(1)
-    if command == 'waifu':
-        choice = random.choice(bot.memory['waifu-list'])
-    elif command in ['fgowaifu', 'fgowf']:
-        choice = random.choice(bot.memory['waifu-list-fgo'])
-    else:
-        choice = 'buggy code (please tell {} this happened)'.format(bot.owner)
+
+    key = 'waifu-list'
+    if command in ['fgowaifu', 'fgowf']:
+        key = 'waifu-list-fgo'
+    try:
+        choice = random.choice(bot.memory[key])
+    except IndexError:
+        bot.reply("Sorry, looks like the waifu list is empty!")
 
     # handle formatting syntax of the original waifu-bot
     choice = choice.replace('$c', formatting.CONTROL_COLOR)
