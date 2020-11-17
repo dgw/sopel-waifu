@@ -5,11 +5,15 @@ A Sopel plugin that picks a waifu for you.
 """
 from __future__ import absolute_import, division, print_function, unicode_literals
 
+import collections
 import json
 import os
 import random
 
-from sopel import config, formatting, module
+from sopel import config, formatting, module, tools
+
+
+LOGGER = tools.get_logger('waifu')
 
 
 class WaifuSection(config.types.StaticSection):
@@ -17,6 +21,8 @@ class WaifuSection(config.types.StaticSection):
     """JSON file from which to load list of possible waifus."""
     json_mode = config.types.ChoiceAttribute('json_mode', ['replace', 'extend'], default='extend')
     """How the file specified by json_path should affect the default list."""
+    unique_waifus = config.types.ValidatedAttribute('unique_waifus', bool, default=True)
+    """Whether to deduplicate the waifu list during startup."""
 
 
 def setup(bot):
@@ -43,6 +49,19 @@ def setup(bot):
                         franchise=' ({})'.format(franchise) if franchise else '')
                     for waifu in waifus
                 ])
+
+    duplicates = [
+        waifu for waifu, count
+        in collections.Counter(bot.memory['waifu-list']).items()
+        if count > 1
+    ]
+    if duplicates:
+        count = len(duplicates)
+        LOGGER.info("Found %s duplicate waifu%s: %s",
+                    count, '' if count == 1 else 's', ', '.join(duplicates))
+
+    if bot.config.waifu.unique_waifus:
+        bot.memory['waifu-list'] = list(set(bot.memory['waifu-list']))
 
     bot.memory['waifu-list-fgo'] = [
         waifu for waifu in bot.memory['waifu-list']
