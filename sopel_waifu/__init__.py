@@ -38,7 +38,9 @@ def setup(bot):
 
         for franchise, waifus in data.items():
             bot.memory['waifu-list'].extend([
-                    '{waifu} ({franchise})'.format(waifu=waifu, franchise=franchise)
+                    '{waifu}{franchise}'.format(
+                        waifu=waifu,
+                        franchise=' ({})'.format(franchise) if franchise else '')
                     for waifu in waifus
                 ])
 
