@@ -54,7 +54,7 @@ def shutdown(bot):
 def waifu(bot, trigger):
     """Pick a random waifu for yourself or the given nick."""
     target = trigger.group(3)
-    command = trigger.group(1)
+    command = trigger.group(1).lower()
 
     key = 'waifu-list'
     if command in ['fgowaifu', 'fgowf']:
