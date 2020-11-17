@@ -15,25 +15,32 @@ from sopel import config, formatting, module
 class WaifuSection(config.types.StaticSection):
     json_path = config.types.FilenameAttribute('json_path', relative=False)
     """JSON file from which to load list of possible waifus."""
+    json_mode = config.types.ChoiceAttribute('json_mode', ['replace', 'extend'], default='extend')
+    """How the file specified by json_path should affect the default list."""
 
 
 def setup(bot):
     bot.config.define_section('waifu', WaifuSection)
 
+    filenames = [os.path.join(os.path.dirname(__file__), 'waifu.json')]
     if bot.config.waifu.json_path:
-        filename = bot.config.waifu.json_path
-    else:
-        filename = os.path.join(os.path.dirname(__file__), 'waifu.json')
-
-    with open(filename, 'r') as file:
-        data = json.load(file)
+        if bot.config.waifu.json_mode == 'replace':
+            filenames = [bot.config.waifu.json_path]
+        elif bot.config.waifu.json_mode == 'extend':
+            filenames.append(bot.config.waifu.json_path)
+        else:
+            raise Exception('Invalid json_mode.')
 
     bot.memory['waifu-list'] = []
-    for franchise, waifus in data.items():
-        bot.memory['waifu-list'].extend([
-                '{waifu} ({franchise})'.format(waifu=waifu, franchise=franchise)
-                for waifu in waifus
-            ])
+    for filename in filenames:
+        with open(filename, 'r') as file:
+            data = json.load(file)
+
+        for franchise, waifus in data.items():
+            bot.memory['waifu-list'].extend([
+                    '{waifu} ({franchise})'.format(waifu=waifu, franchise=franchise)
+                    for waifu in waifus
+                ])
 
     bot.memory['waifu-list-fgo'] = [
         waifu for waifu in bot.memory['waifu-list']
