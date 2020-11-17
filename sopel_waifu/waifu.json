@@ -885,8 +885,7 @@
         "Hercule Barton",
         "Sherlock Shellingford",
         "Yuzurizaki Nero",
-        "Cordelia Glauca",
-        "Twenty's Nipples"
+        "Cordelia Glauca"
     ],
     "Mikakunin de Shinkoukei": [
         "Kobeni Yonomori",
@@ -973,9 +972,10 @@
     ],
     "NouKome": [
         "Chocolat",
-        "Furano Yukihira",
-        "Ouka Yuuouji",
-        "Ayame \"Silicone Inside\" Reikadou"
+        "Yukihira Furano",
+        "Yuuouji Ouka",
+        "Reikadou Ayame",
+        "Douraku Utage"
     ],
     "One Piece": [
         "Nico Robin",
@@ -1005,8 +1005,50 @@
         "Kujikawa Rise",
         "Shirogane Naoto"
     ],
-    "Pokemon": [
-        "Misty"
+    "Pokémon": [
+        "Acerola",
+        "Bea",
+        "Bugsy",
+        "Candice",
+        "Cissy",
+        "Clair",
+        "Dawn",
+        "Elesa",
+        "Erika",
+        "Fantina",
+        "Flannery",
+        "Gardenia",
+        "Hapu",
+        "Hilda",
+        "Iris",
+        "Janine",
+        "Jasmine",
+        "Officer Jenny",
+        "Nurse Joy",
+        "Korrina",
+        "Lana",
+        "Lenora",
+        "Lillie",
+        "Liza",
+        "Luana",
+        "Mallow",
+        "Marnie",
+        "May",
+        "Maylene",
+        "Mina",
+        "Misty",
+        "Nessa",
+        "Olympia",
+        "Rosa",
+        "Roxanne",
+        "Roxie",
+        "Sabrina",
+        "Serena",
+        "Skyla",
+        "Valerie",
+        "Viola",
+        "Whitney",
+        "Winona",
     ],
     "Prison School": [
         "Mari Kurihara",
@@ -1468,27 +1510,54 @@
         "Kazusa Touma"
     ],
     "Working!!": [
-        "Popura \"Poplar\" Taneshima",
-        "Aoi Yamada",
-        "Kyouko Shirafuji",
-        "Mahiru Inami",
-        "Maya Matsumoto",
-        "Yachiyo Todoroki",
-        "Izumi Takanashi",
-        "Kazue Takanashi",
-        "Kozue Takanashi",
-        "Nazuna Takanashi"
+        "Taneshima \"Poplar\" Popura",
+        "Inami Mahiru",
+        "Shirafuji Kyouko",
+        "Todoroki Yachiyo",
+        "Yamada Aoi",
+        "Takanashi Izumi",
+        "Takanashi Kazue",
+        "Takanashi Kozue",
+        "Takanashi Nazuna",
+        "Matsumoto Maya",
+        "Mashiba Mitsuki",
+        "Otoo Haruna",
+        "Kitahara Ritsuko",
+        "Suzutani Momoka"
     ],
     "Yahari Ore no Seishun Love Comedy wa Machigatteiru": [
-        "Yui Yuigahama",
-        "Yukino Yukinoshita",
-        "Komachi Hikigaya"
+        "Yukinoshita Yukino",
+        "Yuigahama Yui",
+        "Isshiki Iroha",
+        "Hikigaya Komachi",
+        "Hiratsuka Shizuka",
+        "Kawasaki Saki",
+        "Yukinoshita Haruno",
+        "Miura Yumiko",
+        "Ebina Hina",
+        "Tsurumi Rumi",
+        "Shiromeguri Meguri",
+        "Orimoto Kaori",
+        "Nakamachi Chika",
+        "Kawasaki Keika",
+        "Yuka",
+        "Hitomi",
+        "Mori",
+        "Yokko",
+        "Sagami Minami"
     ],
     "Yokohama Kaidashi Kikou": [
-        "Hatsuseno Alpha"
+        "Hatsuseno Alpha",
+        "Takatsu Kokone"
     ],
     "Yosuga no Sora": [
-        "Kasugano Sora"
+        "Amatsume Akira",
+        "Yorihime Nao",
+        "Migiwa Kazuha",
+        "Kasugano Sora",
+        "Nogisaka Motoka",
+        "Kuranaga Kozue",
+        "Ifukube Yahiro"
     ],
     "Yuru Yuri": [
         "Toshinou Kyouko",
@@ -1496,19 +1565,50 @@
         "Funami Yui",
         "Yoshikawa Chinatsu",
         "Sugiura Ayano",
-        "Ikeda Chitose"
+        "Ikeda Chitose",
+        "Oomuro Sakurako",
+        "Furutani Himawari",
+        "Mirakurun",
+        "Rivarun",
+        "Furutani Kaede",
+        "Ikeda Chizuru",
+        "Nishigaki Nana",
+        "Matsumoto Rise",
+        "Funami Mari",
+        "Takaoka Hiro",
+        "Yoshikawa Tomoko",
+        "Oomuro Nadeshiko",
+        "Oomuro Hanako",
+        "Azuma Shihoko",
+        "Kitamiya Hatsumi",
+        "Minamino Tsubasa"
     ],
     "Yuyushiki": [
-        "Yui Ichii",
-        "Yuzuko Nonohara",
-        "Yukari Hinata"
+        "Nonohara Yuzuko",
+        "Ichii Yui",
+        "Hinata Yukari",
+        "Aikawa Chiho",
+        "Okano Kei",
+        "Hasegawa Fumi",
+        "Matsumoto Yoriko"
     ],
     "Zero no Tsukaima": [
-        "Louise",
+        "Louise Françoise Le Blanc de La Vallière",
+        "Charlotte Helene \"Tabitha\" Orléans",
+        "Kirche Augusta Frederica von Anhalt-Zerbst",
         "Siesta",
-        "Tabitha",
-        "Tiffania Westwood",
+        "Montmorency Margarita la Fère de Montmorency",
         "Henrietta de Tristain",
-        "Kirche"
+        "Agnes Chevalier de Milan",
+        "Tiffania Westwood",
+        "Eléonore Albertine Le Blanc de La Blois de La Vallière",
+        "Cattleya Yvette La Baume Le Blanc de La Fontaine",
+        "Sheffield",
+        "Beatrice Yvonne von Guldenhorf",
+        "Irukukwu",
+        "Jessica",
+        "Miss Longueville",
+        "Jeanette",
+        "Lukshana"
     ]
 }
