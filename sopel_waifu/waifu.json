@@ -1255,36 +1255,90 @@
     "Glop Art Online": [
         "Asuna Yuuki"
     ],
-    "Super Sonico The Animation": [
+    "Super Sonico": [
         "Super Sonico",
-        "Super Pochaco"
+        "Super Pochaco",
+        "Fujimi Suzu",
+        "Watanuki Fuuri"
     ],
     "Suzumiya Haruhi no Yuutsu": [
         "Nagato Yuki",
         "Suzumiya Haruhi",
         "Asahina Mikuru",
+        "Asakura Ryouko",
         "Tsuruya \"Nyoro~n\"",
-        "Asakura Ryouko"
+        "Mori Sonou",
+        "Kimidori Emiri",
+        "Zaizen Mai",
+        "Okajima Mizuki"
     ],
     "Tamayura": [
+        "Sawatari Fuu",
         "Hanawa Kaoru",
         "Okazaki Norie",
         "Sakurada Maon",
-        "Sawatari Fuu"
+        "Shihomi Riho",
+        "Sawatari Kou",
+        "Hanawa Sayomi",
+        "Yakusa Chimo",
+        "Miyoshi Chihiro",
+        "Shinoda Komachi",
+        "Fujii Misono",
+        "Hoshi Manami",
+        "Tobita Shimako",
+        "Hirono Shouko"
     ],
     "Tamako Market": [
-        "Kanna Makino",
-        "Tamako Kitashirakawa",
-        "Midori Tokiwa"
+        "Kitashirakawa Tamako",
+        "Tokiwa Midori",
+        "Makino Kanna",
+        "Kitashirakawa Anko",
+        "Asagiri Shiori",
+        "Ooji Michiko",
+        "Hanase Kaoru",
+        "Uotani Mari",
+        "Mochimazzi Choi",
+        "Yumoto Sayuri",
+        "Kitashirakawa Hinako",
+        "Kaede",
+        "Yagi Juko",
+        "Kisaragi Yuuko"
     ],
     "Tari Tari": [
-        "Sawa Okita",
-        "Konatsu Miyamoto",
-        "Wakana Sakai"
+        "Sakai Wakana",
+        "Miyamoto Konatsu",
+        "Okita Sawa",
+        "Sakai Mahiru",
+        "Takakura Naoko",
+        "Takahashi Tomoko",
+        "Ueno Midori",
+        "Hirohata Nanae",
+        "Okuto Akiko",
+        "Arita Matsuko",
+        "Ogawa",
+        "Ise Nao",
+        "Sakaki Mika",
+        "Ayabe Mai",
+        "Tanaka Haruka",
+        "Ootani Masami",
+        "Nitta Kanan",
+        "Matsumoto Fumiko",
+        "Mizuno Youko",
+        "Hamada Tooru",
+        "Katae Rika",
+        "Kurata Tomoka",
+        "Mine"
     ],
     "Tengen Toppa Gurren Lagann": [
         "Yoko Littner",
-        "Nia Teppelin"
+        "Nia Teppelin",
+        "Adiane",
+        "Darry Adai",
+        "Kiyoh Littner",
+        "Bachika Kinon",
+        "Bachika Kiyal",
+        "Leite Jokin",
+        "Cybela Kuto"
     ],
     "THE iDOLM@STER": [
         "Ami Futami",
@@ -1472,37 +1526,115 @@
         "Yuika Mitsumine"
     ],
     "The Tatami Galaxy": [
-        "Akashi"
+        "Akashi",
+        "Hanuki Ryouko",
+        "Higuchi Keiko",
+        "Kaori"
     ],
     "To Aru Kagaku no Railgun": [
-        "Shirai Kuroko",
         "Saten Ruiko",
-        "Uiharu Kazari"
+        "Kiyama Harumi",
+        "Konori Mii",
+        "Juufuku Miho",
+        "Tessou Tsuduri",
+        "Wannai Kinuho",
+        "Awatsuki Maaya",
+        "Haruue Erii",
+        "Therestina Kihara Lifeline",
+        "Edasaki Banri",
+        "Kounoe",
+        "Hazamaya Kana",
+        "Nunotaba Shinobu",
+        "Frenda Seivelun",
+        "Mugino Shizuri",
+        "Takitsubo Rikou",
+        "Shokuhou Misaki",
+        "Kinuhata Saiai",
+        "Minori",
+        "Febri",
+        "Hokaze Junko",
+        "MISAKA 1"
+        "Kumokawa Seria",
+        "Xochitl",
+        "Taroumaru Seike",
+        "Yakumaru Itsuki",
+        "Iizumi Rita",
+        "Sakuragi Naruha",
+        "Dolly",
+        "Kouzaku Mitori",
+        "Kuriba Ryouko",
+        "Yumiya Rakko"
     ],
     "To Aru Majutsu no Index": [
-        "Index",
-        "Last Order",
+        "Index Librorum Prohibitorum",
         "Misaka \"Biribiri\" Mikoto",
-        "Misaka Imouto",
+        "Kanzaki Kaori",
         "Tsukuyomi Komoe",
+        "Kuroko Shirai",
         "Himegami Aisa",
+        "MISAKA 10032",
+        "Tsuchimikado Maika",
+        "Sasha Kreuzhev",
+        "Last Order",
+        "Kazakiri Hyouka",
+        "Itsuwa",
+        "Uiharu Kazari",
+        "Sherry Cromwell",
+        "Yomikawa Aiho",
+        "Yoshikawa Kikyou",
+        "Ryoukan",
+        "Laura Stewart",
+        "Kamijou Shiina",
+        "MISAKA 10031",
+        "MISAKA 19090",
         "Fukiyose Seiri",
-        "Mitsuko Kongo"
+        "Mitsuko Kongo",
+        "Vento of the Front",
+        "Oriana Thomson",
+        "Lidvia Lorenzetti",
+        "Lucia",
+        "Angelene",
+        "Agnese Sanctis",
+        "Orsola Aquinas",
+        "Misaka Misuzu",
+        "Musujime Awaki",
+        "Vasilisa",
+        "Uragami"
     ],
     "Tonari no Kaibutsu-kun": [
-        "Shizuku \"Mitti\" Mizutani",
-        "Asako Natsume"
+        "Mizutani \"Mitti\" Shizuku",
+        "Natsume Asako",
+        "Ooshima Chizuru",
+        "Miyama Yuu",
+        "Ninomiya Saeko",
+        "Yumeko"
     ],
     "Top wo Nerae!": [
-        "Takaya Noriko"
+        "Takaya Noriko",
+        "Amano Kazumi",
+        "Jung Freud",
+        "Kashiwara Reiko",
+        "Linda Yamamoto",
+        "Akai Takami",
+        "Higuchi Kimiko (née Akai)"
     ],
-    "Top wo Nerae! 2": [
-        "Nono"
+    "Top wo Nerae 2! Diebuster": [
+        "Nono",
+        "Lal'C Melk Mark",
+        "Tycho Science"
     ],
-    "Toradora": [
+    "Toradora!": [
         "Aisaka Taiga",
         "Kushieda \"Minorin\" Minori",
-        "Kawashima Ami"
+        "Kawashima Ami",
+        "Takasu Yasuko",
+        "Koigakubo Yuri",
+        "Kanou Sumire",
+        "Inko",
+        "Kihara Maya",
+        "Kanou Sakura",
+        "Hamada Sena",
+        "Mitsui Yuriko"
     ],
     "Touhou Project": [
         "Cirno",
