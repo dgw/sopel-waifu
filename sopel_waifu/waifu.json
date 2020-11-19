@@ -1487,21 +1487,70 @@
     ],
     "Touhou Project": [
         "Cirno",
-        "Marisa",
-        "Reimu Hakurei"
+        "Kirisame Marisa",
+        "Hakurei Reimu",
+        "Patchouli Knowledge",
+        "Izayoi Sakuya",
+        "Alice Margatroid",
+        "Remilia Scarlet",
+        "Hong Meiling",
+        "Kazami Yuuka",
+        "Flandre Scarlet",
+        "Letty Whiterock",
+        "Lily White",
+        "Konpaku Youmu",
+        "Saigyouji Yuyuko",
+        "Yakumo Ran",
+        "Yakumo Yukari",
+        "Maribel Hearn",
+        "Usami Renko",
+        "Ibuki Suika",
+        "Kurokoma Saki"
     ],
     "True Tears": [
-        "Hiromi Yuasa",
-        "Noe Isurugi"
+        "Yuasa Hiromi",
+        "Isurugi Noe",
+        "Andou Aiko"
     ],
     "Uchuu Kyoudai": [
         "Serika Itou"
     ],
-    "Upotte!": [
-        "FNC"
+    "Upotte!!": [
+        "FNC",
+        "M16A4",
+        "L85A1",
+        "SG550",
+        "M14",
+        "FAL L1A1",
+        "G3A3",
+        "M1928",
+        "SAKO RK95",
+        "Galil AR",
+        "T91",
+        "AUGA1",
+        "FG42",
+        "AR18",
+        "HK53",
+        "RPK",
+        "AK47",
+        "MP5A2",
+        "SAR21",
+        "Imouto",
+        "SR88A",
+        "MLE 1949",
+        "Type 86S",
+        "M10",
+        "SIG SK46",
+        "Model L",
+        "HK33E"
     ],
     "Usagi Drop": [
-        "Rin Kaga"
+        "Kaga Rin",
+        "Nitani Yukari",
+        "Yoshii Masako",
+        "Maeda Reina",
+        "Maeda Haruko",
+        "Kawachi Kazumi"
     ],
     "Vocaloid": [
         "Hatsune Miku",
@@ -1511,11 +1560,28 @@
         "Yowane Haku"
     ],
     "WataMote": [
-        "Tomoko Kuroki"
+        "Kuroki Tomoko",
+        "Naruse Yuu",
+        "Satozaki Kiko",
+        "Nemoto Hina",
+        "Imae Megumi",
+        "Ogino",
+        "Okada Akane"
+    ],
+    "White Album": [
+        "Morikawa Yuki",
+        "Ogata Rina",
+        "Sawakura Misaki",
+        "Kawashima Haruka",
+        "Mizuki Mana",
+        "Shinzuka Yayoi",
+        "Matsuyama Menou"
     ],
     "White Album 2": [
-        "Setsuna Ogiso",
-        "Kazusa Touma"
+        "Ogiso Setsuna",
+        "Touma Kazusa",
+        "Touma Youko",
+        "Mizusawa Io"
     ],
     "Working!!": [
         "Taneshima \"Poplar\" Popura",
