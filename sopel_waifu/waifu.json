@@ -1,34 +1,34 @@
 {
     "Air": [
-        "Kamio Misuzu"
+        "Misuzu Kamio"
     ],
     "Aiura": [
-        "Ayuko Uehara",
-        "Kanaka Amaya",
-        "Saki Iwasawa"
+        "Uehara Ayuko",
+        "Amaya Kanaka",
+        "Iwasawa Saki"
     ],
     "AKB0048": [
-        "Nagisa Motomiya",
-        "Chieri Sono",
-        "Orine Aida",
-        "Yuuka Ichijou",
-        "Suzuko Kanzaki",
-        "Sonata Shinonome",
-        "Makoto Yokomizo",
-        "Kanata Shinonome",
-        "Mimori Kishida",
-        "Megumi Wanibuchi",
-        "Yuuko Ooshima",
-        "Minami \"Takamina\" Takahashi",
-        "Sayaka Akimoto",
-        "Tomomi \"Tomochin\" Itano",
-        "Yuki \"Yukirin\" Kashiwagi",
-        "Haruna \"Kojiharu\" Kojima",
-        "Sae Miyazawa",
-        "Mayu \"Mayuyu\" Watanabe",
-        "Atsuko \"Acchan\" Maeda",
-        "Tsubasa Katagiri",
-        "Mikako Minamino"
+        "Motomiya Nagisa",
+        "Sono Chieri",
+        "Aida Orine",
+        "Ichijou Yuuka",
+        "Kanzaki Suzuko",
+        "Shinonome Sonata",
+        "Yokomizo Makoto",
+        "Shinonome Kanata",
+        "Kishida Mimori",
+        "Wanibuchi Megumi",
+        "Ooshima Yuuko",
+        "Takahashi \"Takamina\" Minami",
+        "Akimoto Sayaka",
+        "Itano \"Tomochin\" Tomomi",
+        "Kashiwagi \"Yukirin\" Yuki",
+        "Kojima \"Kojiharu\" Haruna",
+        "Miyazawa Sae",
+        "Watanabe \"Mayuyu\" Mayu",
+        "Maeda \"Acchan\" Atsuko",
+        "Katagiri Tsubasa",
+        "Minamino Mikako"
     ],
     "Aku no Hana": [
         "Sawa Nakamura"
@@ -51,20 +51,29 @@
         "Sylphy",
         "Kobori"
     ],
-    "Amanchu": [
-        "Hikari \"Pikari\" Kohinata",
-        "Futaba \"Potty\" Ooki"
+    "Amanchu!": [
+        "Kohinata \"Pikari, Bakari\" Hikari",
+        "Ooki \"Dotty, Teko\" Futaba",
+        "Ninomiya \"Ane-chan\" Ai",
+        "Katori Mato",
+        "Himeno Chizuru",
+        "Mizunashi Akane"
     ],
     "AnoHana": [
         "Honma Meiko",
         "Anjou Naruko",
         "Tsurumi Chiriko"
     ],
-    "Ano Natsu": [
+    "Ano Natsu de Matteru": [
         "Kitahara \"Nopan\" Mio",
         "Takatsuki Ichika",
         "Tanigawa Kanna",
-        "Yamano Remon"
+        "Yamano \"Lemon\" Remon",
+        "Arisawa Chiharu",
+        "Kinoshita \"Kaorin\" Kaori",
+        "Kirishima Nanami",
+        "Ogura Manami",
+        "Takatsuki Emika"
     ],
     "Another": [
         "Misaki Mei"
@@ -77,11 +86,27 @@
         "Iwasawa Asami"
     ],
     "Ao Haru Ride": [
-        "Futaba Yoshioka"
+        "Futaba Yoshioka",
+        "Asumi",
+        "Chie",
+        "Yumi",
+        "Murao Shuuko",
+        "Makita Yuuri"
     ],
     "Aoi Hana": [
         "Manjoume Fumi",
-        "Okudaira Akira"
+        "Okudaira Akira",
+        "Ikumi Kyouko",
+        "Sugimoto \"Yacchan\" Yasuko",
+        "Kawasaki Ayako",
+        "Honatsugi \"Pon-chan\" Youko",
+        "Yasuda \"Yassan\" Misako",
+        "Motegi \"Mogi\" Miwa",
+        "Ueno Kaori",
+        "Sugimoto Kuri",
+        "Sugimoto Kazusa",
+        "Sugimoto Shinako",
+        "Okudaira Sakiko"
     ],
     "Arakawa Under the Bridge": [
         "Nino",
@@ -89,24 +114,26 @@
         "P-ko"
     ],
     "Aria": [
-        "Akari Mizunashi",
+        "Mizunashi Akari",
         "Alice Carroll",
-        "Aika S Granzchesta",
+        "Aika S. Granzchesta",
         "Alicia Florence",
         "Athena Glory",
-        "Ai",
-        "Akira E. Ferrari"
+        "Akira E. Ferrari",
+        "Aino Ai",
+        "Ami"
     ],
     "Azumanga Daioh": [
-        "Chiyo Mihama",
-        "Tomo Takino",
-        "Yukari Tanizaki",
-        "Minamo \"Nyamo\" Kurosawa",
-        "Koyomi \"Yomi\" Mizuhara",
-        "Ayumu \"Osaka\" Kasuga",
+        "Mihama \"Chiyo-suke\" Chiyo",
+        "Takino Tomo",
+        "Tanizaki Yukari",
+        "Kurosawa \"Nyamo\" Minamo",
+        "Mizuhara \"Yomi\" Koyomi",
+        "Kasuga \"Osaka\" Ayumu",
         "Kagura",
-        "Kaori",
-        "Sakaki"
+        "Kaori \"Kaorin\"",
+        "Sakaki",
+        "Chihiro"
     ],
     "B Gata H Kei": [
         "Yamada"
