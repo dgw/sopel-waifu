@@ -70,10 +70,11 @@ def setup(bot):
 
 
 def shutdown(bot):
-    try:
-        del bot.memory['waifu-list']
-    except KeyError:
-        pass
+    for key in ['waifu-list', 'waifu-list-fgo']:
+        try:
+            del bot.memory[key]
+        except KeyError:
+            pass
 
 
 @module.commands('waifu', 'fgowaifu', 'fgowf')
