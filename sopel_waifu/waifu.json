@@ -135,32 +135,68 @@
         "Sakaki",
         "Chihiro"
     ],
-    "B Gata H Kei": [
-        "Yamada"
+    "B-gata H-kei": [
+        "Yamada",
+        "Yamada no Ero-gami",
+        "Akai-sensei",
+        "Kanejou \"Mademoiselle\" Kyouka",
+        "Katase Aoi",
+        "Kobayashi Maki",
+        "Kosuda Kazuki",
+        "Misato Mami",
+        "Miyano Mayu",
+        "Miyano no Ero-gami",
+        "Sakai Kaori",
+        "Takeshita \"F-shita\" Miharu",
+        "Yamada Chika"
     ],
     "Baccano!": [
-        "Ennis",
-        "Harvent Miria",
-        "Laforet Chane",
-        "Holystone Nice"
+        "Ennis Prochainezo",
+        "Miria Harvent",
+        "Chané Laforet",
+        "Nice Holystone",
+        "Adele",
+        "Carol",
+        "Eve Genoard",
+        "Lua Klein",
+        "Lia Lianshan",
+        "Sylvie Lumiere",
+        "Rachel"
     ],
     "Baka to Test to Shoukanjuu": [
         "Himeji Mizuki",
+        "Kinoshita Hideyoshi",
+        "Kirishima Shouko",
         "Shimada Minami",
-        "Kirishima Shouko"
+        "Kinoshita Yuuko",
+        "Koyama Yuuka",
+        "Kudou Aiko",
+        "Mikami Yoshiko",
+        "Nakabayashi Hiromi",
+        "Satou Miho",
+        "Shimada Hazuki",
+        "Shimizu Miharu",
+        "Takahashi Youko",
+        "Takeuchi",
+        "Yoshii Akira"
     ],
     "Bakemonogatari": [
         "Senjougahara Hitagi",
         "Sengoku Nadeko",
         "Hanekawa Tsubasa",
         "Hachikuji Mayoi",
+        "Kanbaru Suruga",
         "Oshino Shinobu",
-        "Kanbaru Suruga"
+        "Araragi Karen",
+        "Araragi Tsukihi"
     ],
-    "Bakuman": [
-        "Aoki Kou",
+    "Bakuman.": [
+        "Aoki \"Kou, Yuri-tan\" Yuriko",
         "Azuki Miho",
-        "Miyoshi Kaya"
+        "Miyoshi Kaya",
+        "Azuki Mina",
+        "Iwase \"Akina Aiko\" Aiko",
+        "Natsumi Katou"
     ],
     "BanG Dream!": [
         "Kasumi Toyama",
@@ -208,65 +244,120 @@
         "Rii Uzawa",
         "Nanana Wanibe"
     ],
-    "Ben-to": [
-        "Yarizui Sen",
+    "Ben-To": [
+        "Oshiroi Hana",
         "Shaga Ayame",
-        "Oshiroi Hana"
+        "Yarizui Sen",
+        "Inoue Asebi",
+        "Matsuba Kiku",
+        "Sawagi \"Kaichou\" Kyou",
+        "Sawagi \"Fukukaichou\" Kyou",
+        "Shiraume Ume"
     ],
     "Binbougami ga!": [
-        "Ichiko \"Chichiko\" Sakura",
-        "Momiji \"Binbougami\" Binboda"
+        "Sakura \"Chichiko, Michiko, Ichi\" Ichiko",
+        "Binboda \"Binbougami\" Momiji",
+        "Adenokouji Nadeshiko",
+        "Minowa Kurumi",
+        "Rindou \"Ms. Gorilla\" Ranmaru",
+        "Tange Akane",
+        "Tsuwabaki Rika",
+        "Tsuwabaki Mika"
     ],
-    "Black Rock Shooter": [
+    "Black★Rock Shooter": [
         "Kuroi Mato",
-        "Takanashi Yomi"
+        "Black★Rock Shooter",
+        "Takanashi Yomi",
+        "Dead Master",
+        "Irino Saya",
+        "Black★Gold Saw",
+        "Koutari Yuu",
+        "Strength",
+        "Izuriha Kagari",
+        "Chariot",
+        "Kohata Arata"
     ],
     "Black Lagoon": [
-        "Revy",
-        "Balalaika",
-        "Roberta"
+        "Rebecca \"Revy, Two Hands\"",
+        "Sofiya \"Balalaika, Fry Face, Kapitan\" Pavlovna",
+        "Eda \"Damn nun of the Violence Church\"",
+        "Roberta \"The Bloodhound Of Florencia, Rosalita Cisneros\"",
+        "Shenhua \"Chinglish, Yes Lady\"",
+        "Janet \"Greenback Jane\" Bhai",
+        "Maki",
+        "Frederica \"The Cleaner\" Sawyer",
+        "Washimine Yukio"
     ],
     "Bleach": [
         "Inoue Orihime",
         "Kuchiki Rukia"
     ],
     "Blood-C": [
-        "Kisaragi \"I'll protect everyone\" Saya"
+        "Kisaragi Saya",
+        "Amino Yuuka",
+        "Motoe Nono",
+        "Motoe Nene",
+        "Tsutsutori Kanako",
+        "Hiiragi Mana"
     ],
     "Boku wa Tomodachi ga Sukunai": [
-        "Kashiwazaki Sena",
-        "Mikazuki \"A Shit\" Yozora",
+        "Kashiwazaki \"Niku\" Sena",
+        "Mikazuki \"Sora\" Yozora",
         "Hasegawa Kobato",
         "Shiguma Rika",
-        "Takayama Maria"
+        "Takayama Maria",
+        "Kusunoki Yukimura"
     ],
     "Bokura wa Minna Kawaisou": [
-        "Ritsu Kawai",
-        "Mayumi Nishikino",
-        "Sayaka Watanabe"
+        "Kawai \"Ricchan\" Ritsu",
+        "Nishikino Mayumi",
+        "Watanabe Sayaka"
     ],
-    "C": [
+    "「C」 THE MONEY OF SOUL AND POSSIBILITY CONTROL": [
         "Msyu",
-        "Q"
+        "Q",
+        "Ikuta Hanabi",
+        "Mikuni Takako"
     ],
     "Candy Boy": [
-        "Sakurai Yukino",
-        "Sakurai Kanade"
+        "Sakurai \"Kana-chan\" Kanade",
+        "Sakurai \"Yuki-nee\" Yukino",
+        "Kamiyama \"Saku\" Sakuya",
+        "Sakurai \"Shi-chan\" Shizuku"
     ],
     "Chihayafuru": [
-        "Ayase Chihaya",
-        "Ooe Kanade",
-        "Wakamiya Shinobu"
+        "Ayase \"Chi-chan\" Chihaya",
+        "Ooe \"Kana\" Kanade",
+        "Ayase Chieko",
+        "Ayase Chitose",
+        "Hanano Sumire",
+        "Horikawa Michiru",
+        "Kanai Tsubaki",
+        "Mashima Rika",
+        "Mashima Reiko",
+        "Ooe Rieko",
+        "Wakamiya \"Queen\" Shinobu",
+        "Wataya Mari",
+        "Yuu"
     ],
     "Chobits": [
-        "Chii"
+        "Chii",
+        "Freya",
+        "Kotoko",
+        "Sumomo",
+        "Hibiya Chitose",
+        "Omura Yumi"
     ],
     "Chuunibyou demo Koi ga Shitai!": [
-        "Sanae Dekomori",
-        "Shinka \"Mori Summer\" Nibutani",
-        "Rikka Takanashi",
-        "Kumin Tsuyuri",
-        "Tooka Takanashi"
+        "Dekomori \"Deko\" Sanae",
+        "Nibutani \"Nibu, Forest/Mori Summer\" Shinka",
+        "Shichimiya \"Sophia Ring SP Saturn VII\" Satone",
+        "Takanashi \"Wielder of the Wicked Eye\" Rikka",
+        "Tsuyuri \"Pillow Senpai\" Kumin",
+        "Takanashi \"Priestess\" Tooka",
+        "Kannagi \"Fuurin-chan / Wind Chime\" Kazari",
+        "Togashi Kuzuha",
+        "Tsukumo \"Nana-chan\" Nanase"
     ],
     "Clannad": [
         "Furukawa Nagisa",
@@ -557,6 +648,13 @@
         "Miho Nishizumi",
         "Mako Reizei",
         "Saori Takebe"
+    ],
+    "Glasslip": [
+        "Fukami Touko",
+        "Takayama Yanagi",
+        "Nagamiya Sachi",
+        "Fukami Hina",
+        "Shirosaki Momo"
     ],
     "Gochuumon wa Usagi Desu ka?": [
         "Kokoa Hoto",
