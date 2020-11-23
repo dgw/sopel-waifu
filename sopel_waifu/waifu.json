@@ -387,16 +387,36 @@
         "Angelise \"Ange\" Ikaruga Misurugi"
     ],
     "Danganronpa": [
-        "Kyouko Kirigiri"
+        "Asahina \"Hina\" Aoi",
+        "Enoshima Junko",
+        "Fujisaki \"Chi-tan\" Chihiro",
+        "Fukawa \"Genocide Jack\" Touko",
+        "Ikusaba Mukuro",
+        "Kirigiri Kyouko",
+        "Celestia \"Celes\" Ludenberg",
+        "Maizono Sayaka",
+        "Naegi \"Omaru\" Komaru",
+        "Oogami \"Ogre\" Sakura"
     ],
     "Danna ga Nani wo Itteiru ka Wakaranai Ken": [
-        "Kaoru Tsunashi"
+        "Tsunashi Kaoru",
+        "Juse Rino",
+        "Tanaka",
+        "Tsunashi Kyouko"
     ],
     "Danshi Koukousei no Nichijou": [
-        "Yassan \"Literature Girl\""
+        "Emi",
+        "Habara \"Archdemon of East Yada Elementary School\"",
+        "Ikushima",
+        "Nago-san",
+        "Ringo \"President Ringo-chan\"",
+        "Yanagi \"Yanagin, Hiro\"",
+        "Yassan \"Literature Girl, Yasunaga-chan\"",
+        "Yukana"
     ],
     "Dantalian no Shoka": [
-        "Dalian \"Yes~\""
+        "Dalian \"Kuro Yomihime, Black Biblioprincess\"",
+        "Shoka no shoujo \"Bookshelf girl\""
     ],
     "Dead or Alive": [
         "Ayane",
@@ -430,12 +450,26 @@
         "Tsukushi"
     ],
     "Death Note": [
-        "Amane \"Misa-Misa\" Misa"
+        "Aizawa Yumi",
+        "Aizawa Eriko",
+        "Amane \"Misa-Misa\" Misa",
+        "Halle \"Halle Lidner\" Bullook",
+        "Mary \"Wedy\" Kenwood",
+        "Misora \"Shoko Maki\" Naomi",
+        "Noriko",
+        "Takada \"Taki\" Kiyomi",
+        "Yagami Sayu",
+        "Yuri"
     ],
     "Denpa Onna to Seishun Otoko": [
-        "Meme Touwa",
-        "Ryuuko Mifune",
-        "Erio Touwa"
+        "Maekawa",
+        "Mifune Ryuuko",
+        "Touwa Erio",
+        "Hanazawa",
+        "Hoshimiya Yashiro",
+        "Mikki",
+        "Ooi Tooe",
+        "Touwa Meme"
     ],
     "Dirty Pair": [
         "Kei",
@@ -447,23 +481,44 @@
         "Lunch"
     ],
     "Dragon Ball Z": [
-        "Android 18",
+        "Jinzouningen \"Android 18\" 18-gou",
         "Videl"
     ],
     "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka": [
-        "Hestia"
+        "Hestia",
+        "Asufi Al Andromeda",
+        "Liliruca \"Lili, Lilisuke\" Arde",
+        "Demeter",
+        "Naza Ersuisu",
+        "Anya Flomer",
+        "Misha Flott",
+        "Syr Flover",
+        "Freya",
+        "Tiona Hiryute",
+        "Tione Hiryute",
+        "Chloe Lolo",
+        "Eina Tulle",
+        "Lefiya \"Thousand Elf\" Viridis",
+        "Ais \"Sword Princess\" Wallenstein"
     ],
     "Durarara!!": [
-        "Celty Sturluson"
+        "Celty Sturluson",
+        "Sonohara Anri"
     ],
     "Ef": [
+        "Hayama \"Miki\" Mizuki",
         "Miyamura Miyako",
         "Shindou Kei",
+        "Shindou Chihiro",
         "Amamiya Yuuko",
-        "Shindou Chihiro"
+        "Asou Sumire",
+        "Izumi Emi"
     ],
     "Elfen Lied": [
-        "Lucy"
+        "Lucy",
+        "Mayu",
+        "Nana \"Number 7\"",
+        "Yuka"
     ],
     "Eureka Seven": [
         "Eureka",
