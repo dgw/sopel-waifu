@@ -105,6 +105,7 @@ def waifu(bot, trigger):
         choice = random.choice(bot.memory[key])
     except IndexError:
         bot.reply("Sorry, looks like the waifu list is empty!")
+        return
 
     # handle formatting syntax of the original waifu-bot
     choice = choice.replace('$c', formatting.CONTROL_COLOR)
