@@ -65,9 +65,9 @@ def setup(bot):
     if bot.config.waifu.unique_waifus:
         bot.memory['waifu-list'] = list(set(bot.memory['waifu-list']))
 
-    bot.memory['waifu-list-type-moon'] = [
+    bot.memory['waifu-list-fgo'] = [
         waifu for waifu in bot.memory['waifu-list']
-        if '(TYPE-MOON)' in waifu
+        if '(F/GO)' in waifu
     ]
 
     if bot.config.waifu.accept_suggestions:
@@ -83,14 +83,14 @@ def shutdown(bot):
         del bot.memory['waifu-suggestions']
         LOGGER.debug("...done!")
 
-    for key in ['waifu-list', 'waifu-list-type-moon']:
+    for key in ['waifu-list', 'waifu-list-fgo']:
         try:
             del bot.memory[key]
         except KeyError:
             pass
 
 
-@module.commands('waifu', 'tmwaifu')
+@module.commands('waifu', 'fgowaifu')
 @module.example('.waifu Peorth', user_help=True)
 @module.example('.waifu', user_help=True)
 def waifu(bot, trigger):
@@ -99,8 +99,8 @@ def waifu(bot, trigger):
     command = trigger.group(1).lower()
 
     key = 'waifu-list'
-    if command == 'tmwaifu':
-        key = 'waifu-list-type-moon'
+    if command == 'fgowaifu':
+        key = 'waifu-list-fgo'
     try:
         choice = random.choice(bot.memory[key])
     except IndexError:
