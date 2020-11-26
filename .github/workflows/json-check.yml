@@ -1,0 +1,20 @@
+name: JSON check
+
+on:
+  push:
+    paths:
+      - '**.json'
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: json-syntax-check
+        # Restore to upstream @v1 if limitusus/json-syntax-check#5 is merged
+        uses: dgw/json-syntax-check@0cb00394fd41a549559197054f1618b663a130c9
+        env:
+          BASE: /github/workspace
+        with:
+          pattern: "\\.json$"
