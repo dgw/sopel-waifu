@@ -12,8 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: json-syntax-check
-        # Restore to upstream @v1 if limitusus/json-syntax-check#5 is merged
-        uses: dgw/json-syntax-check@0cb00394fd41a549559197054f1618b663a130c9
+        uses: limitusus/json-syntax-check@v1.0.2
         env:
           BASE: /github/workspace
         with:
