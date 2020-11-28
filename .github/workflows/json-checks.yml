@@ -13,7 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: json-syntax-check
-        uses: limitusus/json-syntax-check@v1.0.2
+        # Awaiting merge of limitusus/json-syntax-check#8
+        uses: dgw/json-syntax-check@b932368c8b77ff63b22ba5165ae3aa96aa6a9051
         env:
           BASE: /github/workspace
         with:
