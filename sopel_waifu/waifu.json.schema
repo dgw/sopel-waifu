@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "propertyNames": {
+    "type": "string"
+  },
+  "additionalProperties": {
+    "type": "array",
+    "items": {
+      "type": "string"
+    },
+    "uniqueItems": true
+  }
+}
