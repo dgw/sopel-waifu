@@ -967,6 +967,35 @@
         "Haroukitei \"Hello Kitty, Kigu\" Kigurumi",
         "Kuurubiyuutei \"Cool Beauty with Glasses, Gan-chan\" Gankyou"
     ],
+    "K-ON!": [
+        "Akiyama Mio",
+        "Hirasawa Yui",
+        "Kotobuki \"Mugi\" Tsumugi",
+        "Nakano \"Azu-nyan\" Azusa",
+        "Tainaka \"Ricchan\" Ritsu",
+        "Hirasawa \"Mom\" Mother",
+        "Hirasawa Ui",
+        "Iida Keiko",
+        "Kawaguchi \"Nori, Christina\" Norimi",
+        "Kawakami-san \"Janice\"",
+        "Manabe Nodoka",
+        "Nakajima Nobuyo",
+        "Nojima Chika",
+        "Okuda Nao",
+        "Oota Ushio",
+        "Saitou Sumire",
+        "Sakurai Natsuka",
+        "Sasaki Youko",
+        "Satou Akane",
+        "Shima Chizuru",
+        "Sokabe Megumi",
+        "Suzuki Jun",
+        "Tachibana Himeko",
+        "Takahashi Fuuko",
+        "Taki Eri",
+        "Wakaouji Ichigo",
+        "Yamanaka \"Sawa-chan, Catherine\" Sawako"
+    ],
     "Kami-sama no Memo-chou": [
         "Shionji Yuuko",
         "Shinozaki Ayaka",
@@ -1093,81 +1122,103 @@
     ],
     "Katanagatari": [
         "Togame",
-        "Hitei",
-        "Nanami Yasuri"
+        "Hitei \"Princess\"",
+        "Yasuri Nanami"
     ],
     "Kämpfer": [
+        "Kondou Mikoto",
+        "Mishima Akane",
+        "Sakura Kaede",
+        "Sangou Shizuku",
         "Senou Natsuru"
     ],
     "Katawa Shoujo": [
-        "Emi Ibarazaki",
-        "Hanako \"Bacon\" Ikezawa",
-        "Lilly Satou",
-        "Rin Tezuka",
-        "Shizune Hakamichi",
-        "Shiina \"Misha\" Mikado",
-        "Kenji Setou",
-        "Yuuko Shirakawa"
+        "Hakamichi \"Shicchan\" Shizune",
+        "Ibarazaki Emi",
+        "Ikezawa Hanako",
+        "Mikado \"Misha\" Shiina",
+        "Satou Lilly",
+        "Tezuka Rin",
+        "Miura Miki",
+        "Satou Akira",
+        "Shirakawa Yuuko"
     ],
     "Kimi ni Todoke": [
-        "Kuronuma Sawako",
-        "Yano Ayane",
-        "Kurumizawa Ume",
-        "Yoshida Chizuru"
+        "Kuronuma \"Sadako\" Sawako",
+        "Yano \"Yano-chin, Ayane-chan\" Ayane",
+        "Yoshida \"Chizu, Chi\" Chizuru",
+        "Endou \"Tomo\" Tomoko",
+        "Hirano \"Ekko\" Eriko",
+        "Kurumizawa \"Kurumi\" Ume",
+        "Shino"
     ],
     "Kiniro Mosaic": [
-        "Karen Kujou"
+        "Alice Cartelet",
+        "Inokuma Youko",
+        "Komichi Aya",
+        "Kujou Karen",
+        "Oomiya \"Shino\" Shinobu"
     ],
     "Kino no Tabi": [
         "Kino"
     ],
     "Kill la Kill": [
-        "Satsuki Kiryuuin",
-        "Mako Mankanshoku",
-        "Ryuuko Matoi",
-        "Nui Harime",
-        "Nonon Jakuzure"
+        "Kiryuuin Satsuki",
+        "Mankanshoku Mako",
+        "Matoi Ryuuko",
+        "Hakodate Omiko",
+        "Harime Nui",
+        "Jakuzure Nonon"
     ],
     "Kokoro Connect": [
-        "Himeko \"Inaban, Best Girl\" Inaba",
-        "Iori Nagase",
-        "Yui Kiriyama"
+        "Inaba \"Inaban, Dereban\" Himeko",
+        "Kiriyama Yui",
+        "Nagase Iori"
     ],
     "Kore wa Zombie Desu ka": [
-        "Eucliwood Hellscythe",
+        "Eucliwood \"Yuu, Neckwear-Mancer\" Hellscythe",
         "Haruna",
-        "Seraphim",
-        "The Dyson Fan"
+        "Seraphim \"Sera\"",
+        "Yoshida \"Tomonori, Maelstrom, Mael, Yukinori\" Yuki",
+        "Ariel \"Dai-sensei, Rie-chan\"",
+        "Hiramatsu Taeko",
+        "Kyoko",
+        "Mihara Kanami",
+        "Sarasvati \"Saras, Hoshikawa Kirara\""
     ],
     "Kotoura-san": [
-        "Haruka Kotoura"
+        "Kotoura Haruka",
+        "Mifune Yuriko",
+        "Moritani Hiyori",
+        "Kotoura Kumiko"
     ],
     "Koufuku Graffiti": [
-        "Ryou Machiko",
-        "Kirin Morino",
-        "Shiina"
+        "Machiko Ryou",
+        "Morino Kirin",
+        "Shiina",
+        "Machiko Akira",
+        "Tsuyuko",
+        "Uchiki Yuki",
+        "Yonetani Misaki"
     ],
     "Kuragehime": [
+        "Koibuchi \"Kurako, Kura-pyon, Niku\" Kuranosuke",
         "Kurashita Tsukimi"
     ],
     "Kyoukai no Kanata": [
-        "Mirai Kuriyama",
-        "Mitsuki Nase"
+        "Kuriyama Mirai",
+        "Nase Mitsuki",
+        "Inami Yui",
+        "Inami Sakura",
+        "Kanbara \"Yacchan\" Yayoi",
+        "Nase Izumi",
+        "Ninomiya \"Nino\" Shizuku",
+        "Shindou \"Aya\" Ayaka",
+        "Shindou Ai"
     ],
     "Kyousou Giga": [
-        "Koto"
-    ],
-    "K-ON": [
-        "Yui Hirasawa",
-        "Ritsu Tainaka",
-        "Mio Akiyama",
-        "Tsumugi Kotobuki",
-        "Azusa Nakano",
-        "Jun Suzuki",
-        "Ui Hirasawa",
-        "Sumire Saitou",
-        "Nao Okuda",
-        "Muttan"
+        "Koto",
+        "Lady Koto"
     ],
     "Last Exile": [
         "Lavie Head",
