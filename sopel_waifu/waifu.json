@@ -1247,171 +1247,245 @@
         "Lady Koto"
     ],
     "Last Exile": [
+        "Alvis E. \"Al\" Hamilton",
         "Lavie Head",
-        "Alvis Hamilton",
-        "Tatiana Wisla",
-        "Alister Agrew"
+        "Alister Agrew",
+        "Delphine \"Maestro Delphine\" Eraclea",
+        "Sophia \"XO\" Forrester",
+        "Wina Lightning",
+        "Tatiana Wisła"
     ],
     "Last Exile: Fam": [
-        "Collette Giselle",
-        "Fan Fan Fam"
+        "Giselle \"Gisey\" Collette",
+        "Fam Fan Fan",
+        "Liliana il Grazioso Merlo \"Lily\" Turan",
+        "Millia il Velch Cutrettola Turan"
     ],
     "Little Busters!": [
-        "Komari Kamikita",
-        "Yuiko \"Anego\" Kurugaya",
-        "Rin Natsume",
-        "Mio Nishizono",
-        "Kudryavka \"Kud\" Noumi",
-        "Haruka Saigusa"
+        "Kamikita \"Komarimax\" Komari",
+        "Kurugaya \"Lizbeth, Anego, Yui\" Yuiko",
+        "Natsume Rin",
+        "Nishizono \"Miochin, No Shadow\" Mio",
+        "Noumi \"Kud, Kunya\" Kudryavka",
+        "Saigusa \"Haruchin\" Haruka",
+        "A-chan",
+        "Kawagoe Rei",
+        "Koshiki Miyuki",
+        "Nakamura Yukari",
+        "Nishizono Midori",
+        "Watanabe Sakiko"
     ],
     "Little Busters!: EX": [
-        "Saya Tokido"
+        "Futaki Kanata",
+        "Sasasegawa \"Sa-chan, Sasamin\" Sasami",
+        "Tokido Saya"
     ],
     "Little Witch Academia": [
-        "Akko Kagari",
         "Diana Cavendish",
-        "Sucy Manbavaran"
+        "Kagari \"Akko\" Atsuko",
+        "Sucy Manbavaran",
+        "Lotte Yansson"
     ],
     "Log Horizon": [
         "Akatsuki",
-        "Lenessia Cowen",
+        "Rayneshia El-Arte \"Lenessia\" Corwen",
         "Isuzu",
-        "Marielle"
+        "Marielle \"Sunflower of Akiba\"",
+        "Henrietta",
+        "Minori",
+        "Serara",
+        "Tetora \"Tetra\"",
+        "Nyanta"
     ],
-    "Love Live!": [
-        "Honoka \"HONK\" Kousaka",
-        "Umi Sonoda",
-        "Kotori Minami",
-        "Eli Ayase",
-        "Nozomi Toujou",
-        "Nico Yazawa",
-        "Maki Nishikino",
-        "Rin Hoshizora",
-        "Hanayo Koizumi",
-        "Yukiho Kousaka",
-        "Arisa Ayase",
-        "Tsubasa Kira",
-        "Anju Yuuki",
-        "Erena Toudou"
-    ],
-    "Love Live! Sunshine!!": [
-        "Chika \"Mikan\" Takami",
-        "You \"Yousoro!\" Watanabe",
-        "Riko Sakurauchi",
-        "Kanan Matsuura",
-        "Dia Kurosawa",
-        "Mari Ohara",
-        "Yoshiko \"YOHANE!\" Tsushima",
-        "Hanamaru \"Mirai Zura!\" Kunikida",
-        "Ruby Kurosawa",
-        "Sarah Kazuno",
-        "Leah Kazuno"
-    ],
-    "Love Live! ALL STARS": [
-        "Yuu Takasaki",
-        "Kasumi Nakasu",
-        "Shizuku Ousaka",
-        "Kanata Konoe",
-        "Setsuna Yuuki",
+    "Love Live! Nijigasaki Gakuen School Idol Doukoukai": [
+        "Asaka Karin",
+        "Konoe Kanata",
+        "Mifune \"Shiori\" Shioriko",
+        "Miyashita Ai",
+        "Nakasu Kasumi",
+        "Ousaka Shizuku",
+        "Takasaki Yuu",
+        "Tennouji Rina",
+        "Uehara Ayumu",
         "Emma Verde",
-        "Ayumu Uehara",
-        "Karin Asaka",
-        "Ai Miyashita",
-        "Rina Tennouji",
-        "Shioriko Mifune",
+        "Yuuki Setsuna",
         "Lanzhu Zhong",
         "Mia Taylor"
     ],
-    "Lucky☆Star": [
-        "Konata Izumi",
-        "Kagami Hiiragi",
-        "Tsukasa Hiiragi",
-        "Miyuki Takara",
-        "Yutaka Kobayakawa",
-        "Minami Iwasaki",
-        "Patricia Martin",
-        "Hiyori Tamura",
-        "Izumi Wakase",
-        "Ayano Minegishi",
-        "Misao Kusakabe",
-        "Akira Kogami",
-        "Nanako Kuroi",
-        "Hikaru Sakuraba"
+    "Love Live! School Idol Project": [
+        "Ayase \"Eli, Ericchi\" Eri",
+        "Hoshizora Rin",
+        "Koizumi \"Kayochin\" Hanayo",
+        "Kousaka \"HONK\" Honoka",
+        "Minami \"Minalinsky\" Kotori",
+        "Nishikino \"Tomato\" Maki",
+        "Sonoda Umi",
+        "Toujou Nozomi",
+        "Yazawa \"Super Idol Nico, Nicocchi\" Niko",
+        "Ayase Arisa",
+        "Kousaka Yukiho",
+        "Yazawa Kokoro",
+        "Yazawa Kokoa",
+        "Fumiko",
+        "Hideko",
+        "Mika",
+        "Kira Tsubasa",
+        "Toudou Erena",
+        "Yuuki Anju",
+        "Kousaka Kaa-san",
+        "Kousaka Tou-san",
+        "Minami Kaa-san",
+        "Nishikino Kaa-san",
+        "Yazawa Kaa-san"
     ],
-    "Madoka": [
-        "Madoka Kaname",
-        "Homura Akemi",
-        "Sayaka Miki",
-        "Mami Tomoe",
-        "Kyouko Sakura",
-        "Kyubey",
-        "Hitomi Shizuki"
+    "Love Live! Sunshine!!": [
+        "Kunikida \"Mirai Zura!\" Hanamaru",
+        "Kurosawa Dia",
+        "Kurosawa Ruby",
+        "Matsuura Kanan",
+        "Ohara Mari",
+        "Sakurauchi Riko",
+        "Takami \"Mikan\" Chika",
+        "Tsushima \"YOHANE!\" Yoshiko",
+        "Watanabe \"Yousoro!\" You",
+        "Kazuno \"Leah\" Ria",
+        "Kazuno Sarah",
+        "Sakurauchi Kaa-san",
+        "Takami Kaa-san",
+        "Takami Mito",
+        "Takami Shima",
+        "Itsuki",
+        "Mutsu",
+        "Yoshimi"
+    ],
+    "Love Live! Superstar!!": [
+        "Arashi Chisato",
+        "Hazuki Ren",
+        "Heanna Sumire",
+        "Shibuya Kanon",
+        "Tang \"Kuku\" Keke"
+    ],
+    "Lucky☆Star": [
+        "Hiiragi \"Kagamin\" Kagami",
+        "Hiiragi Tsukasa",
+        "Izumi \"Kona-chan, KonaKona, Densetsu no Shoujo A\" Konata",
+        "Takara \"Yuki-chan\" Miyuki",
+        "Hiiragi Inori",
+        "Hiiragi Miki",
+        "Hiiragi Matsuri",
+        "Iwasaki Minami",
+        "Izumi Kanata",
+        "Kobayakawa \"Yuu-chan\" Yutaka",
+        "Kogami Akira",
+        "Kuroi \"Sensei\" Nanako",
+        "Kusakabe \"Misa-chan\" Misao",
+        "Patricia \"Patty\" Martin",
+        "Minegishi Ayano",
+        "Miyakawa Hinata",
+        "Miyakawa Hikage",
+        "Narumi \"Yui-neesan\" Yui",
+        "Sakuraba Hikaru",
+        "Takara Yukari",
+        "Tamura \"Hiyorin\" Hiyori",
+        "Wakase Izumi"
+    ],
+    "Mahou Shoujo Madoka★Magica": [
+        "Akemi Homura",
+        "Kaname Madoka",
+        "Miki Sayaka",
+        "Sakura Kyouko",
+        "Tomoe Mami",
+        "Kyuubey \"Incubator, QB\"",
+        "Charlotte \"BB\"",
+        "Kaname Junko",
+        "Saotome Kazuko",
+        "Shizuki Hitomi"
     ],
     "Magi": [
         "Morgiana"
     ],
     "Manyuu Hikenchou": [
-        "Chifusa \"Brest Girl\" Manyuu"
+        "Kaede",
+        "Manyuu Chifusa",
+        "Manyuu Kagefusa",
+        "Sayama Ouka"
     ],
     "Maoyuu Maou Yuusha": [
-        "Maou \"Demon Queen\""
+        "Maou \"Demon Queen, Dark Lady, Crimson Scholar\""
     ],
     "Mahou Shoujo Lyrical Nanoha": [
         "Fate Testarossa",
-        "Takamachi Nanoha"
+        "Takamachi \"Ace of Ace\" Nanoha",
+        "Takamachi Miyuki"
     ],
     "Mawaru Penguindrum": [
         "Oginome Ringo",
         "Takakura Himari"
     ],
     "Milky Holmes": [
-        "Hercule Barton",
-        "Sherlock Shellingford",
-        "Yuzurizaki Nero",
-        "Cordelia Glauca"
+        "Hercule \"Elly, Strong Woman Girl\" Burton",
+        "Cordelia Glauca",
+        "Henriette \"Arsène\" Mystere",
+        "Sherlock \"Sharo\" Shellingford",
+        "Yuzurizaki Nero"
     ],
     "Mikakunin de Shinkoukei": [
-        "Kobeni Yonomori",
-        "Mashiro Mitsumine"
+        "Mitsumine Mashiro",
+        "Yonomori Kobeni",
+        "Yonomori Benio",
+        "Kashima Nadeshiko",
+        "Mitsumine Shirayuki",
+        "Momouchi Mayura",
+        "Oono Niko",
+        "Suetsugi Konoha",
+        "Yonomori Akane"
     ],
     "Minami-ke": [
+        "Minami \"Princess\" Chiaki",
+        "Minami \"Banchou\" Haruka",
         "Minami Kana",
-        "Minami Haruka",
-        "Minami Chiaki"
+        "Minami Touma",
+        "Uchida Yuka"
     ],
     "Mirai Nikki": [
-        "Gasai Yuno",
-        "Uryuu Minene"
+        "Gasai \"Second, Yunocchi\" Yuno",
+        "Amano Rea",
+        "Hino Hinata",
+        "Kasugano \"Omekata, Sixth\" Tsubaki",
+        "Mikami Ai",
+        "Mur Mur",
+        "Nonosaka Mao",
+        "Uryuu \"Natsuko Ooshima, Nacchan, Ninth\" Minene",
+        "Wakaba Moe"
     ],
     "Mitsudomoe": [
-        "Marui Mitsuba",
-        "Marui Hitoha",
-        "Marui Futaba"
+        "Marui \"Choujo\" Mitsuba",
+        "Marui \"Sanjo\" Hitoha",
+        "Marui \"Jijo\" Futaba"
     ],
     "Monster Musume no Iru Nichijou": [
-        "Rachnera Arachnera",
+        "Rachnera \"Rachnee\" Arachnera",
+        "Lala",
+        "Meroune \"Mero\" Lorelei",
         "Miia",
         "Papi",
         "Centorea \"Cerea\" Shianus",
-        "Suu"
+        "Suu \"Slime Girl\""
     ],
     "Moyashimon": [
         "Hasegawa Haruka",
-        "Mutou Aoi",
+        "Mutou \"Miss Agriculture\" Aoi",
         "Oikawa Hazuki"
     ],
-    "Nagi no Asukara": [
-        "Chisaki Hiradaira",
-        "Manaka Mukaido",
-        "Miuna \"Monday\" Shiodome",
-        "Sayu Hisanuma"
+    "Nagi no Asu kara": [
+        "Hiradaira \"Chii-chan\" Chisaki",
+        "Hisanuma Sayu",
+        "Mukaido \"Namaka\" Manaka",
+        "Shiodome \"Miu\" Miuna"
     ],
     "Nanatsu no Taizai": [
         "Elizabeth Liones",
         "Diane"
-    ],
-    "Naruto": [
-        "Hyuuga Hinata"
     ],
     "Nazo no Kanojo X": [
         "Urabe Mikoto"
