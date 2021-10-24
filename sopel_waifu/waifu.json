@@ -277,6 +277,14 @@
         "Tsuwabaki Rika",
         "Tsuwabaki Mika"
     ],
+    "Bishoujo Senshi Sailor Moon": [
+        "Tsukino \"Sailor Moon\" Usagi",
+        "Aino \"Sailor Venus\" Minako",
+        "Hino \"Sailor Mars\" Rei",
+        "Kino \"Sailor Jupiter\" Makoto",
+        "Mizuno \"Sailor Mercury\" Ami",
+        "Luna"
+    ],
     "Black★Rock Shooter": [
         "Kuroi Mato",
         "Black★Rock Shooter",
@@ -1685,53 +1693,72 @@
         "Muginami"
     ],
     "Sabagebu!": [
-        "Momoka Sonokawa"
-    ],
-    "Sailor Moon": [
-        "Tsukino Usagi/Sailor Moon",
-        "Aino Minako/Sailor Venus",
-        "Mizuno Ami/Sailor Mercury",
-        "Hino Rei/Sailor Mars",
-        "Kino Makoto/Sailor Jupiter"
+        "Sonokawa \"Mokarin\" Momoka",
+        "Kasugano Urara",
+        "Ootori \"Buchou\" Miou",
+        "Goutokuji Kayo",
+        "Kyoudou Maya"
     ],
     "Sakamichi no Apollon": [
         "Mukae Ritsuko"
     ],
     "Saki": [
-        "Haramura Nodoka",
-        "Miyanaga Saki",
-        "Kataoka Yuuki",
+        "Haramura \"Nonoka\" Nodoka",
+        "Kataoka \"Tacos\" Yuuki",
+        "Miyanaga \"Rinshan-san\" Saki",
+        "Someya Mako",
+        "Takei \"Ueno\" Hisa",
         "Amae Koromo",
-        "Takei Hisa",
-        "Mihoko \"Captain\" Fukuji",
-        "Momoko \"Stealth Homo\" Touyoko",
-        "Touka Ryuumonbuchi"
-    ],
-    "Saki: Achiga-hen": [
-        "Onjouji Toki",
-        "Miyanaga Teru"
+        "Fujita \"Katsudon-san\" Yasuko",
+        "Fukuji \"Captain\" Mihoko",
+        "Hirose \"The Sharpshooter\" Sumire",
+        "Ikeda Kana",
+        "Kunihiro Hajime",
+        "Miyanaga \"Champion\" Teru",
+        "Ryuumonbuchi Touka",
+        "Sugino Ayumu",
+        "Touyoko \"Stealth Momo\" Momoko",
+        "Yoshitome \"Miharun\" Miharu",
+        "Yumeno \"Super Mahocchi\" Maho"
     ],
     "Sakura Trick": [
-        "Haruka \"Harupoppo\" Takayama",
-        "Yuu Sonoda"
+        "Takayama \"Harupoppo\" Haruka",
+        "Sonoda Yuu",
+        "Iizuka \"Mikan-san\" Yuzu",
+        "Ikeno Kaede",
+        "Minami Shizuku",
+        "Noda Kotone",
+        "Otokawa \"Sumisumi\" Sumi",
+        "Sakai Rina",
+        "Sonoda Mitsuki"
     ],
     "Sakurasou no Pet na Kanojo": [
-        "Nanami Aoyama",
-        "Misaki Kamiigusa",
-        "Mashiro \"Worst Girl\" Shiina"
+        "Shiina Mashiro",
+        "Aoyama \"Ponytail\" Nanami",
+        "Kamiigusa Misaki"
     ],
     "Sankarea": [
         "Sanka Rea",
-        "Saouji \"Worst Girl\" Ranko"
+        "Sanka Aria",
+        "Furuya Mero",
+        "Furuya Yuzuna",
+        "Saouji \"Wanko\" Ranko",
+        "Saouji Kaoru"
     ],
     "Sayonara Zetsubou Sensei": [
-        "Kitsu Chiri",
         "Fuura Kafuka",
-        "Kimura Kaere",
-        "Komori Kiri",
-        "Tsunetsuki Matoi",
+        "Arai Chie",
+        "Fujiyoshi Harumi",
+        "Hitou \"Hitonami\" Nami",
+        "Itoshiki Rin",
+        "Kaga Ai",
+        "Kimura \"Kaede\" Kaere",
+        "Kitsu Chiri",
         "Kobushi Abiru",
-        "Hito \"Normal\" Nami"
+        "Komori \"Zashiki-warashi\" Kiri",
+        "Otonashi \"MeruMeru\" Meru",
+        "Sekiutsu \"Maria\" Tarou",
+        "Tsunetsuki Matoi"
     ],
     "School Days": [
         "Katsura Kotonoha",
