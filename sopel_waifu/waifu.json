@@ -1808,18 +1808,45 @@
         "Yamamoto Reika",
         "Yomoda Chisa"
     ],
+    "Shakugan no Shana": [
+        "Shana",
+        "Yoshida Kazumi",
+        "Wilhelmina \"Manipulator of Objects\" Carmel",
+        "Margery \"Chanter of Elegies, Interpreter of Condolence\" Daw",
+        "Hecate \"Princess of Stars\"",
+        "Hirai Yukari",
+        "Ogata Matake",
+        "Sakai Chigusa"
+    ],
+    "Shigatsu wa Kimi no Uso": [
+        "Miyazono Kaori",
+        "Sawabe Tsubaki",
+        "Aiza Nagi",
+        "Igawa Emi",
+        "Kashiwagi Nao",
+        "Seto Hiroko"
+    ],
+    "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai": [
+        "Kajou \"Blue Snow\" Ayame",
+        "Anna Nishikinomiya",
+        "Onigashira Kosuri",
+        "Saotome Otome",
+        "Fuwa Hyouka",
+        "Binkan-chan"
+    ],
     "Shingeki no Kyojin": [
         "Mikasa Ackerman",
         "Sasha \"Potato Girl\" Blouse",
         "Annie Leonhart",
+        "Petra Ral",
         "Hange Zoë"
     ],
     "Shinryaku! Ika Musume": [
         "Ika \"Squid Girl\" Musume",
         "Aizawa Chizuru",
         "Aizawa Eiko",
-        "Nagatsuki Sanae",
         "Cyndi Campbell",
+        "Nagatsuki Sanae",
         "Saitou Nagisa",
         "Sakura Kiyomi",
         "Tanabe Kozue",
@@ -1828,43 +1855,50 @@
     "Shinsekai yori": [
         "Watanabe Saki",
         "Akizuki Maria",
-        "Amano Reiko",
-        "Asahina Tomiko",
-        "Komatsuzaki Masayo",
-        "Kutegawa Izumi",
-        "Sakai Haruka",
-        "Watanabe Mizuho",
-        "Misuzu",
-        "Okano",
-        "Watanabe Yoshimi"
-    ],
-    "Shakugan no Shana": [
-        "Shana",
-        "Yoshida \"Worst Girl\" Kazumi",
-        "Ogata Matake",
-        "Hecate",
-        "Margery Daw"
-    ],
-    "Shigatsu wa Kimi no Uso": [
-        "Kaori Miyazono",
-        "Tsubaki Sawabe",
-        "Emi Igawa"
-    ],
-    "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai": [
-        "Ayame Kajou",
-        "Anna Nishikinomiya"
+        "Watanabe Mizuho"
     ],
     "Shirobako": [
-        "Midori \"Diesel-san\" Imai",
-        "Aoi Miyamori",
-        "Shizuka Sakaki",
-        "Ema Yasuhara",
-        "Erika Yano"
+        "Imai \"Diesel-san\" Midori",
+        "Miyamori \"Myamori\" Aoi",
+        "Sakaki \"Zuka\" Shizuka",
+        "Toudou \"Mii\" Misa",
+        "Yasuhara Ema",
+        "Andou \"Chocobanana\" Tsubaki",
+        "Fuji Asuka",
+        "Iguchi Yumi",
+        "Itou Suzuka",
+        "Kayana Mui",
+        "Kunogi Ai",
+        "Miyamori Kaori",
+        "Nakaharu Mei",
+        "Ogasawara \"Goth-Lolita\" Rinko",
+        "Okitsu Yuka",
+        "Orii Yui",
+        "Satou Sara",
+        "Segawa Misato",
+        "Shinkawa Nao",
+        "Souma Rena",
+        "Suzuki Kyouko",
+        "Tateo Mari",
+        "Uchida Akane",
+        "Yano Erika"
     ],
     "Shokugeki no Souma": [
-        "Megumi Tadokoro",
-        "Erina Nakiri",
-        "Ikumi \"Nikumi\" Mito"
+        "Nakiri \"God's Tongue\" Erina",
+        "Tadokoro Megumi",
+        "Arato \"Hishoko\" Hisako",
+        "Inui \"Mist Empress\" Hinako",
+        "Kawashima Urara",
+        "Kurase Mayumi",
+        "Mito \"Nikumi\" Ikumi",
+        "Mizuhara Fuyumi",
+        "Nakiri Arisu",
+        "Sadatsuka \"Boiling Witch\" Nao",
+        "Sakaki Ryouko",
+        "Sasaki Yua",
+        "Sendawara \"Queen of Curry\" Natsume",
+        "Sendawara Orie",
+        "Yoshino Yuuki"
     ],
     "Smile PreCure!": [
         "Miyuki Hoshizora/Cure Happy",
