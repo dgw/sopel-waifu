@@ -1900,51 +1900,70 @@
         "Sendawara Orie",
         "Yoshino Yuuki"
     ],
-    "Smile PreCure!": [
-        "Miyuki Hoshizora/Cure Happy",
-        "Akane Hino/Cure Sunny",
-        "Yayoi Kise/Cure Peace",
-        "Nao Midorikawa/Cure March",
-        "Reika Aoki/Cure Beauty"
+    "Smile Precure!": [
+        "Aoki \"Cure Beauty\" Reika",
+        "Hino \"Cure Sunny\" Akane",
+        "Hoshizora \"Cure Happy\" Miyuki",
+        "Kise \"Cure Peace\" Yayoi",
+        "Midorikawa \"Cure March\" Nao"
     ],
     "Sora no Woto": [
-        "Sorami Kanata",
-        "Kannagi Noel",
+        "Sorami \"Kana\" Kanata",
+        "Kannagi Noël",
         "Suminoya Kureha",
         "Kazumiya Rio",
         "Filicia Heideman"
     ],
     "Star Driver": [
-        "Kanako Watanabe"
+        "Agemaki \"Minami no Miko\" Wako",
+        "Simone \"Pamela\" Aragon",
+        "Mylene Aragon",
+        "Atari \"Needle Star\" Atari",
+        "Endou Sarina",
+        "Hyou \"Kita no Miko\" Matsuri",
+        "Kei \"Window Star\" Madoka",
+        "Makina Ruri",
+        "Nichi \"Ivrogne\" Keito",
+        "Okada Hana",
+        "Okamoto \"Hina\" Midori",
+        "Shinada \"Scarlett Kiss\" Benio",
+        "Watanabe Kanako",
+        "Yano \"Undine\" Mami",
+        "You \"Manticore\" Marino",
+        "You Mizuno"
     ],
     "Steins;Gate": [
-        "Shiina Mayuri",
-        "Makise Kurisu",
-        "Faris Nyannyan",
-        "Amane Suzuha",
-        "Kiryuu Moeka"
+        "Shiina \"Mayushii\" Mayuri",
+        "Makise \"Christina\" Kurisu",
+        "Akiha \"Faris Nyan Nyan\" Rumiho",
+        "Amane \"Part-Time Warrior\" Suzuha",
+        "Kiryuu \"Shining Finger\" Moeka",
+        "Tennouji \"Sister Braun\" Nae",
+        "Urushibara \"Rukako\" Ruka"
     ],
     "Strike Witches": [
-        "Sanya V. Litvyak",
-        "Charlotte E. Yeager",
-        "Gertrud Barkhorn",
+        "Gertrud \"Trude\" Barkhorn",
+        "Lynette \"Lynne\" Bishop",
         "Perrine H. Clostermann",
-        "Sakamoto Mio",
-        "Miyafuji Yoshika",
-        "Minna-Dietlinde Wilcke",
-        "Lynette Bishop",
         "Erica Hartmann",
-        "Francesca Lucchini",
-        "Eila Ilmatar Juutilainen"
+        "Eila Ilmatar \"Illu\" Juutilainen",
+        "Sanya V. Litvyak",
+        "Francesca \"Gattino\" Lucchini",
+        "Miyafuji Yoshika",
+        "Sakamoto Mio",
+        "Minna-Dietlinde \"Fürstin\" Wilcke",
+        "Charlotte E. \"Shirley\" Yeager"
     ],
     "Strike the Blood": [
-        "Aiba \"Genius Programmer, Cyber Empress\" Asagi",
+        "Aiba \"Cyber Empress\" Asagi",
         "Himeragi Yukina",
         "Akatsuki Mimori",
         "Akatsuki Moegi",
         "Akatsuki Nagisa",
         "Akatsuki Reina",
+        "Astarte",
         "Beatrice Basler",
+        "Lydianne \"Tank Driver\" Didier",
         "Hikawa Shio",
         "Kanase Kanon",
         "Kirasaka \"War Dancer\" Sayaka",
@@ -1961,18 +1980,21 @@
         "Super Pochaco",
         "Fujimi Suzu",
         "Watanuki Fuuri",
-        "Satsurikuin Ouka"
+        "Satsurikuin Ouka",
+        "Fujimi Ena",
+        "Tomano \"Toma\" Kyouko"
     ],
-    "Suzumiya Haruhi no Yuutsu": [
+    "Suzumiya Haruhi no Yuuutsu": [
+        "Asahina Mikuru",
         "Nagato Yuki",
         "Suzumiya Haruhi",
-        "Asahina Mikuru",
         "Asakura Ryouko",
-        "Tsuruya \"Nyoro~n\"",
-        "Mori Sonou",
         "Kimidori Emiri",
-        "Zaizen Mai",
-        "Okajima Mizuki"
+        "Mori Sonou",
+        "Nakanishi Takako",
+        "Okajima Mizuki",
+        "Tsuruya",
+        "Zaizen Mai"
     ],
     "Sword Art Online": [
         "Yuuki \"Berserk Healer\" Asuna",
