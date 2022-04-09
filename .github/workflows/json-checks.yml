@@ -2,9 +2,13 @@ name: JSON checks
 
 on:
   push:
+    branches:
+      - master
     paths:
       - '**.json'
   pull_request:
+    paths:
+      - '**.json'
 
 jobs:
   syntax:
