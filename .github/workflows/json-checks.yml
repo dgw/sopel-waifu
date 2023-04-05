@@ -26,7 +26,7 @@ jobs:
     needs: syntax
     steps:
       - uses: actions/checkout@v3
-      - name: install-jsonschema
-        run: pip3 install jsonschema
-      - name: json-schema-check
-        run: jsonschema --instance sopel_waifu/waifu.json sopel_waifu/waifu.json.schema
+      - name: install-deps
+        run: pip3 install check-jsonschema
+      - name: check-json-schema
+        run: check-jsonschema --schemafile sopel_waifu/waifu.json.schema sopel_waifu/waifu.json
