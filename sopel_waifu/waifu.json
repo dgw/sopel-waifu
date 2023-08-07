@@ -455,13 +455,12 @@
     ],
     "Bakemonogatari": [
         "Senjougahara Hitagi",
-        "Sengoku Nadeko",
-        "Hanekawa Tsubasa",
         "Hachikuji Mayoi",
+        "Hanekawa Tsubasa",
         "Kanbaru Suruga",
-        "Oshino Shinobu",
-        "Araragi Karen",
-        "Araragi Tsukihi"
+        "Oshino \"Kiss-shot Acerola-orion Heart-under-blade\" Shinobu",
+        "Sengoku Nadeko",
+        "Black Hanekawa"
     ],
     "Bakuman.": [
         "Aoki \"Kou, Yuri-tan\" Yuriko",
@@ -2205,6 +2204,10 @@
         "Uchiki Yuki",
         "Yonetani Misaki"
     ],
+    "Koyomimonogatari": [
+        "Higasa",
+        "Oikura Sodachi"
+    ],
     "Kuma Kuma Kuma Bear": [
         "Yuna",
         "Fina",
@@ -2636,6 +2639,9 @@
         "Miyaura Ikuko",
         "Umi"
     ],
+    "Monogatari Series: Second Season": [
+        "Gaen Izuko"
+    ],
     "Monster Musume no Iru Nichijou": [
         "Rachnera \"Rachnee\" Arachnera",
         "Lala",
@@ -2748,14 +2754,9 @@
     ],
     "Nisemonogatari": [
         "Araragi Karen",
-        "Araragi \"Rara-chan\" Tsukihi",
-        "Oshino \"Kiss-shot Acerola-orion Heart-under-blade, Fair Princess\" Shinobu",
-        "Hachikuji \"Hachihachiji, Hachirokuji\" Mayoi",
-        "Hanekawa \"Iinchou, Basa-nee\" Tsubasa",
-        "Kanbaru Suruga",
-        "Ononoki Yotsugi",
-        "Sengoku Nadeko",
-        "Senjougahara \"Tsundere-chan, Gahara-san, Senshougahara-san\" Hitagi"
+        "Araragi Tsukihi",
+        "Kagenui Yozuru",
+        "Ononoki Yotsugi"
     ],
     "No Game No Life": [
         "Stephanie \"Steph, Dolly\" Dora",
@@ -2893,6 +2894,9 @@
         "Fith",
         "Pestonya Shortcake Wanko",
         "Lilynette Piani"
+    ],
+    "Owarimonogatari": [
+        "Oshino Ougi"
     ],
     "Paripi Koumei": [
         "Tsukimi Eiko",
@@ -4929,5 +4933,8 @@
         "Sheffield",
         "Siesta",
         "Tiffania Westwood"
+    ],
+    "Zoku Owarimonogatari": [
+        "Kanbaru Tooe"
     ]
 }
