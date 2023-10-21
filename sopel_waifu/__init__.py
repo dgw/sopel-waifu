@@ -10,7 +10,7 @@ import json
 import os
 import random
 
-from sopel import config, formatting, module, tools
+from sopel import config, formatting, plugin, tools
 
 
 LOGGER = tools.get_logger('waifu')
@@ -21,9 +21,9 @@ class WaifuSection(config.types.StaticSection):
     """JSON file from which to load list of possible waifus."""
     json_mode = config.types.ChoiceAttribute('json_mode', ['replace', 'extend'], default='extend')
     """How the file specified by json_path should affect the default list."""
-    unique_waifus = config.types.ValidatedAttribute('unique_waifus', bool, default=True)
+    unique_waifus = config.types.BooleanAttribute('unique_waifus', default=True)
     """Whether to deduplicate the waifu list during startup."""
-    accept_suggestions = config.types.ValidatedAttribute('accept_suggestions', bool, default=False)
+    accept_suggestions = config.types.BooleanAttribute('accept_suggestions', default=False)
     """Whether to accept waifu suggestions via the `.addwaifu` command."""
 
 
@@ -95,9 +95,9 @@ def shutdown(bot):
             pass
 
 
-@module.commands('waifu', 'fgowaifu')
-@module.example('.waifu Peorth', user_help=True)
-@module.example('.waifu', user_help=True)
+@plugin.commands('waifu', 'fgowaifu')
+@plugin.example('.waifu Peorth', user_help=True)
+@plugin.example('.waifu', user_help=True)
 def waifu(bot, trigger):
     """Pick a random waifu for yourself or the given nick."""
     target = trigger.group(3)
@@ -124,9 +124,9 @@ def waifu(bot, trigger):
     bot.say(msg.format(target=target, waifu=choice))
 
 
-@module.commands('addwaifu')
-@module.example('.addwaifu Holo from Spice & Wolf')
-@module.require_chanmsg('No hiding your perverted waifu preferences in PM!')
+@plugin.commands('addwaifu')
+@plugin.example('.addwaifu Holo from Spice & Wolf')
+@plugin.require_chanmsg('No hiding your perverted waifu preferences in PM!')
 def add_waifu(bot, trigger):
     """Suggest a waifu for the bot admin to add in custom list."""
     if not bot.config.waifu.accept_suggestions:
@@ -136,7 +136,7 @@ def add_waifu(bot, trigger):
     new_waifu = trigger.group(2)
     if not new_waifu:
         bot.reply("Who did you want to suggest?")
-        return module.NOLIMIT
+        return plugin.NOLIMIT
 
     try:
         bot.memory['waifu-suggestions'].append(new_waifu)
@@ -148,8 +148,8 @@ def add_waifu(bot, trigger):
         bot.say("Recorded {}'s suggestion for a new waifu: {}".format(trigger.nick, new_waifu))
 
 
-@module.commands('dumpwaifus')
-@module.require_admin
+@plugin.commands('dumpwaifus')
+@plugin.require_admin
 def dump_waifus(bot, trigger):
     """Dump the list of suggested waifus to a file in Sopel's homedir."""
     if 'waifu-suggestions' not in bot.memory or not bot.memory['waifu-suggestions']:
@@ -170,8 +170,8 @@ def dump_waifus(bot, trigger):
         bot.say("Waifu suggestion file: {}".format(filename), trigger.nick)
 
 
-@module.commands('clearwaifus')
-@module.require_admin('Only a bot admin can clear my waifu suggestion list.')
+@plugin.commands('clearwaifus')
+@plugin.require_admin('Only a bot admin can clear my waifu suggestion list.')
 def clear_suggestions(bot, trigger):
     """Clear the waifu suggestion cache."""
     if 'waifu-suggestions' in bot.memory:
