@@ -1465,7 +1465,6 @@
         "Aloy",
         "Amber",
         "Amy \"Fischl von Luftschloss Narfidort\"",
-        "Astrologist Mona Megistus",
         "Barbara Pegg",
         "Beidou",
         "Candace",
@@ -1473,7 +1472,7 @@
         "Collei",
         "Dehya",
         "Diona Kätzlein",
-        "Dori Sangemah Bay",
+        "Dori, \"Lord Sangemah Bay\"",
         "Eula Lawrence",
         "Faruzan",
         "Furina",
@@ -1491,6 +1490,7 @@
         "Lumine",
         "Lynette",
         "Mao Xiangling",
+        "Mona Megistus",
         "Naganohara Yoimiya",
         "Nahida",
         "Nilou",
@@ -1511,21 +1511,19 @@
         "Yelan",
         "Yun Jin",
 
+        "Arlecchino, \"The Knave\"",
         "Cloud Retainer",
         "Clorinde",
         "Columbina, \"Damselette\"",
         "Dunyarzad Homayani",
         "Iansan",
         "Katheryne",
-        "Madame Ping",
         "Navia",
         "Paimon",
         "Rosalyne-Kruzchka \"La Signora\" Lohefalter",
         "Sandrone, \"Marionette\"",
         "Sigewinne",
-        "The Knave, Arlecchino",
-        "Unknown God",
-        "Vennessa"
+        "The Unknown God, \"Sustainer of Heavenly Principles\""
     ],
     "Ghost in the Shell": [
         "Kusanagi \"Major\" Motoko"
