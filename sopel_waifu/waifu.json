@@ -1369,33 +1369,52 @@
     ],
     "Chobits": [
         "Chii",
+        "Dita",
         "Freya",
-        "Kotoko",
-        "Sumomo",
         "Hibiya Chitose",
-        "Omura Yumi"
+        "Kotoko",
+        "Oomura Yumi",
+        "Shimizu Takako",
+        "Sumomo",
+        "Yuzuki"
     ],
-    "Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku you desu!": [
+    "Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku You Desu!": [
         "Ichijou Aoi",
         "Kanzaki Keine",
         "Lyrule",
         "Oohoshi Ringo",
         "Sarutobi Shinobu",
-        "Airi Bernard",
+        "Jeanne de Leblan",
         "Roux",
         "Winona",
-        "Jeanne de LeBlanc"
+        "Emerada",
+        "Hibari",
+        "Kaguya",
+        "Shura"
     ],
     "Chuunibyou demo Koi ga Shitai!": [
-        "Dekomori \"Deko\" Sanae",
-        "Nibutani \"Nibu, Forest/Mori Summer\" Shinka",
-        "Shichimiya \"Sophia Ring SP Saturn VII\" Satone",
-        "Takanashi \"Wielder of the Wicked Eye\" Rikka",
-        "Tsuyuri \"Pillow Senpai\" Kumin",
-        "Takanashi \"Priestess\" Tooka",
-        "Kannagi \"Fuurin-chan / Wind Chime\" Kazari",
+        "Takanashi Rikka",
+        "Dekomori Sanae",
+        "Nibutani \"Mori Summer\" Shinka",
+        "Takanashi Touka",
         "Togashi Kuzuha",
-        "Tsukumo \"Nana-chan\" Nanase"
+        "Tsukumo Nanase",
+        "Tsuyuri Kumin",
+        "Yuuta no Haha",
+        "Mika-chan",
+        "Rikka no Haha",
+        "Tomo-chan"
+    ],
+    "Chuunibyou demo Koi ga Shitai! Ren": [
+        "Ichiba Parumu",
+        "Iruka no Trainer",
+        "Kannagi Kazari",
+        "Kumin no Oba",
+        "Nasutaka Fujiko",
+        "Nemuri Sui",
+        "Tenbaku Youko",
+        "Tokugawa \"Nise Mori Summer\" Natsumi",
+        "Utsutsutouge Toromi"
     ],
     "Clannad": [
         "Furukawa Nagisa",
@@ -4557,6 +4576,9 @@
         "Sachi",
         "Shinozaki \"Lisbeth\" Rika",
         "Takemiya \"Philia\" Kotone"
+    ],
+    "Takanashi Rikka Kai: Gekijouban Chuunibyou demo Koi ga Shitai!": [
+        "Shichimiya \"Sophia Ring SP Saturn VII\" Satone"
     ],
     "Tamayura": [
         "Sawatari \"Potte\" Fuu",
