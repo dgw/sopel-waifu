@@ -3631,6 +3631,14 @@
         "Samejima Hiromi",
         "Waraino Arashi"
     ],
+    "Magi": [
+        "Morgiana"
+    ],
+    "Mahou Shoujo Lyrical Nanoha": [
+        "Fate Testarossa",
+        "Takamachi \"Ace of Ace\" Nanoha",
+        "Takamachi Miyuki"
+    ],
     "Mahou Shoujo Madoka★Magica": [
         "Akemi Homura",
         "Kaname Madoka",
@@ -3655,14 +3663,13 @@
         "Asagi Honomi",
         "Yamabuki Hiyori"
     ],
-    "Magi": [
-        "Morgiana"
-    ],
     "Mamahaha no Tsurego ga Motokano datta": [
-        "Irido/Ayai Yume",
+        "Irido \"Ayai\" Yume",
         "Higashira Isana",
         "Irido Yuni",
-        "Minami \"Acchan\" Akatsuki"
+        "Kanai Nasuka",
+        "Minami \"Acchan\" Akatsuki",
+        "Sakamizu Maki"
     ],
     "Manyuu Hikenchou": [
         "Kaede",
@@ -3673,29 +3680,9 @@
     "Maoyuu Maou Yuusha": [
         "Maou \"Demon Queen, Dark Lady, Crimson Scholar\""
     ],
-    "Mahou Shoujo Lyrical Nanoha": [
-        "Fate Testarossa",
-        "Takamachi \"Ace of Ace\" Nanoha",
-        "Takamachi Miyuki"
-    ],
-    "Mamahaha no Tsurego ga Motokano datta": [
-        "Irido \"Ayai\" Yume",
-        "Higashira Isana",
-        "Irido Yuni",
-        "Kanai Nasuka",
-        "Minami \"Acchan\" Akatsuki",
-        "Sakamizu Maki"
-    ],
     "Mawaru Penguindrum": [
         "Oginome Ringo",
         "Takakura Himari"
-    ],
-    "Milky Holmes": [
-        "Hercule \"Elly, Strong Woman Girl\" Burton",
-        "Cordelia Glauca",
-        "Henriette \"Arsène\" Mystere",
-        "Sherlock \"Sharo\" Shellingford",
-        "Yuzurizaki Nero"
     ],
     "Mikakunin de Shinkoukei": [
         "Mitsumine Mashiro",
@@ -3707,6 +3694,13 @@
         "Oono Niko",
         "Suetsugi Konoha",
         "Yonomori Akane"
+    ],
+    "Milky Holmes": [
+        "Hercule \"Elly, Strong Woman Girl\" Burton",
+        "Cordelia Glauca",
+        "Henriette \"Arsène\" Mystere",
+        "Sherlock \"Sharo\" Shellingford",
+        "Yuzurizaki Nero"
     ],
     "Minami-ke": [
         "Minami \"Princess\" Chiaki",
