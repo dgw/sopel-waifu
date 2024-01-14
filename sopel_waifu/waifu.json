@@ -1694,32 +1694,70 @@
         "Ayane",
         "Kasumi",
         "Leifang",
-        "Tina Armstrong",
+        "Mei Linn",
+        "Tina Armstrong"
+    ],
+    "Dead or Alive 2": [
         "Helena Douglas",
+        "Lauren",
+        "Maria"
+    ],
+    "Dead or Alive 2 Ultimate": [
+        "Ayame",
+        "Kasumi α"
+    ],
+    "Dead or Alive 3": [
         "Christie",
         "Hitomi",
+        "Niki"
+    ],
+    "Dead or Alive 4": [
+        "Alpha-152",
+        "Anne",
         "Kokoro",
-        "Lisa Hamilton",
-        "Honoka",
-        "Shiranui Mai",
+        "Miyako",
+        "Nicole \"SPARTAN-458\""
+    ],
+    "Dead or Alive 5": [
+        "False Kasumi",
+        "Kasumi α Phase 4",
+        "Mila"
+    ],
+    "Dead or Alive 5 Last Round": [
+        "Honoka"
+    ],
+    "Dead or Alive 5 Ultimate Arcade": [
         "Marie Rose",
-        "Mila",
-        "Momiji",
-        "Ii Naotora",
-        "Nyotengu",
-        "Pai Chan",
-        "Rachel",
-        "Sarah Bryant",
+        "Nyotengu"
+    ],
+    "Dead or Alive 6": [
+        "NiCO"
+    ],
+    "Dead or Alive Dimensions": [
+        "Irene \"Sea Swallow\" Lew"
+    ],
+    "Dead or Alive Xtreme Beach Volleyball": [
+        "Lisa Hamilton"
+    ],
+    "Dead or Alive Xtreme: Venus Vacation": [
+        "Amy",
+        "Elise",
         "Fiona",
         "Kanna",
+        "Koharu",
+        "Lobelia",
         "Luna",
         "Misaki",
         "Monica",
         "Nagisa",
-        "Sayuri",
-        "Tamaki",
+        "Nanami",
         "Patty",
-        "Tsukushi"
+        "Sayuri",
+        "\"Shandy\" Fei",
+        "Shizuku",
+        "Tamaki",
+        "Tsukushi",
+        "Yukino"
     ],
     "Death Note": [
         "Aizawa Yumi",
@@ -2023,6 +2061,9 @@
         "Wendy (Edolas)",
         "Dimaria \"Valkyrie\" Yesta",
         "Zera"
+    ],
+    "Fatal Fury 2": [
+        "Mai Shiranui"
     ],
     "Flip Flappers": [
         "Cocomine \"Pure Blade\" Cocona",
@@ -3759,6 +3800,9 @@
         "Oginome Ringo",
         "Takakura Himari"
     ],
+    "Metroid": [
+        "Samus Aran"
+    ],
     "Mikakunin de Shinkoukei": [
         "Mitsumine Mashiro",
         "Yonomori Kobeni",
@@ -3930,6 +3974,12 @@
         "Naganohara Mio",
         "Shinonome \"Professor\" Hakase",
         "Shinonome Nano"
+    ],
+    "Ninja Gaiden": [
+        "Rachel"
+    ],
+    "Ninja Gaiden: Dragon Sword": [
+        "Momiji"
     ],
     "Nisekoi": [
         "Kirisaki \"Gorilla\" Chitoge",
@@ -4387,6 +4437,9 @@
         "Tsuda Kotomi",
         "Yokoshima Naruko"
     ],
+    "Sengoku Musou Chronicles 2nd": [
+        "Naotora Ii"
+    ],
     "Senpai ga Uzai Kouhai no Hanashi": [
         "Igarashi Futaba",
         "Kurobe Natsumi",
@@ -4774,6 +4827,9 @@
         "Hishigata Tokiko",
         "Kobayakawa Asako",
         "Kobayakawa Shiori"
+    ],
+    "Super Blackjack": [
+        "Rio Rollins Tachibana"
     ],
     "Super Sonico": [
         "Super Sonico",
@@ -5238,6 +5294,9 @@
     ],
     "THE iDOLM@STER Stella Stage": [
         "Shika"
+    ],
+    "The King of Fighters 2000": [
+        "Kula Diamond"
     ],
     "Toaru Kagaku no Railgun": [
         "Saten Ruiko",
@@ -5967,6 +6026,10 @@
         "Niskawaji'j",
         "Thora",
         "Ylva"
+    ],
+    "Virtua Fighter": [
+        "Pai Chan",
+        "Sarah Bryant"
     ],
     "VOCALOID": [
         "MEIKO",
