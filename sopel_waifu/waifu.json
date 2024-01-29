@@ -2016,28 +2016,28 @@
         "Mimizu",
         "Sharaku Mikage"
     ],
-    "Ef": [
-        "Hayama \"Miki\" Mizuki",
-        "Miyamura Miyako",
-        "Shindou Kei",
-        "Shindou Chihiro",
-        "Amamiya Yuuko",
-        "Asou Sumire",
-        "Izumi Emi"
-    ],
     "Elfen Lied": [
         "Lucy",
+        "Yuka",
+        "Arakawa",
+        "Mariko",
         "Mayu",
-        "Nana \"Number 7\"",
-        "Yuka"
+        "Nana, \"Number 7\"",
+        "Shirakawa",
+        "Kisaragi",
+        "Kurama Hiromi",
+        "Saitou"
     ],
     "Engage Kiss": [
         "Kisara",
         "Yuugiri Ayano",
         "Hachisuka Linhua",
         "Hachisuka Shenhua",
+        "Ogata Kanna",
         "Sharon Holygrail",
-        "Yuugiri Akino"
+        "Yuugiri Akino",
+        "Kaya Ananda",
+        "Ogata \"Asmodeus\" Sayuri"
     ],
     "Eureka Seven": [
         "Eureka",
@@ -2045,8 +2045,11 @@
         "Anemone"
     ],
     "Eve no Jikan": [
-        "Sammy",
-        "Nagi"
+        "Akiko",
+        "Nagi",
+        "Naoko",
+        "Rina",
+        "Sammy"
     ],
     "Extreme Hearts": [
         "Hayama Hiyori",
@@ -2082,6 +2085,19 @@
         "Tsukahara Aiko",
         "Utsumi Shizuku",
         "Ashley Vancroft"
+    ],
+    "ef - a tale of melodies.": [
+        "Miki",
+        "Hirono Nagi"
+    ],
+    "ef - a tale of memories.": [
+        "Miyamura Miyako",
+        "Shindou Chihiro",
+        "Shindou Kei",
+        "Amamiya Yuuko",
+        "Asou Sumire",
+        "Hayama \"Miki\" Mizuki",
+        "Izumi Emi"
     ],
     "FLCL": [
         "Haruhara Haruko",
