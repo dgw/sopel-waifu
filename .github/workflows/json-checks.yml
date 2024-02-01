@@ -13,19 +13,19 @@ on:
 jobs:
   syntax:
     name: Validate JSON syntax
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: json-syntax-check
         uses: limitusus/json-syntax-check@v2
         with:
           pattern: "\\.json$"
   schema:
     name: Validate JSON schema
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     needs: syntax
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: install-deps
         run: pip3 install check-jsonschema
       - name: check-json-schema
