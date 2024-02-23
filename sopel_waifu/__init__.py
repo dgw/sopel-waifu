@@ -70,11 +70,6 @@ def setup(bot):
     if bot.config.waifu.unique_waifus:
         bot.memory['waifu-list'] = list(set(bot.memory['waifu-list']))
 
-    bot.memory['waifu-list-fgo'] = [
-        waifu for waifu in bot.memory['waifu-list']
-        if '(F/GO)' in waifu
-    ]
-
     if bot.config.waifu.accept_suggestions:
         LOGGER.debug("Waifu suggestions are enabled; loading suggestion cache")
         bot.memory['waifu-suggestions'] = bot.db.get_plugin_value(
@@ -88,14 +83,14 @@ def shutdown(bot):
         del bot.memory['waifu-suggestions']
         LOGGER.debug("...done!")
 
-    for key in ['waifu-list', 'waifu-list-fgo']:
+    for key in ['waifu-list']:
         try:
             del bot.memory[key]
         except KeyError:
             pass
 
 
-@plugin.commands('waifu', 'fgowaifu')
+@plugin.commands('waifu')
 @plugin.example('.waifu Peorth', user_help=True)
 @plugin.example('.waifu', user_help=True)
 def waifu(bot, trigger):
@@ -104,8 +99,6 @@ def waifu(bot, trigger):
     command = trigger.group(1).lower()
 
     key = 'waifu-list'
-    if command == 'fgowaifu':
-        key = 'waifu-list-fgo'
     try:
         choice = random.choice(bot.memory[key])
     except IndexError:
@@ -123,6 +116,30 @@ def waifu(bot, trigger):
 
     bot.say(msg.format(target=target, waifu=choice))
 
+@plugin.commands('fmk')
+@plugin.example('.fmk Peorth', user_help=True)
+@plugin.example('.fmk', user_help=True)
+def fmk(bot, trigger):
+    """Pick random waifus to fuck, marry and kill."""
+    target = trigger.group(3)
+    command = trigger.group(1).lower()
+
+    key = 'waifu-list'
+    try:
+        choice = random.choice(bot.memory[key])
+    except IndexError:
+        bot.reply("Sorry, looks like the waifu list is empty!")
+        return
+
+    choice = choice.replace('$c', formatting.CONTROL_COLOR)
+
+    if target:
+        msg = "{target} will Fuck: {waifu}; Marry: {waifu}; Kill: {waifu}."
+    else:
+        target = trigger.nick
+        msg = 'Fuck: {waifu}; Marry: {waifu}; Kill: {waifu}.'
+
+    bot.say(msg.format(target=target, waifu=choice))
 
 @plugin.commands('addwaifu')
 @plugin.example('.addwaifu Holo from Spice & Wolf')
