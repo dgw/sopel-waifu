@@ -14,6 +14,8 @@ from sopel import config, formatting, plugin, tools
 
 
 LOGGER = tools.get_logger('waifu')
+WAIFU_LIST_KEY = 'waifu-list'
+WAIFU_SUGGESTIONS_KEY = 'waifu-suggestions'
 
 
 class WaifuSection(config.types.StaticSection):
@@ -39,13 +41,13 @@ def setup(bot):
         else:
             raise Exception('Invalid json_mode.')
 
-    bot.memory['waifu-list'] = []
+    bot.memory[WAIFU_LIST_KEY] = []
     for filename in filenames:
         with open(filename, 'r') as file:
             data = json.load(file)
 
         for franchise, waifus in data.items():
-            bot.memory['waifu-list'].extend([
+            bot.memory[WAIFU_LIST_KEY].extend([
                     '{waifu}{franchise}'.format(
                         waifu=waifu,
                         franchise=(
@@ -59,7 +61,7 @@ def setup(bot):
 
     duplicates = [
         waifu for waifu, count
-        in collections.Counter(bot.memory['waifu-list']).items()
+        in collections.Counter(bot.memory[WAIFU_LIST_KEY]).items()
         if count > 1
     ]
     if duplicates:
@@ -68,26 +70,25 @@ def setup(bot):
                     count, '' if count == 1 else 's', ', '.join(duplicates))
 
     if bot.config.waifu.unique_waifus:
-        bot.memory['waifu-list'] = list(set(bot.memory['waifu-list']))
+        bot.memory[WAIFU_LIST_KEY] = list(set(bot.memory[WAIFU_LIST_KEY]))
 
     if bot.config.waifu.accept_suggestions:
         LOGGER.debug("Waifu suggestions are enabled; loading suggestion cache")
-        bot.memory['waifu-suggestions'] = bot.db.get_plugin_value(
+        bot.memory[WAIFU_SUGGESTIONS_KEY] = bot.db.get_plugin_value(
             'waifu', 'suggestions', [])
 
 
 def shutdown(bot):
-    if 'waifu-suggestions' in bot.memory:
+    if WAIFU_SUGGESTIONS_KEY in bot.memory:
         LOGGER.debug("Persisting waifu suggestion cache to database...")
-        bot.db.set_plugin_value('waifu', 'suggestions', bot.memory['waifu-suggestions'])
-        del bot.memory['waifu-suggestions']
+        bot.db.set_plugin_value('waifu', 'suggestions', bot.memory[WAIFU_SUGGESTIONS_KEY])
+        del bot.memory[WAIFU_SUGGESTIONS_KEY]
         LOGGER.debug("...done!")
 
-    for key in ['waifu-list']:
-        try:
-            del bot.memory[key]
-        except KeyError:
-            pass
+    try:
+        del bot.memory[WAIFU_LIST_KEY]
+    except KeyError:
+        pass
 
 
 @plugin.commands('waifu')
@@ -98,9 +99,8 @@ def waifu(bot, trigger):
     target = trigger.group(3)
     command = trigger.group(1).lower()
 
-    key = 'waifu-list'
     try:
-        choice = random.choice(bot.memory[key])
+        choice = random.choice(bot.memory[WAIFU_LIST_KEY])
     except IndexError:
         bot.reply("Sorry, looks like the waifu list is empty!")
         return
@@ -124,11 +124,10 @@ def fmk(bot, trigger):
     target = trigger.group(3)
     command = trigger.group(1).lower()
 
-    key = 'waifu-list'
     try:
-        choice_1 = random.choice(bot.memory[key])
-        choice_2 = random.choice(bot.memory[key])
-        choice_3 = random.choice(bot.memory[key])
+        choice_1 = random.choice(bot.memory[WAIFU_LIST_KEY])
+        choice_2 = random.choice(bot.memory[WAIFU_LIST_KEY])
+        choice_3 = random.choice(bot.memory[WAIFU_LIST_KEY])
     except IndexError:
         bot.reply("Sorry, looks like the waifu list is empty!")
         return
@@ -160,7 +159,7 @@ def add_waifu(bot, trigger):
         return plugin.NOLIMIT
 
     try:
-        bot.memory['waifu-suggestions'].append(new_waifu)
+        bot.memory[WAIFU_SUGGESTIONS_KEY].append(new_waifu)
     except Exception:
         bot.reply("I'm terribly sorry, but something has gone very wrong. "
                   "Please notify my owner, {}".format(bot.config.core.owner))
@@ -173,15 +172,14 @@ def add_waifu(bot, trigger):
 @plugin.require_admin
 def dump_waifus(bot, trigger):
     """Dump the list of suggested waifus to a file in Sopel's homedir."""
-    if 'waifu-suggestions' not in bot.memory or not bot.memory['waifu-suggestions']:
+    if not bot.memory.get(WAIFU_SUGGESTIONS_KEY, []):
         bot.reply("No waifu suggestions to dump.")
         return
 
     filename = os.path.join(bot.config.core.homedir, 'suggested-waifus.txt')
-
     try:
         with open(filename, 'a') as file:
-            for waifu in bot.memory['waifu-suggestions']:
+            for waifu in bot.memory[WAIFU_SUGGESTIONS_KEY]:
                 file.write(waifu + '\n')
     except Exception:
         bot.reply("Sorry, something went wrong.")
@@ -195,13 +193,13 @@ def dump_waifus(bot, trigger):
 @plugin.require_admin('Only a bot admin can clear my waifu suggestion list.')
 def clear_suggestions(bot, trigger):
     """Clear the waifu suggestion cache."""
-    if 'waifu-suggestions' in bot.memory:
-        if bot.memory['waifu-suggestions']:
+    if WAIFU_SUGGESTIONS_KEY in bot.memory:
+        if bot.memory[WAIFU_SUGGESTIONS_KEY]:
             LOGGER.info('Cached waifu suggestions:')
-            for waifu in bot.memory['waifu-suggestions']:
+            for waifu in bot.memory[WAIFU_SUGGESTIONS_KEY]:
                 LOGGER.info('    %s', waifu)
         LOGGER.debug('Clearing waifu suggestion cache in memory')
-        bot.memory['waifu-suggestions'] = []
+        bot.memory[WAIFU_SUGGESTIONS_KEY] = []
 
     LOGGER.debug('Deleting saved waifu suggestions from bot DB')
     bot.db.delete_plugin_value('waifu', 'suggestions')
