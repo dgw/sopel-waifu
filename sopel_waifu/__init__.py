@@ -97,7 +97,6 @@ def shutdown(bot):
 def waifu(bot, trigger):
     """Pick a random waifu for yourself or the given nick."""
     target = trigger.group(3)
-    command = trigger.group(1).lower()
 
     try:
         choice = random.choice(bot.memory[WAIFU_LIST_KEY])
@@ -122,27 +121,23 @@ def waifu(bot, trigger):
 def fmk(bot, trigger):
     """Pick random waifus to fuck, marry and kill."""
     target = trigger.group(3)
-    command = trigger.group(1).lower()
 
     try:
-        choice_1 = random.choice(bot.memory[WAIFU_LIST_KEY])
-        choice_2 = random.choice(bot.memory[WAIFU_LIST_KEY])
-        choice_3 = random.choice(bot.memory[WAIFU_LIST_KEY])
-    except IndexError:
-        bot.reply("Sorry, looks like the waifu list is empty!")
+        sample = random.sample(bot.memory[WAIFU_LIST_KEY], 3)
+    except ValueError:
+        condition = 'empty' if len(bot.memory[WAIFU_LIST_KEY]) == 0 else 'too short'
+        bot.reply("Sorry, looks like the waifu list is {condition}!",
+            condition=condition)
         return
 
-    choice_1 = choice_1.replace('$c', formatting.CONTROL_COLOR)
-    choice_2 = choice_2.replace('$c', formatting.CONTROL_COLOR)
-    choice_3 = choice_3.replace('$c', formatting.CONTROL_COLOR)
+    sample = [item.replace('$c', formatting.CONTROL_COLOR) for item in sample]
 
+    msg = "Fuck: {sample[0]}; Marry: {sample[1]}; Kill: {sample[2]}."
     if target:
-        msg = "{target} will Fuck: {waifu_1}; Marry: {waifu_2}; Kill: {waifu_3}."
-    else:
-        target = trigger.nick
-        msg = 'Fuck: {waifu_1}; Marry: {waifu_2}; Kill: {waifu_3}.'
+        msg = target + " will " + msg
 
-    bot.say(msg.format(target=target, waifu_1=choice_1, waifu_2=choice_2, waifu_3=choice_3))
+    bot.say(msg.format(sample=sample))
+
 
 @plugin.commands('addwaifu')
 @plugin.example('.addwaifu Holo from Spice & Wolf')
