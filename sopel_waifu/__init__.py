@@ -123,22 +123,21 @@ def fmk(bot, trigger):
     target = trigger.group(3)
 
     try:
-        choice_1 = random.choice(bot.memory[WAIFU_LIST_KEY])
-        choice_2 = random.choice(bot.memory[WAIFU_LIST_KEY])
-        choice_3 = random.choice(bot.memory[WAIFU_LIST_KEY])
-    except IndexError:
-        bot.reply("Sorry, looks like the waifu list is empty!")
+        sample = random.sample(bot.memory[WAIFU_LIST_KEY], 3)
+    except ValueError:
+        condition = 'empty' if len(bot.memory[WAIFU_LIST_KEY]) == 0 else 'too short'
+        bot.reply("Sorry, looks like the waifu list is {condition}!",
+            condition=condition)
         return
 
-    choice_1 = choice_1.replace('$c', formatting.CONTROL_COLOR)
-    choice_2 = choice_2.replace('$c', formatting.CONTROL_COLOR)
-    choice_3 = choice_3.replace('$c', formatting.CONTROL_COLOR)
+    sample = [item.replace('$c', formatting.CONTROL_COLOR) for item in sample]
 
-    msg = 'Fuck: {waifu_1}; Marry: {waifu_2}; Kill: {waifu_3}.'
+    msg = "Fuck: {sample[0]}; Marry: {sample[1]}; Kill: {sample[2]}."
     if target:
         msg = target + " will " + msg
 
-    bot.say(msg.format(waifu_1=choice_1, waifu_2=choice_2, waifu_3=choice_3))
+    bot.say(msg.format(sample=sample))
+
 
 @plugin.commands('addwaifu')
 @plugin.example('.addwaifu Holo from Spice & Wolf')
