@@ -97,7 +97,6 @@ def shutdown(bot):
 def waifu(bot, trigger):
     """Pick a random waifu for yourself or the given nick."""
     target = trigger.group(3)
-    command = trigger.group(1).lower()
 
     try:
         choice = random.choice(bot.memory[WAIFU_LIST_KEY])
@@ -122,7 +121,6 @@ def waifu(bot, trigger):
 def fmk(bot, trigger):
     """Pick random waifus to fuck, marry and kill."""
     target = trigger.group(3)
-    command = trigger.group(1).lower()
 
     try:
         choice_1 = random.choice(bot.memory[WAIFU_LIST_KEY])
