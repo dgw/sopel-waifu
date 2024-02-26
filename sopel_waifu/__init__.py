@@ -22,6 +22,12 @@ def get_waifu_suggestions_file(bot):
     return os.path.join(bot.config.core.homedir, WAIFU_SUGGESTIONS_FILE)
 
 
+def _unescape_formatting(text):
+    # Original waifu-bot on Rizon used $c to escape ^K for colors.
+    # More formatting types can be handled here too, if they'd be useful.
+    return text.replace('$c', formatting.CONTROL_COLOR)
+
+
 class WaifuSection(config.types.StaticSection):
     json_path = config.types.FilenameAttribute('json_path', relative=False)
     """JSON file from which to load list of possible waifus."""
@@ -52,12 +58,14 @@ def setup(bot):
 
         for franchise, waifus in data.items():
             bot.memory[WAIFU_LIST_KEY].extend([
-                    '{waifu}{franchise}'.format(
-                        waifu=waifu,
-                        franchise=(
-                            ' ({})'.format(franchise)
-                            if franchise and not waifu.endswith('(F/GO)')
-                            else ''
+                    _unescape_formatting(
+                        '{waifu}{franchise}'.format(
+                            waifu=waifu,
+                            franchise=(
+                                ' ({})'.format(franchise)
+                                if franchise and not waifu.endswith('(F/GO)')
+                                else ''
+                            )
                         )
                     )
                     for waifu in waifus
@@ -97,9 +105,6 @@ def waifu(bot, trigger):
         bot.reply("Sorry, looks like the waifu list is empty!")
         return
 
-    # handle formatting syntax of the original waifu-bot
-    choice = choice.replace('$c', formatting.CONTROL_COLOR)
-
     if target:
         msg = "{target}'s waifu is {waifu}"
     else:
@@ -125,8 +130,6 @@ def fmk(bot, trigger):
             condition=condition,
         )
         return
-
-    sample = [item.replace('$c', formatting.CONTROL_COLOR) for item in sample]
 
     msg = "Fuck: {sample[0]}; Marry: {sample[1]}; Kill: {sample[2]}."
     if target:
