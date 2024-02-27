@@ -14,6 +14,7 @@ from sopel import config, formatting, plugin, tools
 
 
 LOGGER = tools.get_logger('waifu')
+OUTPUT_PREFIX = '[waifu] '
 WAIFU_LIST_KEY = 'waifu-list'
 WAIFU_SUGGESTIONS_FILE = 'waifu-suggestions.txt'
 
@@ -93,6 +94,7 @@ def shutdown(bot):
 
 
 @plugin.commands('waifu')
+@plugin.output_prefix(OUTPUT_PREFIX)
 @plugin.example('.waifu Peorth', user_help=True)
 @plugin.example('.waifu', user_help=True)
 def waifu(bot, trigger):
@@ -115,6 +117,7 @@ def waifu(bot, trigger):
 
 
 @plugin.commands('fmk')
+@plugin.output_prefix(OUTPUT_PREFIX)
 @plugin.example('.fmk Peorth', user_help=True)
 @plugin.example('.fmk', user_help=True)
 def fmk(bot, trigger):
@@ -139,6 +142,7 @@ def fmk(bot, trigger):
 
 
 @plugin.commands('addwaifu')
+@plugin.output_prefix(OUTPUT_PREFIX)
 @plugin.example('.addwaifu Holo from Spice & Wolf')
 @plugin.require_chanmsg('No hiding your perverted waifu preferences in PM!')
 def add_waifu(bot, trigger):
@@ -173,6 +177,7 @@ def add_waifu(bot, trigger):
 
 
 @plugin.commands('clearwaifus')
+@plugin.output_prefix(OUTPUT_PREFIX)
 @plugin.require_admin('Only a bot admin can clear my waifu suggestion list.')
 def clear_suggestions(bot, trigger):
     """Clear the waifu suggestion list."""
