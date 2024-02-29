@@ -50,7 +50,7 @@ def setup(bot):
         elif bot.config.waifu.json_mode == 'extend':
             filenames.append(bot.config.waifu.json_path)
         else:
-            raise Exception('Invalid json_mode.')
+            raise config.ConfigurationError('Invalid json_mode.')
 
     bot.memory[WAIFU_LIST_KEY] = []
     for filename in filenames:
