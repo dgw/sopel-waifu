@@ -62,7 +62,10 @@ def setup(bot):
                     _unescape_formatting(
                         '{waifu}{franchise}'.format(
                             waifu=waifu,
-                            franchise=' ({})'.format(franchise) if franchise else ''
+                            franchise=' ({})'.format(
+                                formatting.italic(franchise)
+                                if franchise else ''
+                            )
                         )
                     )
                     for waifu in waifus
