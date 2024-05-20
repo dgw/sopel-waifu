@@ -2461,6 +2461,11 @@
     "Gekijouban Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka: Orion no Ya": [
         "Artemis"
     ],
+    "Gekijouban Hayate no Gotoku! Heaven Is a Place on Earth": [
+        "Ayasaki Suzune",
+        "Suirenji Ruka",
+        "Tsurugino Kayura"
+    ],
     "Gekkan Shoujo Nozaki-kun": [
         "Sakura Chiyo",
         "Kashima \"Prince\" Yuu",
@@ -2940,37 +2945,42 @@
     ],
     "Hayate no Gotoku!": [
         "Maria",
-        "Sanzenin \"Ojou-sama, Mask the Money\" Nagi",
-        "Tsugumi Ruri",
-        "Aizawa \"Saku\" Sakuya",
-        "Aizawa Hinata",
-        "Sharna Alamgir",
-        "Asakaze \"The Three Idiots\" Risa",
-        "Ayasaki Suzune",
-        "Dolly",
-        "Hanabishi \"Blue, The Three Idiots\" Miki",
-        "Harukaze \"Haruko\" Chiharu",
-        "Hibino Fumi",
-        "Kasumi \"Love Master\" Aika",
+        "Sanzen'in Nagi",
+        "Aizawa Sakuya",
+        "Asakaze Risa",
+        "Hanabishi Miki",
+        "Katsura \"Hina\" Hinagiku",
         "Katsura Yukiji",
-        "Katsura \"Hina, Muteki-senpai, Hinaemon\" Hinagiku",
         "Kijima Saki",
         "Kuresato Shion",
         "Kuzuha Kirika",
         "Makimura Shiori",
-        "Maou \"The Great Stygian of Abe (Temp)\"",
-        "Maya",
         "Nishizawa \"Hamster\" Ayumu",
-        "Nonohara Kaede",
+        "Saginomiya Isumi",
+        "Segawa Izumi",
+        "Harukaze \"Haruko\" Chiharu",
+        "Hayate no Haha",
+        "Hinagiku no Haha",
+        "Kasumi Aika",
+        "Maou the Great Stygian of Abe (Temp)"
+    ],
+    "Hayate no Gotoku!!": [
+        "Aizawa Hinata",
+        "Jenny",
+        "Maya",
         "Saginomiya Ginka",
         "Saginomiya Hatsuho",
-        "Saginomiya Isumi",
-        "Sanzenin \"Yu-kyun\" Yukariko",
-        "Segawa \"The Three Idiots\" Izumi",
+        "Sanzen'in Yukariko",
+        "Tennousu \"A-tan\" Athena"
+    ],
+    "Hayate no Gotoku!! Atsu ga Natsui ze - Mizugi Hen!": [
+        "Hibino Fumi",
         "Sonia \"Sister Fortesia\" Shaflnarz",
-        "Suirenji Ruka",
-        "Tennousu \"A-tan, Alice\" Athena",
-        "Tsurugino Kayura"
+        "Sharna Alamgir"
+    ],
+    "Hayate no Gotoku! Can't Take My Eyes Off You": [
+        "Tsugumi Ruri",
+        "Dolly"
     ],
     "Healer Girl": [
         "Fujii Kana",
