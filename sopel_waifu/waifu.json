@@ -5207,20 +5207,23 @@
         "Lovis",
         "Undis"
     ],
-    "Sayonara Zetsubou Sensei": [
-        "Fuura Kafuka",
+    "Sayonara Zetsubou-sensei": [
         "Arai Chie",
         "Fujiyoshi Harumi",
+        "Fuura Kafuka",
         "Hitou \"Hitonami\" Nami",
-        "Itoshiki Rin",
-        "Kaga Ai",
         "Kimura \"Kaede\" Kaere",
         "Kitsu Chiri",
         "Kobushi Abiru",
-        "Komori \"Zashiki-warashi\" Kiri",
+        "Komori Kiri",
         "Otonashi \"MeruMeru\" Meru",
-        "Sekiutsu \"Maria\" Tarou",
-        "Tsunetsuki Matoi"
+        "Sekiutsu Maria Tarou",
+        "Tsunetsuki Matoi",
+        "Itoshiki Rin",
+        "Kaga Ai",
+        "Kotonon",
+        "Mitama Mayo",
+        "Ookusa Manami"
     ],
     "School Days": [
         "Katsura Kotonoha",
@@ -7367,6 +7370,14 @@
         "Matsumoto Yoriko",
         "Okano Kei"
     ],
+    "Zan Sayonara Zetsubou-sensei": [
+        "Maruuchi Shouko",
+        "Nezu Miko",
+        "Oora Kanako"
+    ],
+    "Zan Sayonara Zetsubou-sensei Bangaichi": [
+        "Kitsu Tane"
+    ],
     "Zenless Zone Zero": [
         "Belle",
         "Anby Demara",
@@ -7410,5 +7421,9 @@
     ],
     "Zoku Owarimonogatari": [
         "Kanbaru Tooe"
+    ],
+    "Zoku Sayonara Zetsubou-sensei": [
+        "Inoue Kikuko",
+        "Marui"
     ]
 }
