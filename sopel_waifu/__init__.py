@@ -1,9 +1,8 @@
-# coding=utf8
 """sopel-waifu
 
 A Sopel plugin that picks a waifu for you.
 """
-from __future__ import absolute_import, division, print_function, unicode_literals
+from __future__ import annotations
 
 import collections
 import json
