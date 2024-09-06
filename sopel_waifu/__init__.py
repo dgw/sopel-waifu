@@ -1,6 +1,8 @@
 """sopel-waifu
 
 A Sopel plugin that picks a waifu for you.
+
+Copyright 2020-2024 dgw, technobabbl.es
 """
 from __future__ import annotations
 
@@ -10,6 +12,8 @@ import os
 import random
 
 from sopel import config, formatting, plugin, tools
+
+from . import util
 
 
 LOGGER = tools.get_logger('waifu')
@@ -83,12 +87,54 @@ def setup(bot):
     if bot.config.waifu.unique_waifus:
         bot.memory[WAIFU_LIST_KEY] = list(set(bot.memory[WAIFU_LIST_KEY]))
 
+    bot.memory[util.RECENT_WAIFUS_KEY] = bot.make_identifier_memory()
+
 
 def shutdown(bot):
-    try:
-        del bot.memory[WAIFU_LIST_KEY]
-    except KeyError:
-        pass
+    for key in (WAIFU_LIST_KEY, util.RECENT_WAIFUS_KEY):
+        try:
+            del bot.memory[key]
+        except KeyError:
+            pass
+
+
+@plugin.echo
+@plugin.event('PART')
+@plugin.priority('low')
+@plugin.unblockable
+def part_cleanup(bot, trigger):
+    """Clean up cached data when a user leaves a channel."""
+    if trigger.nick == bot.nick:
+        # We're outta here! Nuke the whole channel's cache.
+        util.clean_up_channel(bot, trigger.sender)
+    else:
+        # Someone else left; clean up after them.
+        util.clean_up_nickname(bot, trigger.nick, trigger.sender)
+
+
+@plugin.echo
+@plugin.event('QUIT')
+@plugin.priority('low')
+@plugin.unblockable
+def quit_cleanup(bot, trigger):
+    """Clean up cached data after a user quits IRC."""
+    # If Sopel itself quits, shutdown() will handle the cleanup.
+    util.clean_up_nickname(bot, trigger.nick)
+
+
+@plugin.echo
+@plugin.event('KICK')
+@plugin.priority('low')
+@plugin.unblockable
+def kick_cleanup(bot, trigger):
+    """Clean up cached data when a user is kicked from a channel."""
+    nick = bot.make_identifier(trigger.args[1])
+    if nick == bot.nick:
+        # We got kicked! Nuke the whole channel.
+        util.clean_up_channel(bot, trigger.sender)
+    else:
+        # Clean up after whoever got the boot.
+        util.clean_up_nickname(bot, nick, trigger.sender)
 
 
 @plugin.commands('waifu')
@@ -112,6 +158,72 @@ def waifu(bot, trigger):
         msg = '{target}, your waifu is {waifu}'
 
     bot.say(msg.format(target=target, waifu=choice))
+    util.cache_waifu(bot, choice, target, trigger.sender)
+
+
+@plugin.command('lastwaifu')
+@plugin.require_chanmsg
+@plugin.output_prefix(OUTPUT_PREFIX)
+@plugin.example('.lastwaifu Peorth', user_help=True)
+@plugin.example('.lastwaifu', user_help=True)
+def last_waifu(bot, trigger):
+    """Get a reminder of someone's last waifu, without picking a new one.
+
+    This is scoped to the current channel.
+    """
+    target = trigger.group(3) or trigger.nick
+
+    cached = util.get_last_waifu(bot, target, trigger.sender)
+    if cached is None:
+        bot.say("{} hasn't gotten a waifu recently.".format(target))
+        return plugin.NOLIMIT
+
+    bot.say("{}'s last waifu was {}.".format(target, cached))
+
+
+@plugin.command('wifight')
+@plugin.rate_user(
+    300, "Relax, {nick}. You can challenge someone again in {time_left}.")
+@plugin.require_chanmsg
+@plugin.output_prefix('[Waifu Fight!] ')
+@plugin.example('.wifight Peorth')
+def waifu_fight(bot, trigger):
+    """Fight someone for their last waifu."""
+    challenger = trigger.nick
+
+    target = trigger.group(3)
+    if not target or target == challenger:
+        if target == challenger:
+            who = formatting.bold('someone else')
+        else:
+            who = 'someone'
+
+        bot.reply("You have to actually challenge {}, smh.".format(who))
+        return plugin.NOLIMIT
+
+    spoils = util.get_last_waifu(bot, target, trigger.sender)
+    if not spoils:
+        bot.reply(
+            "Sorry, {} has no recent waifu for you to fight over."
+            .format(target)
+        )
+        return plugin.NOLIMIT
+
+    winner = random.choice((challenger, target))
+    if winner == challenger:
+        util.clear_last_waifu(bot, target, trigger.sender)
+        util.cache_waifu(bot, spoils, challenger, trigger.sender)
+        bot.say(
+            "{} wins! {} is no longer {}'s waifu.".format(
+                challenger, spoils, target,
+            )
+        )
+    else:
+        bot.say(
+            "{} defeats {} and keeps {} as their waifu.".format(
+                target, challenger, spoils,
+            )
+        )
 
 
 @plugin.commands('fmk')
