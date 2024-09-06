@@ -16,11 +16,6 @@ from sopel import config, formatting, plugin, tools
 LOGGER = tools.get_logger('waifu')
 OUTPUT_PREFIX = '[waifu] '
 WAIFU_LIST_KEY = 'waifu-list'
-WAIFU_SUGGESTIONS_FILE = 'waifu-suggestions.txt'
-
-
-def get_waifu_suggestions_file(bot):
-    return os.path.join(bot.config.core.homedir, WAIFU_SUGGESTIONS_FILE)
 
 
 def _unescape_formatting(text):
@@ -36,8 +31,6 @@ class WaifuSection(config.types.StaticSection):
     """How the file specified by json_path should affect the default list."""
     unique_waifus = config.types.BooleanAttribute('unique_waifus', default=True)
     """Whether to deduplicate the waifu list during startup."""
-    accept_suggestions = config.types.BooleanAttribute('accept_suggestions', default=False)
-    """Whether to accept waifu suggestions via the `.addwaifu` command."""
 
 
 def setup(bot):
@@ -138,54 +131,3 @@ def fmk(bot, trigger):
         msg = target + " will " + msg
 
     bot.say(msg.format(sample=sample))
-
-
-@plugin.commands('addwaifu')
-@plugin.output_prefix(OUTPUT_PREFIX)
-@plugin.example('.addwaifu Holo from Spice & Wolf')
-@plugin.require_chanmsg('No hiding your perverted waifu preferences in PM!')
-def add_waifu(bot, trigger):
-    """Suggest a waifu for the bot admin to add in custom list."""
-    if not bot.config.waifu.accept_suggestions:
-        bot.reply("Waifu suggestions aren't enabled.")
-        return
-
-    new_waifu = trigger.group(2)
-    if not new_waifu:
-        bot.reply("Who did you want to suggest?")
-        return plugin.NOLIMIT
-
-    file_path = get_waifu_suggestions_file(bot)
-    created = not os.path.isfile(file_path)
-
-    try:
-        with open(file_path, 'a') as f:
-            f.write(new_waifu + '\n')
-    except Exception:
-        bot.reply("I'm terribly sorry, but something has gone very wrong. "
-                  "Please notify my owner, {}.".format(bot.config.core.owner))
-        return
-    else:
-        bot.say("Recorded {}'s suggestion for a new waifu: {}".format(
-            trigger.nick, new_waifu)
-        )
-        if created:
-            bot.say(
-                "Created a waifu suggestion file at: {}".format(file_path),
-                bot.config.core.owner)
-
-
-@plugin.commands('clearwaifus')
-@plugin.output_prefix(OUTPUT_PREFIX)
-@plugin.require_admin('Only a bot admin can clear my waifu suggestion list.')
-def clear_suggestions(bot, trigger):
-    """Clear the waifu suggestion list."""
-    file_path = get_waifu_suggestions_file(bot)
-
-    if not os.path.isfile(file_path):
-        bot.reply('There are no waifu suggestions to clear.')
-        return
-
-    LOGGER.info('Deleting saved waifu suggestions from {}'.format(file_path))
-    os.remove(file_path)
-    bot.reply("Cleared waifu suggestions.")
