@@ -8,7 +8,7 @@ from __future__ import annotations
 RECENT_WAIFUS_KEY = 'recent-waifus'
 
 
-def cache_waifu(bot, waifu, nick, channel):
+def set_last_waifu(bot, waifu, nick, channel):
     """Store the ``waifu`` that ``nick`` last got in ``channel``."""
     if channel not in bot.memory[RECENT_WAIFUS_KEY]:
         bot.memory[RECENT_WAIFUS_KEY][channel] = bot.make_identifier_memory()

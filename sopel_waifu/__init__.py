@@ -158,7 +158,7 @@ def waifu(bot, trigger):
         msg = '{target}, your waifu is {waifu}'
 
     bot.say(msg.format(target=target, waifu=choice))
-    util.cache_waifu(bot, choice, target, trigger.sender)
+    util.set_last_waifu(bot, choice, target, trigger.sender)
 
 
 @plugin.command('lastwaifu')
@@ -212,7 +212,7 @@ def waifu_fight(bot, trigger):
     winner = random.choice((challenger, target))
     if winner == challenger:
         util.clear_last_waifu(bot, target, trigger.sender)
-        util.cache_waifu(bot, spoils, challenger, trigger.sender)
+        util.set_last_waifu(bot, spoils, challenger, trigger.sender)
         bot.say(
             "{} wins! {} is no longer {}'s waifu.".format(
                 challenger, spoils, target,
