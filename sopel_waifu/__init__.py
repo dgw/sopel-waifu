@@ -191,8 +191,7 @@ def waifu_fight(bot, trigger):
     """Fight someone for their last waifu."""
     challenger = trigger.nick
 
-    target = trigger.group(3)
-    if not target or target == challenger:
+    if not (target := trigger.group(3)) or target == challenger:
         if target == challenger:
             who = formatting.bold('someone else')
         else:
@@ -201,16 +200,14 @@ def waifu_fight(bot, trigger):
         bot.reply("You have to actually challenge {}, smh.".format(who))
         return plugin.NOLIMIT
 
-    spoils = util.get_last_waifu(bot, target, trigger.sender)
-    if not spoils:
+    if not (spoils := util.get_last_waifu(bot, target, trigger.sender)):
         bot.reply(
             "Sorry, {} has to have a waifu before you can fight them for her."
             .format(target)
         )
         return plugin.NOLIMIT
 
-    winner = random.choice((challenger, target))
-    if winner == challenger:
+    if random.choice((challenger, target)) == challenger:
         util.clear_last_waifu(bot, target, trigger.sender)
         util.set_last_waifu(bot, spoils, challenger, trigger.sender)
         bot.say(
@@ -238,8 +235,6 @@ def waifu_fight(bot, trigger):
 @plugin.example('.fmk', user_help=True)
 def fmk(bot, trigger):
     """Pick random waifus to fuck, marry and kill."""
-    target = trigger.group(3)
-
     try:
         sample = random.sample(bot.memory[WAIFU_LIST_KEY], 3)
     except ValueError:
@@ -251,7 +246,7 @@ def fmk(bot, trigger):
         return
 
     msg = "Fuck: {sample[0]}; Marry: {sample[1]}; Kill: {sample[2]}."
-    if target:
+    if target := trigger.group(3):
         msg = target + " will " + msg
 
     bot.say(msg.format(sample=sample))
