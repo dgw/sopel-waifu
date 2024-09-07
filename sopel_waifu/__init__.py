@@ -204,7 +204,7 @@ def waifu_fight(bot, trigger):
     spoils = util.get_last_waifu(bot, target, trigger.sender)
     if not spoils:
         bot.reply(
-            "Sorry, {} has no recent waifu for you to fight over."
+            "Sorry, {} has to have a waifu before you can fight them for her."
             .format(target)
         )
         return plugin.NOLIMIT
@@ -214,8 +214,14 @@ def waifu_fight(bot, trigger):
         util.clear_last_waifu(bot, target, trigger.sender)
         util.set_last_waifu(bot, spoils, challenger, trigger.sender)
         bot.say(
-            "{} wins! {} is no longer {}'s waifu.".format(
-                challenger, spoils, target,
+            "{} wins, and {} becomes their new waifu!".format(
+                challenger, spoils,
+            )
+        )
+        bot.say(
+            "{}'s waifu was taken from them in the duel. "
+            "Now they're forever alone. (╥_╥)".format(
+                target,
             )
         )
     else:
