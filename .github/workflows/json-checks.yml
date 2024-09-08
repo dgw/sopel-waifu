@@ -10,6 +10,7 @@ on:
   pull_request:
     paths:
       - '**.json'
+      - '.github/workflows/json-checks.yml'
 
 jobs:
   syntax:
