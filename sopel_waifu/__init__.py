@@ -211,20 +211,28 @@ def waifu_fight(bot, trigger):
         util.clear_last_waifu(bot, target, trigger.sender)
         util.set_last_waifu(bot, spoils, challenger, trigger.sender)
         bot.say(
-            "{} wins, and {} becomes their new waifu!".format(
-                challenger, spoils,
-            )
-        )
-        bot.say(
-            "{}'s waifu was taken from them in the duel. "
-            "Now they're forever alone. (╥_╥)".format(
-                target,
+            "{challenger} wins the duel, forcing {waifu} to marry them instead! "
+            "{defender} loses their waifu and is forever alone. (╥_╥)"
+            .format(
+                challenger=challenger,
+                defender=target,
+                waifu=spoils,
             )
         )
     else:
         bot.say(
-            "{} defeats {} and keeps {} as their waifu.".format(
-                target, challenger, spoils,
+            "{defender} fends off {challenger}'s challenge and preserves their "
+            "waifu's honor! {waifu} {action}."
+            .format(
+                defender=target,
+                challenger=challenger,
+                waifu=spoils,
+                action=random.choice((
+                    "tends to her husbando's wounds",
+                    "hugs her gallant husbando",
+                    "kisses her husbando passionately",
+                    "drags her husbando to bed, iykwim",
+                )),
             )
         )
 
