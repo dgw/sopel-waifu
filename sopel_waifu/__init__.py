@@ -142,23 +142,27 @@ def kick_cleanup(bot, trigger):
 @plugin.example('.waifu Peorth', user_help=True)
 @plugin.example('.waifu', user_help=True)
 def waifu(bot, trigger):
-    """Pick a random waifu for yourself or the given nick."""
-    target = trigger.group(3)
+    """Pick a random waifu for yourself or the given nick.
 
+    Note: You can't fight over waifus picked for someone else, only waifus
+    obtained by someone using this command directly.
+    """
     try:
         choice = random.choice(bot.memory[WAIFU_LIST_KEY])
     except IndexError:
         bot.reply("Sorry, looks like the waifu list is empty!")
         return
 
-    if target:
+    if target := trigger.group(3):
         msg = "{target}'s waifu is {waifu}"
     else:
         target = trigger.nick
         msg = '{target}, your waifu is {waifu}'
 
     bot.say(msg.format(target=target, waifu=choice))
-    util.set_last_waifu(bot, choice, target, trigger.sender)
+    if target == trigger.nick:
+        # don't save a new "last waifu" unless the `target` is the one asking
+        util.set_last_waifu(bot, choice, target, trigger.sender)
 
 
 @plugin.command('lastwaifu')
