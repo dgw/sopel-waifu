@@ -10,6 +10,7 @@ on:
   pull_request:
     paths:
       - '**.json'
+      - '.github/workflows/json-checks.yml'
 
 jobs:
   syntax:
@@ -21,6 +22,14 @@ jobs:
         uses: limitusus/json-syntax-check@v2
         with:
           pattern: "\\.json$"
+  keys:
+    name: Validate JSON unique keys
+    runs-on: ubuntu-22.04
+    needs: syntax
+    steps:
+      - uses: actions/checkout@v4
+      - name: check-keys
+        run: python3 duplicate_detect.py sopel_waifu/waifu.json
   schema:
     name: Validate JSON schema
     runs-on: ubuntu-22.04
