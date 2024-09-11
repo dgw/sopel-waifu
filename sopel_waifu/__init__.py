@@ -87,15 +87,18 @@ def setup(bot):
     if bot.config.waifu.unique_waifus:
         bot.memory[WAIFU_LIST_KEY] = list(set(bot.memory[WAIFU_LIST_KEY]))
 
-    bot.memory[util.RECENT_WAIFUS_KEY] = bot.make_identifier_memory()
+    # util submodule manages its own memory keys; tell it we're ready
+    util.setup_caches(bot)
 
 
 def shutdown(bot):
-    for key in (WAIFU_LIST_KEY, util.RECENT_WAIFUS_KEY):
-        try:
-            del bot.memory[key]
-        except KeyError:
-            pass
+    try:
+        del bot.memory[WAIFU_LIST_KEY]
+    except KeyError:
+        pass
+
+    # util submodule manages its own memory keys; just ask it to clean up
+    util.shutdown_caches(bot)
 
 
 @plugin.echo
@@ -163,6 +166,8 @@ def waifu(bot, trigger):
     if target == trigger.nick:
         # don't save a new "last waifu" unless the `target` is the one asking
         util.set_last_waifu(bot, choice, target, trigger.sender)
+        # new "last waifu" means they haven't lost a duel for her
+        util.clear_waifu_stolen_by(bot, target, trigger.sender)
 
 
 @plugin.command('lastwaifu')
@@ -177,10 +182,17 @@ def last_waifu(bot, trigger):
     """
     target = trigger.group(3) or trigger.nick
 
-    cached = util.get_last_waifu(bot, target, trigger.sender)
-    if cached is None:
+    if (cached := util.get_last_waifu(bot, target, trigger.sender)) is None:
+        thief, _ = util.get_waifu_stolen_by(bot, target, trigger.sender)
+        if thief:
+            bot.say(
+                f"{target} {formatting.italic('had')} a waifu once, "
+                f"but {thief} won her in a duel."
+            )
+            return
+
         bot.say("{} hasn't gotten a waifu recently.".format(target))
-        return plugin.NOLIMIT
+        return
 
     bot.say("{}'s last waifu was {}.".format(target, cached))
 
@@ -212,8 +224,24 @@ def waifu_fight(bot, trigger):
         return plugin.NOLIMIT
 
     if random.choice((challenger, target)) == challenger:
-        util.clear_last_waifu(bot, target, trigger.sender)
+        thief, stolen_waifu = util.get_waifu_stolen_by(bot, challenger, trigger.sender)
+        util.clear_waifu_stolen_by(bot, challenger, trigger.sender)
+        util.set_waifu_stolen_by(bot, challenger, spoils, target, trigger.sender)
         util.set_last_waifu(bot, spoils, challenger, trigger.sender)
+        util.clear_last_waifu(bot, target, trigger.sender)
+
+        if thief and stolen_waifu == spoils:
+            bot.say(
+                "{challenger} wins {waifu} back from {thief}! "
+                "There is much rejoicing."
+                .format(
+                    challenger=challenger,
+                    thief=thief,
+                    waifu=spoils,
+                )
+            )
+            return
+
         bot.say(
             "{challenger} wins the duel, forcing {waifu} to marry them instead! "
             "{defender} loses their waifu and is forever alone. (╥_╥)"
