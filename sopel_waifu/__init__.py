@@ -13,9 +13,10 @@ import random
 
 from sopel import config, formatting, plugin, tools
 
-from . import util
+from .db import WaifuDB
 
 
+DB_KEY = 'waifudb'
 LOGGER = tools.get_logger('waifu')
 OUTPUT_PREFIX = '[waifu] '
 WAIFU_LIST_KEY = 'waifu-list'
@@ -44,8 +45,13 @@ class WaifuSection(config.types.StaticSection):
 
 
 def setup(bot):
+    # define configuration options stored in Sopel's config file
     bot.config.define_section('waifu', WaifuSection)
 
+    # create our custom database object to manage plugin-specific stats
+    bot.memory[DB_KEY] = WaifuDB(bot)
+
+    # load and cache the available waifus from configured JSON file(s)
     filenames = [os.path.join(os.path.dirname(__file__), 'waifu.json')]
     if bot.config.waifu.json_path:
         if bot.config.waifu.json_mode == 'replace':
@@ -74,70 +80,31 @@ def setup(bot):
                     for waifu in waifus
                 ])
 
-    duplicates = [
-        waifu for waifu, count
-        in collections.Counter(bot.memory[WAIFU_LIST_KEY]).items()
-        if count > 1
-    ]
-    if duplicates:
+    # deduplicate waifus if configured to do so
+    if bot.config.waifu.unique_waifus:
+        duplicates = [
+            waifu for waifu, count
+            in collections.Counter(bot.memory[WAIFU_LIST_KEY]).items()
+            if count > 1
+        ]
         count = len(duplicates)
         LOGGER.info("Found %s duplicate waifu%s: %s",
                     count, '' if count == 1 else 's', ', '.join(duplicates))
-
-    if bot.config.waifu.unique_waifus:
         bot.memory[WAIFU_LIST_KEY] = list(set(bot.memory[WAIFU_LIST_KEY]))
-
-    # util submodule manages its own memory keys; tell it we're ready
-    util.setup_caches(bot)
 
 
 def shutdown(bot):
+    # remove our database object
+    try:
+        del bot.memory[DB_KEY]
+    except KeyError:
+        pass
+
+    # drop our cached waifu list
     try:
         del bot.memory[WAIFU_LIST_KEY]
     except KeyError:
         pass
-
-    # util submodule manages its own memory keys; just ask it to clean up
-    util.shutdown_caches(bot)
-
-
-@plugin.echo
-@plugin.event('PART')
-@plugin.priority('low')
-@plugin.unblockable
-def part_cleanup(bot, trigger):
-    """Clean up cached data when a user leaves a channel."""
-    if trigger.nick == bot.nick:
-        # We're outta here! Nuke the whole channel's cache.
-        util.clean_up_channel(bot, trigger.sender)
-    else:
-        # Someone else left; clean up after them.
-        util.clean_up_nickname(bot, trigger.nick, trigger.sender)
-
-
-@plugin.echo
-@plugin.event('QUIT')
-@plugin.priority('low')
-@plugin.unblockable
-def quit_cleanup(bot, trigger):
-    """Clean up cached data after a user quits IRC."""
-    # If Sopel itself quits, shutdown() will handle the cleanup.
-    util.clean_up_nickname(bot, trigger.nick)
-
-
-@plugin.echo
-@plugin.event('KICK')
-@plugin.priority('low')
-@plugin.unblockable
-def kick_cleanup(bot, trigger):
-    """Clean up cached data when a user is kicked from a channel."""
-    nick = bot.make_identifier(trigger.args[1])
-    if nick == bot.nick:
-        # We got kicked! Nuke the whole channel.
-        util.clean_up_channel(bot, trigger.sender)
-    else:
-        # Clean up after whoever got the boot.
-        util.clean_up_nickname(bot, nick, trigger.sender)
 
 
 @plugin.commands('waifu')
@@ -165,9 +132,7 @@ def waifu(bot, trigger):
     bot.say(msg.format(target=target, waifu=choice))
     if target == trigger.nick:
         # don't save a new "last waifu" unless the `target` is the one asking
-        util.set_last_waifu(bot, choice, target, trigger.sender)
-        # new "last waifu" means they haven't lost a duel for her
-        util.clear_waifu_stolen_by(bot, target, trigger.sender)
+        bot.memory[DB_KEY].set_waifu(target, trigger.sender, choice)
 
 
 @plugin.command('lastwaifu')
@@ -181,20 +146,21 @@ def last_waifu(bot, trigger):
     This is scoped to the current channel.
     """
     target = trigger.group(3) or trigger.nick
+    db = bot.memory[DB_KEY]
 
-    if (cached := util.get_last_waifu(bot, target, trigger.sender)) is None:
-        thief, _ = util.get_waifu_stolen_by(bot, target, trigger.sender)
-        if thief:
+    if (waifu := db.get_waifu(target, trigger.sender)) is None:
+        nemesis = db.get_nemesis(target, trigger.sender)
+        if nemesis:
             bot.say(
                 f"{target} {formatting.italic('had')} a waifu once, "
-                f"but {thief} won her in a duel."
+                f"but {nemesis} won her in a duel."
             )
             return
 
         bot.say("{} hasn't gotten a waifu recently.".format(target))
         return
 
-    bot.say("{}'s last waifu was {}.".format(target, cached))
+    bot.say("{}'s last waifu was {}.".format(target, waifu))
 
 
 @plugin.command('wifight')
@@ -216,7 +182,9 @@ def waifu_fight(bot, trigger):
         bot.reply("You have to actually challenge {}, smh.".format(who))
         return plugin.NOLIMIT
 
-    if not (spoils := util.get_last_waifu(bot, target, trigger.sender)):
+    db = bot.memory[DB_KEY]
+
+    if not (spoils := db.get_waifu(target, trigger.sender)):
         bot.reply(
             "Sorry, {} has to have a waifu before you can fight them for her."
             .format(target)
@@ -224,19 +192,20 @@ def waifu_fight(bot, trigger):
         return plugin.NOLIMIT
 
     if random.choice((challenger, target)) == challenger:
-        thief, stolen_waifu = util.get_waifu_stolen_by(bot, challenger, trigger.sender)
-        util.clear_waifu_stolen_by(bot, challenger, trigger.sender)
-        util.set_waifu_stolen_by(bot, challenger, spoils, target, trigger.sender)
-        util.set_last_waifu(bot, spoils, challenger, trigger.sender)
-        util.clear_last_waifu(bot, target, trigger.sender)
+        revenge = (
+            nemesis := db.get_nemesis(target, trigger.sender)
+            and challenger == bot.make_identifier(nemesis)
+            and spoils == db.get_waifu(nemesis, trigger.sender)
+        )
+        db.steal_waifu(target, challenger, trigger.sender)
 
-        if thief and stolen_waifu == spoils:
+        if revenge:
             bot.say(
-                "{challenger} wins {waifu} back from {thief}! "
+                "{challenger} wins {waifu} back from {nemesis}! "
                 "There is much rejoicing."
                 .format(
                     challenger=challenger,
-                    thief=thief,
+                    nemesis=nemesis,
                     waifu=spoils,
                 )
             )
