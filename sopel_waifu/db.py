@@ -20,6 +20,7 @@ class FightStats(BASE):
     nick_id = Column(Integer, ForeignKey('nick_ids.nick_id'), primary_key=True)
     channel = Column(String(255), primary_key=True)
     waifu = Column(String(255))
+    prev_owner_id = Column(Integer, ForeignKey('nick_ids.nick_id'))
     nemesis = Column(String(255))
 
 
@@ -33,8 +34,22 @@ class WaifuDB:
         self.db = bot.db
         BASE.metadata.create_all(self.db.engine)
 
-    def set_waifu(self, nick, channel, waifu, commit=True):
-        """Record that ``nick`` got ``waifu`` in ``channel``."""
+    def set_waifu(
+        self,
+        nick,
+        channel,
+        waifu,
+        prev_owner_id=None,
+        nemesis=None,
+    ):
+        """Record that ``nick`` obtained ``waifu`` in ``channel``.
+
+        Optional ``prev_owner_id`` should be given if ``nick`` *won* ``waifu``
+        in a duel, to support checking for revenge during future duels.
+
+        Optional ``nemesis`` should be given (with ``waifu=None``) if ``nick``
+        *lost* their waifu in battle, so ``.lastwaifu`` can show who stole her.
+        """
         nick_id = self.db.get_nick_id(nick, create=True)
         channel_slug = self.db.get_channel_slug(channel)
 
@@ -48,14 +63,16 @@ class WaifuDB:
             # nick+channel combo already known; update it
             if result:
                 result.waifu = waifu
-                result.nemesis = None
+                result.prev_owner_id = prev_owner_id
+                result.nemesis = nemesis
             # nick+channel combo not known; create it
             else:
                 new_stats = FightStats(
                     nick_id=nick_id,
                     channel=channel_slug,
                     waifu=waifu,
-                    nemesis=None,
+                    prev_owner_id=prev_owner_id,
+                    nemesis=nemesis,
                 )
                 session.add(new_stats)
 
@@ -81,34 +98,38 @@ class WaifuDB:
 
             return result
 
-    def set_nemesis(self, nick, channel, nemesis, commit=True):
-        """Record ``nick``'s ``nemesis`` in ``channel``."""
-        nick_id = self.db.get_nick_id(nick, create=True)
+    def clear_waifu(self, nick, channel, thief=None):
+        """Clear ``nick``'s waifu in ``channel``.
+
+        They must have just lost a ``.wifight`` duel. Tough break.
+        """
+        self.set_waifu(nick, channel, None, nemesis=thief)
+
+    def get_prev_owner_id(self, nick, channel):
+        """Get who previously owned ``nick``'s waifu in ``channel``.
+
+        Only set if ``nick`` won their current waifu in a ``.wifight`` duel.
+        """
+        try:
+            nick_id = self.db.get_nick_id(nick)
+        except ValueError:
+            # if they're not in the DB, they can't have stolen a waifu yet
+            return None
+
         channel_slug = self.db.get_channel_slug(channel)
 
         with self.db.session() as session:
             result = session.execute(
-                select(FightStats)
+                select(FightStats.prev_owner_id)
                 .where(FightStats.nick_id == nick_id)
                 .where(FightStats.channel == channel_slug)
             ).scalar_one_or_none()
 
-            # nick+channel combo already known; update it
-            if result:
-                result.waifu = None
-                result.nemesis = nemesis
-            # nick+channel combo not known; create it
-            else:
-                new_stats = FightStats(
-                    nick_id=nick_id,
-                    channel=channel_slug,
-                    waifu=None,
-                    nemesis=nemesis,
-                )
-                session.add(new_stats)
+            return result
 
-            # whether it's created or just updated, commit the thing
-            session.commit()
+    def prev_owner_matches(self, nick, channel, who):
+        """Was the previous owner of ``nick``'s waifu in ``channel`` ``who``?"""
+        return self.get_prev_owner_id(nick, channel) == self.db.get_nick_id(who)
 
     def get_nemesis(self, nick, channel):
         """Get ``nick``'s nemesis in ``channel``.
@@ -125,21 +146,22 @@ class WaifuDB:
 
         with self.db.session() as session:
             result = session.execute(
-                select(FightStats.nemesis)
+                select(FightStats.waifu, FightStats.nemesis)
                 .where(FightStats.nick_id == nick_id)
                 .where(FightStats.channel == channel_slug)
-            ).scalar_one_or_none()
+            ).one_or_none()
 
-            return result
+            if result.waifu:
+                return None
+            return result.nemesis
 
-    def steal_waifu(self, victim, nemesis, channel):
+    def steal_waifu(self, thief, channel, victim):
         """Record that ``thief`` stole ``victim``'s waifu in ``channel``."""
-        waifu = self.get_waifu(victim, channel)
-        if waifu is None:
-            raise errors.NoWaifuError(victim, channel)
+        if (spoils := self.get_waifu(victim, channel)) is None:
+            raise NoWaifuError(victim, channel)
 
-        # Would ideally like these two operations to be a single atomic
-        # operation, but either sqlalchemy doesn't make it easy, or I'm too
-        # stupid to figure out how to structure it.
-        self.set_waifu(nemesis, channel, waifu)
-        self.set_nemesis(victim, channel, nemesis)
+        # Would ideally like these two updates to be a single atomic operation,
+        # but either sqlalchemy doesn't make it easy, or I'm too stupid to
+        # figure out how to structure it.
+        self.set_waifu(thief, channel, spoils, self.db.get_nick_id(victim))
+        self.clear_waifu(victim, channel, thief=thief)

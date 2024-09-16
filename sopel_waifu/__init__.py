@@ -192,12 +192,8 @@ def waifu_fight(bot, trigger):
         return plugin.NOLIMIT
 
     if random.choice((challenger, target)) == challenger:
-        revenge = (
-            nemesis := db.get_nemesis(target, trigger.sender)
-            and challenger == bot.make_identifier(nemesis)
-            and spoils == db.get_waifu(nemesis, trigger.sender)
-        )
-        db.steal_waifu(target, challenger, trigger.sender)
+        revenge = db.prev_owner_matches(target, trigger.sender, challenger)
+        db.steal_waifu(challenger, trigger.sender, target)
 
         if revenge:
             bot.say(
@@ -205,7 +201,7 @@ def waifu_fight(bot, trigger):
                 "There is much rejoicing."
                 .format(
                     challenger=challenger,
-                    nemesis=nemesis,
+                    nemesis=target,
                     waifu=spoils,
                 )
             )
