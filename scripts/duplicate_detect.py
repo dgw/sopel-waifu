@@ -30,8 +30,8 @@ with open(sys.argv[1]) as f:
     try:
         json.load(f, object_pairs_hook=validate_data)
     except ValueError as exc:
-        print("❌ {err}".format(err=exc))
+        print("{err} ❌".format(err=exc))
         sys.exit(1)
     else:
-        print("✅ No duplicate keys detected!")
+        print("No duplicate keys detected! ✅")
         sys.exit(0)

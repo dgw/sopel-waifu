@@ -29,7 +29,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: check-keys
-        run: python3 duplicate_detect.py sopel_waifu/waifu.json
+        run: make duplicates
   schema:
     name: Validate JSON schema
     runs-on: ubuntu-22.04
@@ -37,6 +37,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: install-deps
-        run: pip3 install check-jsonschema
+        run: make schema-check-deps
       - name: check-json-schema
-        run: check-jsonschema --schemafile sopel_waifu/waifu.json.schema sopel_waifu/waifu.json
+        run: make schema-check
+  whitespace:
+    name: "Check for whitespace errors"
+    runs-on: ubuntu-22.04
+    needs: syntax
+    steps:
+      - uses: actions/checkout@v4
+      - name: install-deps
+        run: make whitespace-deps
+      - name: check-whitespace
+        run: make whitespace
