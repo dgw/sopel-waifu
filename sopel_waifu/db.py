@@ -151,7 +151,7 @@ class WaifuDB:
                 .where(FightStats.channel == channel_slug)
             ).one_or_none()
 
-            if result.waifu:
+            if result is None or result.waifu:
                 return None
             return result.nemesis
 
