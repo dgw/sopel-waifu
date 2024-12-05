@@ -42,6 +42,7 @@ keywords = [
 requires-python = ">=3.8, <4"
 dependencies = [
   "sopel>=8.0",
+  "sqlalchemy",  # let Sopel itself enforce a version constraint
 ]
 
 [project.urls]
