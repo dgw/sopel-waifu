@@ -2388,7 +2388,7 @@
         "Touka"
     ],
     "Flip Flappers": [
-        "Kokomine Cocona \"Pure Blade\"",
+        "Kokomine \"Pure Blade\" Cocona",
         "Papika \"Pure Barrier\"",
         "Irodori Iroha",
         "Mimi",
@@ -2413,9 +2413,19 @@
         "Kobayashi Yukari"
     ],
     "Free!": [
-        "Matsuoka \"Kou\" Gou",
         "Amakata \"Ama-chan\" Miho",
+        "Matsuoka \"Kou\" Gou",
+        "Hanamura Chigusa",
         "Tachibana Ran"
+    ],
+    "Free! Dive to the Future": [
+        "Kunikida Ayumu",
+        "Kurimiya \"Shiina\" Akane",
+        "Mikoshiba Isuzu",
+        "Tomo-chan"
+    ],
+    "Free! Eternal Summer": [
+        "Lori"
     ],
     "Full Metal Panic!": [
         "Chidori \"Kana\" Kaname",
@@ -6764,6 +6774,9 @@
         "Sarashina Chisaki",
         "Suou Yuki",
         "Taniyama Sayaka"
+    ],
+    "Tokubetsuban Free! Take Your Marks": [
+        "Matsuoka Miyako"
     ],
     "Tokyo ESP": [
         "Urushiba \"Shiroi Shoujo\" Rinka",
