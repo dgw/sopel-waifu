@@ -175,6 +175,13 @@ def waifu_fight(bot, trigger):
         bot.reply("You have to actually challenge {}, smh.".format(who))
         return plugin.NOLIMIT
 
+    if not target in bot.channels[trigger.sender].users:
+        bot.reply(
+            "It isn't fair to steal someone's waifu behind their back, {}."
+            .format(challenger)
+        )
+        return plugin.NOLIMIT
+
     db = bot.memory[DB_KEY]
 
     if not (spoils := db.get_waifu(target, trigger.sender)):
