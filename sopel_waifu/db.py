@@ -129,7 +129,13 @@ class WaifuDB:
 
     def prev_owner_matches(self, nick, channel, who):
         """Was the previous owner of ``nick``'s waifu in ``channel`` ``who``?"""
-        return self.get_prev_owner_id(nick, channel) == self.db.get_nick_id(who)
+        try:
+            return (
+                self.get_prev_owner_id(nick, channel) == self.db.get_nick_id(who)
+            )
+        except ValueError:
+            # If `who` isn't in the DB, they can't have owned the waifu
+            return False
 
     def get_nemesis(self, nick, channel):
         """Get ``nick``'s nemesis in ``channel``.
