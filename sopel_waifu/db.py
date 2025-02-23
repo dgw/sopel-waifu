@@ -5,8 +5,7 @@ Part of sopel-waifu. Copyright 2024 dgw, technobabbl.es
 from __future__ import annotations
 
 from sqlalchemy import Column, ForeignKey, Integer, String
-from sqlalchemy.orm import declarative_base
-from sqlalchemy.sql import select, update
+from sqlalchemy.sql import select
 
 from sopel.db import BASE, MYSQL_TABLE_ARGS
 
