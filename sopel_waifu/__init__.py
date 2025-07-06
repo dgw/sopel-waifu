@@ -71,6 +71,8 @@ def setup(bot):
                         )
                     )
                     for waifu in waifus
+                    # skip homebrew JSON "comment" lines
+                    if not waifu.startswith('//')
                 ])
 
     # deduplicate waifus if configured to do so

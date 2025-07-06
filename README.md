@@ -84,6 +84,34 @@ data structure using Python's interactive console, and then export to JSON:
 ...
 ```
 
+#### Pseudo-comments
+
+Character entries that start with `//` will be skipped during loading. This is
+provided as a way to include "comments" directly in your JSON list, since JSON
+itself doesn't provide any comment syntax.
+
+```json
+{
+    "Name of a Work": [
+        "// primary source: https://wiki.gamecompa.ny/gamename",
+        "Character One",
+        "Character Two",
+        "// Character Two-and-a-Half is just an alternate costume of Two",
+        "Character Three"
+    ]
+}
+```
+
+This becomes:
+
+```python
+[
+    "Character One (Name of a Work)",
+    "Character Two (Name of a Work)",
+    "Character Three (Name of a Work)",
+]
+```
+
 ### Extending the default list
 
 By setting `json_mode` to `extend` (the default) and `json_path` to a properly
