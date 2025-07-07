@@ -16,18 +16,21 @@ json_mode = replace
 
 ### JSON schema
 
-Waifu lists for `sopel-waifu` must be written in JSON, in this structure:
+Waifu lists for `sopel-waifu` must be written in JSON, though you can use
+[JSON5](https://json5.org/) features such as (JavaScript-style) comments and
+trailing commas. Data is expected to be structured like this:
 
-```json
+```json5
 {
     "Name of a Work": [
         "Character One",
         "Character Two",
-        "Character Three"
+        "Character Three",
     ],
     "Name of Another Work": [
         "Character Four",
-        "Character One"
+        // don't add Character Eno separately; she's One from the future
+        "Character One",
     ]
 }
 ```
@@ -53,7 +56,7 @@ for how to allow duplicate entries).
 An empty "Work" key can be used if you want to include generic characters, or
 skip placing `(Franchise Name)` after the characters' names:
 
-```json
+```json5
 {
     "": [
         "Generic Character",
@@ -82,34 +85,6 @@ data structure using Python's interactive console, and then export to JSON:
 >>> with open('extra-waifus.json', 'w') as file:
 ...     json.dump(data, file, indent=4)
 ...
-```
-
-#### Pseudo-comments
-
-Character entries that start with `//` will be skipped during loading. This is
-provided as a way to include "comments" directly in your JSON list, since JSON
-itself doesn't provide any comment syntax.
-
-```json
-{
-    "Name of a Work": [
-        "// primary source: https://wiki.gamecompa.ny/gamename",
-        "Character One",
-        "Character Two",
-        "// Character Two-and-a-Half is just an alternate costume of Two",
-        "Character Three"
-    ]
-}
-```
-
-This becomes:
-
-```python
-[
-    "Character One (Name of a Work)",
-    "Character Two (Name of a Work)",
-    "Character Three (Name of a Work)",
-]
 ```
 
 ### Extending the default list
