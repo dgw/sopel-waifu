@@ -6,44 +6,29 @@ on:
       - master
     paths:
       - '**.json'
+      - '**.json5'
       - '.github/workflows/json-checks.yml'
   pull_request:
     paths:
       - '**.json'
+      - '**.json5'
       - '.github/workflows/json-checks.yml'
 
 jobs:
-  syntax:
-    name: Validate JSON syntax
+  schema-lint:
+    name: Lint/Validate JSON
     runs-on: ubuntu-22.04
-    steps:
-      - uses: actions/checkout@v4
-      - name: json-syntax-check
-        uses: limitusus/json-syntax-check@v2
-        with:
-          pattern: "\\.json$"
-  keys:
-    name: Validate JSON unique keys
-    runs-on: ubuntu-22.04
-    needs: syntax
-    steps:
-      - uses: actions/checkout@v4
-      - name: check-keys
-        run: make duplicates
-  schema:
-    name: Validate JSON schema
-    runs-on: ubuntu-22.04
-    needs: syntax
     steps:
       - uses: actions/checkout@v4
       - name: install-deps
-        run: make schema-check-deps
+        run: make json5-lint-deps
+      - name: check-keys
+        run: make duplicates
       - name: check-json-schema
         run: make schema-check
   whitespace:
-    name: "Check for whitespace errors"
+    name: Check for whitespace errors
     runs-on: ubuntu-22.04
-    needs: syntax
     steps:
       - uses: actions/checkout@v4
       - name: install-deps
