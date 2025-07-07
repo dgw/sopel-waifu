@@ -7,9 +7,10 @@ Copyright 2020-2024 dgw, technobabbl.es
 from __future__ import annotations
 
 import collections
-import json
 import os
 import random
+
+import json5
 
 from sopel import config, formatting, plugin, tools
 
@@ -45,7 +46,7 @@ def setup(bot):
     bot.memory[DB_KEY] = WaifuDB(bot)
 
     # load and cache the available waifus from configured JSON file(s)
-    filenames = [os.path.join(os.path.dirname(__file__), 'waifu.json')]
+    filenames = [os.path.join(os.path.dirname(__file__), 'waifu.json5')]
     if bot.config.waifu.json_path:
         if bot.config.waifu.json_mode == 'replace':
             filenames = [bot.config.waifu.json_path]
@@ -57,7 +58,7 @@ def setup(bot):
     bot.memory[WAIFU_LIST_KEY] = []
     for filename in filenames:
         with open(filename, 'r') as file:
-            data = json.load(file)
+            data = json5.load(file)
 
         for franchise, waifus in data.items():
             bot.memory[WAIFU_LIST_KEY].extend([

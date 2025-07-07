@@ -13,12 +13,12 @@ lint: whitespace duplicates schema-check
 
 duplicates:
 	@echo "🎯 Running duplicate_detect script"
-	@python3 scripts/duplicate_detect.py sopel_waifu/waifu.json
+	@python3 scripts/duplicate_detect.py sopel_waifu/waifu.json5
 	@echo ""
 
 schema-check:
 	@echo "🎯 Running check-jsonschema"
-	@check-jsonschema --schemafile sopel_waifu/waifu.json.schema sopel_waifu/waifu.json
+	@check-jsonschema --schemafile sopel_waifu/waifu.json5.schema sopel_waifu/waifu.json5
 	@echo ""
 
 schema-check-deps:
@@ -29,7 +29,7 @@ whitespace:
 	@whitespace-format --check-only --add-new-line-marker-at-end-of-file \
 	--new-line-marker auto --normalize-new-line-markers \
 	--replace-tabs-with-spaces 4 --remove-trailing-empty-lines \
-	--remove-trailing-whitespace sopel_waifu/waifu.json
+	--remove-trailing-whitespace sopel_waifu/waifu.json5
 	@echo ""
 
 whitespace-deps:
