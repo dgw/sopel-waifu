@@ -11,8 +11,9 @@ only Python's stdlib.
 from __future__ import annotations
 
 import collections
-import json
 import sys
+
+import json5
 
 
 # detection logic adapted from our savior @htv2012's gist
@@ -28,7 +29,7 @@ def validate_data(list_of_pairs):
 # our CLI logic
 with open(sys.argv[1]) as f:
     try:
-        json.load(f, object_pairs_hook=validate_data)
+        json5.load(f, object_pairs_hook=validate_data)
     except ValueError as exc:
         print("{err} ❌".format(err=exc))
         sys.exit(1)
