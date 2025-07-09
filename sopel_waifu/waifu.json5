@@ -8220,8 +8220,26 @@
         "Trigger",
         "Yixuan",
         "Ju Fufu",
+
+        // Upcoming characters (some are already in the game as NPCs)
         "Alice Thymefield",
         "Ukinami Yuzuha",
+        "Captain \"Orphie\" Orpheus",
+        "Chinatsu Remiel",
+        "Yutane Johiel",
+        "Rokudo Sariel",
+
+        // Romanceable NPCs
+        "Asha",
+        "Elfy",
+        "Orchidea",
+        "Coco",
+
+        // Important NPCs
+        "Ray Yersin",
+        "Kasa",
+        "Sweety",
+        "Sarah",
     ],
     "Zero no Tsukaima": [
         "Agnès Chevalier de Milan",
