@@ -8220,8 +8220,30 @@
         "Trigger",
         "Yixuan",
         "Ju Fufu",
+
+        // Upcoming characters (some are already in the game as NPCs)
         "Alice Thymefield",
         "Ukinami Yuzuha",
+        "Captain \"Orphie\" Orpheus",
+        "Chinatsu Remiel",
+        "Yutane Johiel",
+        "Rokudo Sariel",
+
+        // Other than ZZZ players who might contribute here (as with the below),
+        // currently have no source better than Fandom for NPC names. 😑
+        // https://zenless-zone-zero.fandom.com/wiki/Category:NPCs
+
+        // Romanceable NPCs
+        "Asha",
+        "Coco",
+        "Elfy",
+        "Orchidea",
+
+        // Important NPCs
+        "Kasa",
+        "Ray Yersin",
+        "Sarah",
+        "Sweety",
     ],
     "Zero no Tsukaima": [
         "Agnès Chevalier de Milan",
