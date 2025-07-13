@@ -2190,6 +2190,9 @@
         "Mimizu",
         "Sharaku Mikage",
     ],
+    "Eiga Yuru Camp": [
+        "Komaki",
+    ],
     "Elfen Lied": [
         "Lucy",
         "Yuka",
@@ -8130,6 +8133,41 @@
         "Mistilteinn \"Ocean of Trees\" Treesea",
         "Yumi",
     ],
+    "Yuru Camp": [
+        "Inuyama Aoi",
+        "Kagamihara Nadeshiko",
+        "Oogaki Chiaki",
+        "Saitou Ena",
+        "Shima Rin",
+        "Kagamihara Sakura",
+        "Toba Minami",
+        "Inuyama Akari",  // She'll grow into it...
+        "Inuyama Mineko",
+        "Kagamihara Shizuka",
+        "Kikugawa Subaru",
+        "Shima Saki",
+        "Shimada Koharu",
+        "Toba Ryouko",
+    ],
+    "Yuru Camp Season 2": [
+        "Ibigawa",
+        "Ichinomiya Haruka",
+        "Iida-san no Musume",
+        "Kagamihara Machiko",
+        "Toki Ayano",
+    ],
+    // Eiga Yuru Camp (2022) appears here chronologically, but is listed
+    // alphabetically above with only movie-unique characters
+    "Yuru Camp Season 3": [
+        "Mizunami Ema",
+        "Nakatsugawa Mei",
+        "Chita Rie",
+        "Ogawa Kaori",
+        "Yatsushiro Haruka",
+    ],
+    // "Yuru Camp Season 4": [
+    //     "Not released yet (as of July 2025).",
+    // ],
     "Yuru Yuri": [
         "Akaza \"Who?\" Akari",
         "Funami Yui",
