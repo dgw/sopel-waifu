@@ -2728,6 +2728,13 @@
         "Suirenji Ruka",
         "Tsurugino Kayura",
     ],
+    "Gekijouban Violet Evergarden": [
+        "Daisy Magnolia",
+        // added "no" to both of these for consistency with other entries;
+        // AniDB omitted it 🤷‍♂️
+        "Daisy no Haha",
+        "Yuris no Haha",
+    ],
     "Gekkan Shoujo Nozaki-kun": [
         "Sakura Chiyo",
         "Kashima \"Prince\" Yuu",
@@ -7921,6 +7928,11 @@
         "Olivia Webster",
         "Rhodanthe",
         "Tiffany Evergarden",
+    ],
+    "Violet Evergarden Gaiden: Eien to Jidou Shuki Ningyou": [
+        "Isabella York",
+        // "Taylor Bartlett",  // skip: child
+        "Ashley Lancaster",
     ],
     "Virtua Fighter": [
         "Pai Chan",
