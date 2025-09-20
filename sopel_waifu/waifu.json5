@@ -5261,6 +5261,112 @@
         "Sasaki Nako",
         "Sayo",
     ],
+    "Mushishi": [
+        "Aki",
+        "Akoya",
+        "Amane",
+        "Aya",
+        "Fuki",
+        "Hana",
+        "Io",
+        // "Isana",  // "child" tag on AniDB; skip
+        // "Ito (Kodomo Jidai)",  // "child" tag on AniDB; skip
+        "Mio",
+        "Nui",
+        // "Renzu",  // "child" tag on AniDB; skip
+        "Sayo",
+        "Setsu",
+        "Shige",
+        "Shirasawa",
+        // "Sui",  // "child" tag on AniDB; skip
+        "Suzu",
+        "Tagane",
+        "Tama",
+        "Tanyuu",
+        "Yahagi",
+        "Aya no Haha",
+        "Biki no Haha",
+        "Fumi",
+        "Fusa",
+        "Hana no Haha",
+        "Io no Haha",
+        "Kai no Ane",
+        "Kai no Sobo",
+        "Kinu",
+        "Kisuke no Imouto",
+        // "Kisuke no Musume",  // "child" tag on AniDB; skip
+        "Kodama no Haha",
+        "Kourou no Haha",
+        "Maho no Haha",
+        "Mana",
+        // "Mayu",  // "child" tag on AniDB; skip
+        "Michihi",
+        // "Miku",  // "child" tag on AniDB; skip
+        "Nami",
+        // "Onnanoko",  // "child" tag on AniDB, not a real name; skip
+        "Saishu no Tsuma",
+        "Saki",
+        "Saku",
+        "Shige no Haha",
+        "Shinra no Sobo",
+        "Taku no Haha",
+        "Taku no Tsuma",
+        "Yoki no Haha",
+    ],
+    "Mushishi Tokubetsu Hen: Hihamu Kage": [
+        "Hinata",
+        "Hiyori",
+        "Haha",  // yes, that's all we get
+    ],
+    "Mushishi Zoku Shou": [
+        "Masumi",
+        "Mina",
+        "Musume",  // like "Haha" in Hihamu Kage, that's all we get
+        "Saho",
+        "Teru",
+        "Chiyo",
+        // "Houichi no Choujo",  // AniDB tagging game is weak on this one, but she looks like a kid
+        // "Houichi no Jijo",  // her character pic is a baby strapped to mom's back
+        "Houichi no Yome",
+        "Masumi no Haha",
+        // "Okami",  // too generic; the kanji translates to "proprietress"
+        "Ryou no Hahaoya",
+        // "Sachi",  // still no tags, but she's a kid
+        // "Saho",  // ditto, looks like a child
+        "Shima",
+        "Tae",
+        "Tae no Haha",
+        "Teru no Hahaoya",
+        "Teru no Oba",
+        "Toki no Haha",
+        "Yasu no Hahaoya",
+    ],
+    // they couldn't bother coming up with a new title for the continuation?
+    "Mushishi Zoku Shou (2014)": [
+        "Akane",
+        "Izumi",
+        "Mikage",
+        "Mizuho",
+        "Shino",
+        "Taki",
+        "Yui",
+        "Yura",
+        // "Futaba",  // looks like a kid, even though this entry also has no character tags
+        "Haha",  // all we get; a different character entry than Hihamu Kage, and no "guise of" relation
+        "Iku",
+        "Kanta no Haha",
+        "Kanta no Tsuma",
+        "Kaoru Haha",  // odd there's no "no" in this one
+        // "Miyo",  // is seemingly distinct from "Mio" in the first series, but looks like a child
+        "Saki",  // seemingly distinct from the "Saki" in the first series
+        "Sumi",
+        "Youkichi Haha",  // again odd that "no" is omitted
+        "Yui no Haha",
+    ],
+    "Mushishi Zoku Shou: Suzu no Shizuku": [
+        "Kaya",
+        "Hahaoya",  // one last "all we get" entry 🤷‍♂️
+    ],
     "Na Nare Hana Nare": [
         "Anna Aveiro Nakamura dos Santos Moreira Cuccittini",
         "Kaionji Megumi",
