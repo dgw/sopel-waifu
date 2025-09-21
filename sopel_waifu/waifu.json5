@@ -6165,6 +6165,26 @@
         "Kashiwagi Nao",
         "Seto Hiroko",
     ],
+    "Shigofumi": [
+        "Fumika",
+        "Kanaka",
+        "Chiaki",
+        "Kasai Haruno",
+        "Kasai Natsuka",
+        "Mikawa Fumika",  // NOT the same as "Fumika"; calls the other "Mika-chan"
+        "Aoto Misuzu",
+        "Ayase Asuna",
+        // "Ayase Miku",  // tagged "child"; skip
+        // "Fumika",  // a THIRD "Fumika", this one tagged as "child"; skip
+        "Kirei",  // Mikawa's mother
+        "Nojima Hisako",
+        "Risala",
+        "Shinozaki Suzune",
+        "Shirakawa Touko",
+        "Tateishi Naoko",
+        "Yahiro Ran",
+        "Yotsugi Nanae",
+    ],
     "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai": [
         "Kajou \"Blue Snow\" Ayame",
         "Anna Nishikinomiya",
