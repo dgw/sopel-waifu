@@ -5074,6 +5074,26 @@
         "Musashi Kosugi",
         "Tachibana Takae",
     ],
+    "Majo no Tabitabi": [
+        "Elaina",
+        "Fran",
+        "Saya",
+        "Sheila",
+        "Amnesia",
+        "Eihemia",
+        "Elaina no Haha",
+        "Ester",
+        "Mina",
+        "Mirarose",
+        // "Moto Yaeba",  // not a name, "yaeba" is what boorus usually tag "fang"; skip
+        // "Nike",  // Victorica's literary self-insert (?); skip
+        // "Ningyouten Tenshu",  // not a name, lit. "doll shop owner"; skip
+        "Nino",
+        "Rosemary",
+        // "Serena",  // tagged "child"; skip
+        "Serena no Haha",
+        "Victorica",
+    ],
     "Majo no Takkyuubin": [
         "Kiki",
         "Osono",
