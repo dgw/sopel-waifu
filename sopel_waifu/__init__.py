@@ -7,6 +7,7 @@ Copyright 2020-2024 dgw, technobabbl.es
 from __future__ import annotations
 
 import collections
+import inspect
 import os
 import random
 
@@ -157,9 +158,26 @@ def last_waifu(bot, trigger):
     bot.say("{}'s last waifu was {}.".format(target, waifu))
 
 
+# hacky trick for using `include_admins` (Sopel 8.1+) without dropping 8.0
+wifight_rate = 300
+wifight_rate_message = (
+    "Relax, {nick}. You can challenge someone again in {time_left}."
+)
+if 'include_admins' in inspect.signature(plugin.rate_user).parameters:
+    wifight_limit = plugin.rate_user(
+        wifight_rate,
+        wifight_rate_message,
+        include_admins=True,
+    )
+else:
+    wifight_limit = plugin.rate_user(
+        wifight_rate,
+        wifight_rate_message,
+    )
+
+
 @plugin.command('wifight')
-@plugin.rate_user(
-    300, "Relax, {nick}. You can challenge someone again in {time_left}.")
+@wifight_limit  # kludge; see above
 @plugin.require_chanmsg
 @plugin.output_prefix('[Waifu Fight!] ')
 @plugin.example('.wifight Peorth')
