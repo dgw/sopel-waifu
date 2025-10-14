@@ -8549,13 +8549,14 @@
         // sort by https://zzz3.hakush.in/character order (game-internal IDs)
         // where necessary, pull full names from https://wiki.hoyolab.com/pc/zzz/aggregate/8
 
-        "Belle",  // the female player character, not in the agent list
+        "Belle",  // the female player character
 
         // Soldier 0 is Anby in a different outfit, not a separate clone
         "Anby \"Soldier 0\" Demara",
         "Nekomiya \"Nekomata\" Mana",
         "Nicole Demara",
         "Soldier 11",  // Soldier 11 is a different clone, not Anby
+        "Yidhari Murphy",
         "Corin Wickes",
         "Caesar King",
         "Hoshimi Miyabi",
@@ -8571,6 +8572,7 @@
         "Qingyi",
         "Jane Doe",
         "Piper Wheel",
+        "Orpheus \"Orphie\" Magnusson",
         "Astra Yao",
         "Evelyn Chevalier",
         "Vivian Banshee",
@@ -8580,16 +8582,16 @@
         "Ju Fufu",
         "Alice Thymefield",
         "Ukinami Yuzuha",
+        "Lucia Elowen",
+        "Flora \"Seed\"",
 
         // Upcoming characters (some are already in the game as NPCs)
-        "Orpheus \"Orphie\" Magnusson",
-        "Flora Seed",
-        "Colonel Isolde",
-        "Lucia",
-        "Yidhari Murphy",
+        "Xiao Zhao",
+        "Dialyn",
+        "Ye Shunguang",
         "Chinatsu Remiel",
-        "Yutane Johiel",
         "Rokudo Sariel",
+        "Yutane Johiel",
 
         // Other than ZZZ players who might contribute here (as with the below),
         // currently have no source better than Fandom for NPC names. 😑
@@ -8606,6 +8608,8 @@
         "Ray Yersin",
         "Sarah",
         "Sweety",
+        "Colonel Isolde",
+        "Magus Magnusson",  // Technically playable.
     ],
     "Zero no Tsukaima": [
         "Agnès Chevalier de Milan",
