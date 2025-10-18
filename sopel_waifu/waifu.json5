@@ -2780,6 +2780,9 @@
         "Yoshitake Risa",
     ],
     "Genshin Impact": [
+        // Characters
+        // Source: https://wiki.hoyolab.com/pc/genshin/aggregate/2
+        // Hoyo lists newest first; this file is oldest first.
         "Qiqi",
         "Lisa Minci",
         "Kujou Sara",
@@ -2845,7 +2848,16 @@
         "Yumemizuki Mizuki",
         "Varesa",
         "Iansan",
+        "Escoffier",
+        "Skirk",
+        "Ineffa",
+        "Lauma",
+        "Aino",
+        "Nefer",
 
+        // NPCs
+        // Source: https://wiki.hoyolab.com/pc/genshin/aggregate/10
+        // Hoyo lists newest first; this file is oldest first.
         "Eury",
         "Ryouko",
         "Katheryne",
@@ -2945,7 +2957,7 @@
         "Chronie",
         "Sevigne",
         "Callirhoe",
-        "Skirk",
+        // "Skirk",  // appeared as an NPC first, but was later added as a unit
         "Mary-Ann Guillotin",
         "Basil Elton",
         "Fusilier",
@@ -2982,7 +2994,29 @@
         "La Signora Rosalyne-Kruzchka Lohefalter",
         "Kitsune Saiguu",
         "Mikoshi Chiyo",
+        "Katarina",
+        "Iknal",
+        "Yelafath",
+        "Mahina Nui",
+        "Atzi",
+        "Pahua",
+        "Ca'asho",
+        "Motolinia",
+        "Nataba",
+        "Lyulka",
+        "Katya",
+        "Hunajatta",
+        "Anezka",
+        "Vernadska",  // listed in the wiki as "Verna"; this is her full name
+        // "Auni",  // Appears to be a child; skip
+        // "Kasha",  // Appears to be a child; skip
+        "Aila",
+        // "Netochka",  // Appears to be a child; skip
+        "Cairuo",
+        "Hedvika",
+        "Richeza",
 
+        // Emergency food https://youtu.be/SotIlA6_-dI
         "Paimon",
     ],
     "Ghost in the Shell": [
