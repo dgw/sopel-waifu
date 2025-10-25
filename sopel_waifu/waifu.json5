@@ -7075,6 +7075,44 @@
         "Lidia",
         "Primula",
     ],
+    "Tegami Bachi": [
+        "Niche",  // yeah, tagged "child", but also 200 years old... trope much?
+        "Sylvette Suede",  // conversely, tagged "child" but doesn't look it
+        "Aria Link",
+        // "Abeli",  // conversely conversely, NOT tagged "child" but looks it; skip
+        "An",
+        "Anne Seeing",
+        "Bonnie",
+        "Elena Blanc",
+        // "Hisho",  // 秘書 literally means "secretary" and is not a name; skip
+        // "Josanbu",  // 助産婦 literally means "midwife" and is not a name; skip
+        "Louisa Alcott",
+        "Mana Jones",
+        "Matilda",
+        "Nelli",  // "reverse trap" tag, lol
+        "Pistis",
+        "Roda",  // includes both her canine and human forms
+        "Rose",
+        "Sabrina Mary",
+        "Sandra Gobeni",
+        "Sara",
+        // "Sister",  // a nun with no proper name; skip
+        // "Sonia Malmella",  // not tagged "child", but is clearly a child; skip
+        "Wasiolka",  // Zazie's Dingo, seemingly seen only in panther (not human) form, but eh why not
+    ],
+    // There are no eligible new characters in the OVA, which makes sense since
+    // it's nearly identical to episode 17 of the TV series
+    // "Tegami Bachi: Hikari to Ao no Gensou Yawa": [
+    //     "Chuunen-fujin",  // 中年婦人 is literally "middle-aged woman"; skip
+    // ],
+    "Tegami Bachi Reverse": [
+        "Celica",
+        "Colbasso",
+        "Kimidori",
+        "Niche no Ane",  // also annotated as 200 years old, but looks significantly older than Niche (anime logic?)
+        "Ray Attlee",  // another "reverse trap" tag, lol
+        // "Sunny",  // not tagged "child", but looks it; skip
+    ],
     "Tengen Toppa Gurren Lagann": [
         "Yoko \"Yomako\" Littner",
         "Nia Teppelin",
