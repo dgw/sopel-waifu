@@ -7049,6 +7049,25 @@
         "Takahashi Tomoko",
         "Takakura \"Nao\" Naoko",
     ],
+    "Tasokare Hotel": [
+        "Tsukahara Neko",
+        "Menou",
+        "Ruri",
+
+        // Supplemental entries from MAL, because AniDB's cast listing is still
+        // sparse af even 7 months after the series ended @TODO
+        "Ariake Nagomu",
+        "Ayaka",
+        "Hoshina Yumi",
+        "Jitsuryuuji Kiyoe",
+        "Kaneko Konomi",
+        "Kuromori Yuria",
+        // "Menou",  // already found on AniDB
+        "Mutou Akari",
+        "Mutou Yui",
+        // "Ruri",  // already found on AniDB
+        "Takahashi Kyouko",
+    ],
     "Tate no Yuusha no Nariagari": [
         "Filo",
         "Raphtalia",
