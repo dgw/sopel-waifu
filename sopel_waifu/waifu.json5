@@ -4628,8 +4628,19 @@
         "Kujou Karen",
         "Oomiya \"Shino\" Shinobu",
     ],
-    "Kino no Tabi": [
+    "Kino no Tabi: The Beautiful World": [
         "Kino",
+        // "Sakura",  // tagged "child"; skip
+
+        // Supplemented (such as it is) from MAL
+        // AniDB isn't incomplete per se; there just aren't many named characters
+        "Shishou",  // Kino's "mentor" in marksmanship; actual name unknown
+        // "Nimya Tchuhachkova",  // appears to be a child; skip
+    ],
+    "Kino no Tabi: The Beautiful World - The Animated Series": [
+        "Photo",
+        // "Shishou",  // already listed in 2003 series above
+        // "Ti",  // could also be spelled "Tii". tagged "child"; skip
     ],
     "Kinsou no Vermeil: Gakeppuchi Majutsushi wa Saikyou no Yakusai to Mahou Sekai wo Tsukisusumu": [
         "Lilia Kudelfate",
