@@ -4937,6 +4937,52 @@
         "Shiga Setsuna",
         "Shutora Trycen",
     ],
+    "Kusuriya no Hitorigoto": [
+        "Maomao",
+        "Ah-Duo",
+        "Gyokuyou",
+        "Lihua",
+        "Lishu",
+        "Loulan",
+        "Suirei",
+        "Suiren",  // could be considered a gag, but her younger self appears later https://anidb.net/character/147026
+        "Xiaolan",
+        "Ailan",
+        "Anshi",
+        "Fengming",
+        "Fengxian",
+        "Fuyou",
+        "Guiyuan",
+        "Hongniang",
+        "Joka",
+        "Kanan",
+        // "Lingli",  // a literal baby; skip
+        "Meimei",
+        "Pairin",
+        "Shin",
+        "Yarite Babaa",
+        "Yinghua",
+    ],
+    "Kusuriya no Hitorigoto (2025)": [
+        "Shenmei",
+        "Shisui",
+        "Ayla",
+        "Aylin",
+        "Hakuu",
+        "Jin",
+        "Jotei",
+        "Kokuu",
+        "Maomao the cat",  // gag entry, but she's real https://anidb.net/character/145784
+        "Renpu",
+        "Sekiu",
+        "Shenryu",
+        "Son",
+        "Sourin",
+        "Susu",
+        "You",  // 瑶
+    ],
+    // At some point there will be a Kusuriya no Hitorigoto (2026) entry
+    // to fill in here https://anidb.net/anime/19444
     "Kuzu no Honkai": [
         "Yasuraoka Hanabi",
         "Ebato Sanae",
