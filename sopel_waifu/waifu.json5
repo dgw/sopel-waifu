@@ -1571,6 +1571,32 @@
         "Sumomo",
         "Yuzuki",
     ],
+    "Chocolat no Mahou": [
+        // AniDB is missing a lot of gender tags for this series, and character
+        // photos are even rarer. This entry contains many educated guesses...
+        "Aikawa Chocolat",
+        "Abe Maria",
+        "Hoshino Rika",
+        "Kawashima Ritsu",
+        "Kinoshita Sayaka",
+        "Kousaka Ruri",  // no gender tag, but Ruri is usually a girl's name
+        "Miyatani Shion",
+        "Nakasu Aya",
+        "Ookouchi Yoshiko",  // no gender tag, but Yoshiko is usually a girl's name
+        "Oosawa Mina",
+        "Seo Honami",  // no gender tag, but Honami is a typically feminine name
+        "Ai",  // no gender tag, but Ai is usually a girl's name
+        "Imai Ami",
+        "Imai Emi",
+        "Kobayashi Runa",
+        "Kusakabe Hotaru",  // no gender tag; Hotaru is a unisex name, but VA is female
+        "Mai",  // no gender tag, but Mai is usually feminine
+        "Megu",  // no gender tag, but Megu is usually feminine
+        "Michinobe Akari",
+        "Mikuni Madoka",  // no gender tag, but Madoka as a given name is usually feminine
+        "Noritake Kaoruko",  // no gender tag, but Kaoruko is usually feminine
+        "Senoo Yuzuki",  // no gender tag, but Yuzuki is usually feminine
+    ],
     "Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku You Desu!": [
         "Ichijou Aoi",
         "Kanzaki Keine",
