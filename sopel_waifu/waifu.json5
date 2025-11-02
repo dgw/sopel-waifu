@@ -2714,6 +2714,23 @@
         "Shirakusa Gekka",
         "Shirakusa Shion",
     ],
+    "Gallery Fake": [
+        "Sara Halifa",
+        "Fei Cui",
+        "Mitamura Sayoko",
+        "Akiyoshi Masako",
+        "Aonuma Tomomi",
+        "Assarama",
+        "Ekaterina Krachnikova",
+        // "Elisabeth del Giocondo",  // not sure, but looks kind of "child" age; skip
+        "Endou Michiko",
+        "Kayo",
+        "Marianne",
+        "Mary Stewart",
+        "Rouge",  // is technically "guies of" the "(Wakai Koro)" version, but let's not have too many parentheticals
+        "Stanley Kapono",  // very much looks like a dude, but I'll trust the tags
+        "Tsujidou Runa",
+    ],
     "Gamers!": [
         "Aguri",
         "Hoshinomori Chiaki",
