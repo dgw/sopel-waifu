@@ -3089,6 +3089,29 @@
         // Emergency food https://youtu.be/SotIlA6_-dI
         "Paimon",
     ],
+    "Ghost Hunt": [
+        "Taniyama Mai",
+        "Hara Masako",
+        "Igarashi",
+        "Itou Kiyomi",
+        "Kasai Chiaki",
+        "Keiko",
+        "Kuroda",
+        "Matsuzaki Ayako",
+        "Michiru",
+        "Mori Madoka",
+        "Morishita Ayami",  // character pic holding a doll but not tagged "child"; tentatively included for now
+        "Morishita Kana",
+        "Morishita Noriko",
+        "Suzuki Naoko",
+        "Takahashi Yuuko",
+        "Ubusuma Kei",
+        "Yoshimi Hiroe",
+        "Yoshimi Nao",
+        "Yoshimi Teruka",
+        // "Yoshimi Wakako",  // skip: her name could be a pun on "wakai"; though not tagged "child", looks younger than Ayami
+        "Yoshimi Youko",
+    ],
     "Ghost in the Shell": [
         "Kusanagi \"Major\" Motoko",
     ],
