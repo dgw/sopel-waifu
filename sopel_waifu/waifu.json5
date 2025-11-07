@@ -3818,6 +3818,34 @@
         "Hasumin Orlo",
         "Dominica Skoda",
     ],
+    "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen": [
+        // "Myne",  // protagonist, but is like 5 years old; skip
+        "Eva",
+        // "Frida", // Also a child; skip
+        // "Tuuli",  // Also a child; skip
+        "Carla",
+        "Corinna",
+        "Ilse",
+        "Jenny",
+        "Yutte",
+    ],
+    "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen (2020)": [
+        // "Delia",  // child; skip
+        "Rosina",
+        "Vilma",
+        "Ella",
+        // "Riko",  // child; skip
+    ],
+    "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen (2022)": [
+        "Dahldolf-fujin",  // no given name?
+        "Heidi",
+        "Monika",
+        // "Nicola",  // child; skip
+        // "Renate",  // baby; skip
+    ],
+    // "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen - Ryoushu no Youjo": [
+        // upcoming season expected to begin April 2026
+    // ],
     "Horimiya": [
         "Hori Kyouko",
         "Ayasaki Remi",
