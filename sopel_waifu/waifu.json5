@@ -5628,6 +5628,38 @@
         "Oginome Ringo",
         "Takakura Himari",
     ],
+    "Meitantei Conan": [
+        // Main cast
+        "Mouri Ran",
+
+        // Secondary cast
+        "Chianti",
+        // "Chris Vineyard",  // "guise of" Sharon Vineyard, below
+        // "Haibara Ai",  // tagged "child"; skip
+        "Hattori Shizuka",
+        "Hondou Hidemi",
+        // "Jodie Saintemillion",  // "guise of" Jodie Starling, below
+        "Jodie Starling",
+        // "Kir",  // "guise of" Hondou Hidemi, above
+        "Kisaki Eri",
+        "Kobayashi Sumiko",
+        "Kudou Yukiko",
+        "Miike Naeko",
+        "Miyamoto Yumi",
+        // "Miyano \"Sherry\" Shiho",  // "guise of" Haibara Ai, above
+        // "Mizunashi Rena",  // "guise of" Hondou Hidemi, above
+        "Satou Miwako",
+        "Sera Masumi",
+        // "Sharon Vineyard",  // "guise of" Vermouth, below
+        // "Sherry",  // "guise of" Miyano Shiho, above
+        "Suzuki Sonoko",
+        "Tooyama Kazuha",
+        "Uehara Yui",
+        "Vermouth",
+        "Yoshida Ayumi",
+
+        // TODO: "Appears"? Directly related anime?
+    ],
     "Metroid": [
         "Samus Aran",
     ],
