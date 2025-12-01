@@ -5656,9 +5656,49 @@
         "Tooyama Kazuha",
         "Uehara Yui",
         "Vermouth",
-        "Yoshida Ayumi",
+        // "Yoshida Ayumi",  // tagged "child"; skip
 
-        // TODO: "Appears"? Directly related anime?
+        // Appears
+        "Abukawa Funae",
+        "Aikawa Etsuko",
+        "Aiko",
+        "Akagi Ryouko",
+        "Akaiwa Teruko",
+        "Akechi Fumiyo",
+        "Akemi",
+        "Akiba Yuuko",
+        "Akimoto Saeko",
+        "Akio no Haha",
+        "Akiyama Harumi",
+        "Akutsu Sarina",
+        "Amamiya Maki",
+        "Amano Tsugumi",
+        "Amari Ako",
+        "Andou Reiko",
+        // "Announcer",  // At least three generic "female" cast entries called this; skip
+        "Aoki Midori",
+        "Aoshima Masayo",
+        "Aoshima Mina",
+        "Araide Youko",
+        "Arimura Chisato",
+        "Arisawa Yuuko",
+        "Asagi Kuniko",
+        "Asakawa Kanae",
+        "Asano Aki",
+        "Asanuma Youko",
+        "Ashida Mio",
+        "Ashino Natsume",
+        "Ashiya Eiko",
+        "Asou Mari",
+        "Awaji Tomoe",
+        "Ayase Yayoi",
+        "Ayase Yuki",
+        "Ayashiro Noriko",
+        "Ayukawa Saori",
+        "Ayumi no Haha",
+
+        // TODO: Remainder of "appears" alphabetically in batches
+        // TODO: Other directly-related entries
     ],
     "Metroid": [
         "Samus Aran",
