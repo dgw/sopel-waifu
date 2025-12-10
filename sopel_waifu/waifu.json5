@@ -5841,6 +5841,21 @@
         "Izumi Tenko",
         "Izumo Azusa",
         "Izutsu Naoko",
+        // "Jo Dan'in A",  // "Female Group Member A"; too generic, skip
+        // "Jo Dan'in B",  // "Female Group Member B"; too generic, skip
+        // "Josei",  // Three of these; too generic, skip
+        // "Josei Jimuin",  // "Female office worker"; too generic, skip
+        // "Josei Joukyaku",  // "Female passenger"; too generic, skip
+        // "Josei Kyaku",  // "Female guest"; too generic, skip
+        // "Josei Reporter",  // Too generic; skip
+        // "Josei Ten'in",  // "Female clerk"; four of these; too generic, skip
+        // "Joshi",  // Too generic; skip
+        // "Joshi A",  // Too generic; skip
+        // "Joshi Kouin",  // "Female bank clerk"; too generic, skip
+        // "Joten'in",  // "Shopgirl"; too generic, skip
+        // "Joukyaku B",  // "Passenger"; too generic, skip
+        // "Junko",  // a child; skip
+        "Juno Glass",
 
         // TODO: Remainder of "appears" alphabetically in batches
         // TODO: Other directly-related entries
