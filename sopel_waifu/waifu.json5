@@ -5856,6 +5856,110 @@
         // "Joukyaku B",  // "Passenger"; too generic, skip
         // "Junko",  // a child; skip
         "Juno Glass",
+        "Kadota Rina",
+        "Kagawa Shinobu",
+        "Kagitani Kikuna",
+        "Kaidou Chika",
+        // "Kaikyoukan Shokuin",  // Generic/job title; skip
+        "Kaitani Kiwako",
+        "Kaji Mie",
+        "Kajiyama Namie",
+        "Kameda Masako",
+        "Kamei Yaeko",
+        "Kameyama Reika",
+        "Kamijou Hideko",
+        "Kamon Hatsune",
+        "Kana Misaki",
+        "Kanazawa Mitsuko",
+        "Kanbayashi Seiko",
+        "Kanbe no Tsuma",
+        "Kanemitsu Toyoko",
+        // "Kangoshi",  // "Nurse" (RN); two of these; too generic, skip
+        "Kanou Katsuko",
+        "Kanou Tae",
+        // "Kanrinin",  // Job title; too generic, skip
+        "Kitasaka Kaori no Haha",  // these two are both just "Kaori no Haha" on AniDB,
+        "Shinmei Kaori no Haha",  // but must be differentiated by surname here
+        "Karahashi Mitsuyo",
+        "Karube Romi",
+        "Kasakura Nami",
+        "Katagiri Kaede",
+        "Kataoka Renge",  // for once in anime, a 17-year-old who looks 17, not 27 (or 12)
+        "Kataoka Yurie",
+        "Katayose Nobue",
+        "Katsuhiko no Haha",  // Minagawa Katsuhiko, that is
+        "Katsuragi Youko",
+        "Katsuragi Yukiko",
+        "Kawabata Ria",
+        "Kawaguchi Mizuki",
+        "Kawaguchi Motoko",
+        "Kawai Shizuka",
+        "Kawai Yuuko",
+        "Kawakami Yasuko",
+        "Kawana Sumika",
+        "Kawasumi Mako",
+        "Kazumi",
+        "Keiko",  // works at golf course, makes good coffee; thanks AniDB
+        "Keita no Haha",  // Onoda Keita, that is
+        "Keitoku Kazuri",
+        "Kibune Someka",
+        "Kichise Mayuko",
+        "Kijima Ine",
+        "Kikuno",
+        "Kimishima Aoi",
+        "Kinoshita Akiko",
+        "Kinoshita Kyouko",
+        "Kirisaki Remi",
+        "Kiritani Takae",
+        // "Kisaki Eri",  // younger version of secondary cast character; skip
+        "Kishiura Mika",
+        // "Kissaten Ten'in",  // "Coffee shop clerk"; too generic, skip
+        "Kitagawa Miki",
+        "Kitami Saya",
+        "Kitamori Yasue",
+        "Kitamura Kayo",
+        "Kitao Rumi",
+        "Kitasaka Kaori",
+        "Kitasono Kinuko",
+        "Koda Kaoru",
+        "Kodama Harue",
+        "Kogure Rumi",
+        "Koizumi Akako",  // should get skipped if "Magic Kaito" is added to the DB: secondary cast there vs. appears here
+        "Kojima Chihiro",
+        "Kojima Ikuko",
+        "Kokubo Naoko",
+        "Kokubu Akiho",
+        // "Komino Natsue",  // "guise of" Jii Kounosuke; skip
+        "Komiyama Atsuko",
+        "Komiyama Yuuko",
+        "Kona Haruka",
+        "Konaka Chie",
+        "Konno Sumika",
+        "Koshimizu Natsuki",
+        "Kosuda Kaori",
+        "Kouda Sanae",
+        "Kouda Yoshi",
+        "Kougami Mai",
+        "Kousaka Juri",
+        "Kouzuki Sawako",
+        "Koyanagi Midori",
+        // "Kudou Yukiko",  // disguised version of secondary cast character; skip
+        // "Kudou Yukiko",  // younger version of secondary cast character; skip
+        "Kujou Reiko",
+        "Kumadou Makie",
+        "Kumadou Shuuko",
+        "Kurahashi Keiko",
+        "Kuriyama Midori",
+        "Kuroda Naoko",
+        "Kuroiwa Reiko",
+        "Kurusu Noriko",
+        "Kuwana Kimiko",
+        "Kuzumi Maiko",
+        // "Kyaku A",  // one of several generic hotel guests (others are male); skip
+        "Kyoudou Momoe",
+        "Kyoudou Nanami",
+        "Kyoudou Taeko",
+        // "Kyoushi",  // "Instructor"; two of these; too generic, skip
 
         // TODO: Remainder of "appears" alphabetically in batches
         // TODO: Other directly-related entries
