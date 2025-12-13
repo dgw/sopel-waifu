@@ -5960,6 +5960,67 @@
         "Kyoudou Nanami",
         "Kyoudou Taeko",
         // "Kyoushi",  // "Instructor"; two of these; too generic, skip
+        "Machida Noriko",
+        "Maehara Saki",
+        // "Maid",  // too generic; skip
+        "Makabe Yuri",
+        "Makabe no Imouto",  // of Makabe Jun, not Yuri above
+        "Mamagaki Taeko",
+        "Mamiya Masuyo",
+        "Manda Rin",
+        // "Mansion no Juunin",  // "Mansion resident"; too generic, skip
+        "Maru Ineko",
+        "Mary",
+        "Masaki Sunami",
+        "Masao no Haha",  // Urafune Masao, that is
+        "Masuko Fumie",
+        "Masuo Kayo",
+        "Matsui Juri",
+        "Matsumoto Sayuri",
+        // "Matsunaka Yuriko",  // tagged "child"; skip
+        "Matsusaki Harumi",
+        "Maya",
+        "Megure Midori",
+        "Mejiro Misa",
+        "Mibu Moyono",
+        // "Miike Naeko",  // clearly a child; skip
+        // "Mikami Suzu",  // 7 years old; skip
+        "Mimura Yukari",
+        "Minakami Rika",
+        "Minamida Shizu",
+        "Minazuki Chiaki",
+        "Minegishi Tamami",
+        "Minerva Glass",
+        "Misawa Aiko",
+        // "Misawa Mao",  // 5 years old; skip
+        "Mishima Satsuki",
+        "Miss Lip",
+        "Mitsui Madoka",
+        "Mitsui Mika",
+        "Mitsui Tamami",
+        "Miyahara Kanako",
+        "Miyahara Kira",
+        "Miyake Fumie",
+        "Miyano Akemi",
+        "Miyano Elena",
+        "Miyazaki Chika",
+        "Miyazawa Moeko",
+        "Miyoshi Junko",
+        "Miyoshi Mako",
+        "Mizohashi Riko",
+        "Mizuguchi Arisa",
+        "Mizutani Chinatsu",  // no picture, no tags, hopefully not a child
+        "Momochi Kurumi",
+        "Momozono Kotone",
+        "Monna Michiko",
+        "Mooka Masako",
+        "Mori Yukiko",
+        "Morisono Yurie",
+        "Morita Mifuyu",
+        "Morita Natsumi",
+        // "Motoe",  // guise of Vermouth; skip
+        // "Mouri Ran",  // younger version of the same; skip
+        "Mutou Kimie",
 
         // TODO: Remainder of "appears" alphabetically in batches
         // TODO: Other directly-related entries
