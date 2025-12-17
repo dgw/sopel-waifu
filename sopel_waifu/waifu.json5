@@ -6099,9 +6099,92 @@
         "Rose Hewitt",
         // "Rouba",  // "Old woman"; too generic, skip
         "Ryouko",
+        "Sadamori Akane",
+        "Saegusa Kyouko",
+        "Saeki Ayano",
+        "Saeki Hiroko",
+        "Saeki Reiko",
+        // "Saeki Reina",  // not tagged "child", but looks it; skip
+        // "Saikawa Murako",  // off the character photo alone, seems deceased; probably skip
+        "Sakaguchi Harumi",
+        "Sakaguchi Tomomi",
+        "Sakihara Megumi",
+        "Sakura Mayuko",
+        "Sakurai Yuuko",
+        "Samei Rika",
+        "Sano Izumi",
+        "Saotome Madoka",
+        "Sasaki Hitomi",
+        "Sasamori Kaoru",
+        "Sasamoto Hideko",
+        "Sashihara Ritsuko",
+        "Satake Yoshimi",
+        "Satoyama Tsukiko",
+        "Sawaki Youko",
+        "Sawazaki Reina",
+        "Sayama Akiko",
+        "Sekawa Michiko",
+        // "Sekigushi Yumiko",  // not tagged "child", but looks it; skip
+        "Sekine Yasumi",
+        "Sekiya Kaori",
+        "Senda Naomi",
+        "Senma Furuyo",
+        // "Sensei",  // 2x, too generic; skip
+        // "Sera Masumi",  // younger version of secondary cast character; skip
+        "Shagawa Mutsumi",
+        "Shibata Kyouko",
+        "Shibazaki Mieko",
+        "Shibuya Natsuko",
+        "Shigei Tokuko",
+        "Shikama Mitsuko",
+        "Shima Asuka",
+        "Shimamura Sachiko",
+        "Shimao Fune",
+        "Shimizu Nanako",
+        "Shimizu Rumi",
+        "Shimura Kouko",
+        // "Shinban",  // "Referee"; too generic, skip
+        "Shinjou Maki",
+        "Shinkai Juri",
+        "Shinmei Kaori",
+        "Shinobu",  // once again, referencing Wikipedia to confirm that 忍 is likely a name
+        "Shinohara Hiroko",
+        "Shioji Yukari",
+        "Shiraishi Fumiko",
+        "Shirakawa Chiharu",
+        "Shirakawa Misuzu",
+        "Shirakawa Saori",
+        "Shiroi Yuri",
+        "Shoudou Yuika",
+        "Shouno Kyouna",
+        "Shouno Yuna",
+        // "Shufu",  // "Housewife", appears 5x; tWAY too generic, skip
+        "Sign-kai no Musume",  // could be considered generic, but is voiced by Mimori Suzuko (!) so she stays
+        "Somitomo Hiruka",
+        "Souda Mitsue",
+        // "Sousakan",  // "Police investigator"; too generic, skip
+        "Suda Izumi",
+        "Suda Kumi",
+        "Sudou Masayo",
+        "Suematsu Sueko",
+        "Sugimura Noriko",
+        "Sugita Sanae",
+        "Suguri Mutsumi",
+        "Sunagawa Nanae",
+        "Suou Chiaki",
+        "Susan Trumpelman",
+        "Sutou Reina",
+        "Suwayama Yurika",
+        "Suzaka Eiko",
+        "Suzuki Ayako",
+        // "Suzuki Sonoko",  // tagged "child"; skip
+        "Suzuki Tomoko",
+        "Suzuki Yumi",
+        "Suzumoto Maria",
 
         // TODO: Remainder of "appears" alphabetically in batches
         // TODO: Other directly-related entries
+        // TODO: stretch goal: mix in localized names from Case Closed (English manga)?
     ],
     "Metroid": [
         "Samus Aran",
