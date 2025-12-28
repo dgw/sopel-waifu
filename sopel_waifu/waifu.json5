@@ -9583,6 +9583,22 @@
         "Takanashi Shizuka",
         "Yamada Kikuno",
     ],
+    "xxxHOLiC": [
+        "Ichihara Yuuko",
+        "Ame-warashi",
+        "Kunogi Himawari",
+        "Maru",
+        "Moro",
+        "Zashiki-warashi",
+        // "Rouba",  "Old woman"; too generic, skip
+        // remainder of "appears" section is all generics
+    ],
+    "xxxHOLiC: Kei": [
+        "Tsuyuri Kohane",  // 11 years old... but also the only meaningful new character
+    ],
+    "xxxHOLiC Shunmuki": [
+        "Nekomusume",  // kind of generic, but again the only meaningful new character in this OVA
+    ],
     "Yahari Ore no Seishun Love Comedy wa Machigatteiru.": [
         "Isshiki Iroha",
         "Yuigahama Yui",
