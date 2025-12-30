@@ -8919,6 +8919,36 @@
         "Nakagami Shiori",
         "Takaoka Rumi",
     ],
+    "Tsubasa Chronicle": [
+        "Sakura",
+        "Chun Hyang",
+        "Ichihara Yuuko",
+        "Kyishim",
+        "Nekoi Yuzuriha",  // "Nekoi" but has a *dog* familiar, lmao
+        "Oruha",
+        "Souma",
+        "Tomoyo",
+        "Xing Huo",
+        // "Arashi",  // guise of her full-named self below (Kishuu)
+        "Caldina",
+        "Chitose",
+        "Chun Hyang no Haha",
+        "Emeraude",
+        "Erii",
+        "Kishuu Arashi",
+        // "Kotoko",  // "child", but android, but first appeared in Chobits; skip
+        // "Onnanoko",  // too generic, skip
+        "Primera",
+        // "Rouba",  // too generic, skip
+        "Sharume",
+        // "Souma",  // duplicate of above
+        "Suguyaru Ka",
+        // "Sumomo",  // "child", but android, but first appeared in Chobits; skip
+    ],
+    "Tsubasa Shunraiki": [
+        // There are a few more Tsubasa items in between season 1 and here, but no new characters
+        "Amaterasu",
+    ],
     "Tsuritama": [
         "Coco",
         "Erika",
