@@ -4743,6 +4743,25 @@
         "Luminaria",
         "Meyrin",
     ],
+    "Kenja no Mago": [
+        "Sizilien von Klode",
+        "Alice Corner",
+        "Lyn Hughes",
+        "Maria von Messina",
+        "May von Earlsheid",
+        "Melida Bowen",
+        "Miranda Wallace",
+        "Olivia Stone",
+        "Yuri Carlton",
+        "Aria",
+        "Christina Hayden",
+        "Eileen von Klode",
+        "Elisabet von Koralle",
+        // "Kyoukan",  // generic: 教官 = "instructor"; skip
+        "Marika",
+        "Miria",
+        "Rietsburg Fujin",  // 夫人 = "wife; Mrs; madam", so we can keep her I guess; married to Russel von Rietsburg
+    ],
     "Kimi ga Aruji de Shitsuji ga Ore de": [
         "Kuonji \"Loli\" Miyu",
         "Kuonji Shinra",
