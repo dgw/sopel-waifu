@@ -4053,6 +4053,16 @@
         "Tennouzu Nazuna",
         "Tsukisuzu Nachi",
     ],
+    "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta": [
+        "Houjou Kaori",
+        "Lexia Von Alceria",
+        "Hyoudou Yukine",
+        "Kanzaki Rin",
+        "Kazame Kaede",
+        "Luna, the Head Hunter",
+        "Midou Miu",
+        "Yuti",
+    ],
     "Isekai Meikyuu de Harem wo": [
         "Roxanne",
         "Seri",
@@ -4070,15 +4080,61 @@
         "Mabel Rayveil",
         "Sawae",
     ],
-    "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta": [
-        "Houjou Kaori",
-        "Lexia Von Alceria",
-        "Hyoudou Yukine",
-        "Kanzaki Rin",
-        "Kazame Kaede",
-        "Luna, the Head Hunter",
-        "Midou Miu",
-        "Yuti",
+    "Isekai wa Smartphone to Tomo ni.": [
+        "Else Shileska",
+        "Kokonoe Yae",
+        "Lean",
+        "Linse Shileska",
+        "Soucie Elnea Ortlinde",
+        // "Yumina Elnea Belfast",  // tagged "child", skip
+        "Ael",
+        "Alma",
+        "Cecil",
+        "Charlotte",
+        // "Kohaku",  // a tiger familiar; skip
+        "Lapis",
+        "Mika",
+        "Origa",
+        // "Paula",  // a... stuffed bear? skip
+        "Ayane",
+        "Ellen Elnea Ortlinde",
+        "Francesca",
+        // "Kohaku",  // guise of above; skip
+        "Kokonoe Nanae",
+        "Lim",
+        "Prim",
+        "Rain",
+        "Regina Babylon",
+        "Ren'ai Kami",  // literally "Goddess of Love", but I'm fine with not having a "name" per se
+        // "Rene",  // tagged "child", skip
+        // "Sango",  // turtle familiar; skip
+        "Tsubaki",
+        "Yuel Elnea Belfast",
+
+        // Normally don't include cameo section, but all of these have larger roles in season 2 of the SAME show
+        "Hildegard Minas Restia",
+        "Lucia Leah Regulus",  // tagged both "child" AND "adolescent"... pick one!
+        "Sakura",
+    ],
+    "Isekai wa Smartphone to Tomo ni. 2": [
+        "Bell Flora",
+        "Fredmonica",
+        "High Rosetta",
+        // "Kougyoku",  // bird/gryffon familiar; skip
+        "Belle",
+        "Caroline Rillettes",
+        "Dacia Ouhi",
+        "Ema",
+        "Erya Ouhi",
+        "Pamela Noel",
+        "Preliora",
+        "Rana",
+        "Rebecca",
+        "Reliel Rehn Refreese",
+        "Sulas",
+        "Tia Frau Mismede",  // tagged "child" but also "real cat ears", so I'm overriding this one 😻
+        "Tilier Frau Mismede",  // also "real cat ears" 😻
+        "Wendy",
     ],
     "Isekai Yakkyoku": [
         // "Charlotte Soller",  // 9yo child; skip
