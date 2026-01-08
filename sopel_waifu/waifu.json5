@@ -5295,6 +5295,47 @@
         "Shindou \"Aya\" Ayaka",
         "Shindou Ai",
     ],
+    "Kyoukai no Rinne": [
+        "Mamiya Sakura",
+        "Ageha",
+        "Bijin Hisho",  // "Beautiful Secretary", but she's secondary cast so we can keep her
+        "Miho",
+        "Rika",
+        "Tamako",
+        "Hiroshi no Haha",
+        "Kain no Haha",
+        "Kariya Yumi",
+        "Mari",
+        "Minami Suzu",
+        "Mizuki Rina",
+        "Sakura no Haha",
+    ],
+    "Kyoukai no Rinne (2016)": [
+        "Shima Renge",
+        "Suzu",
+        "Anju",
+        "Chibi no Owner",
+        "Kanou Youko",
+        "Kuromitsu",
+        "Matoba Natsumi",
+        "Naomi",
+        "Noroi Kana",
+        "Raito",
+        "Ranko",
+        "Rinko",
+        "Yayoi",
+    ],
+    "Kyoukai no Rinne (2017)": [
+        "Anematsuri Annette Hitomi",
+        // "Ichigo",  // tagged "child"; skip
+        "Egusa Hitomi",
+        "Maneko",
+        "Rokudou \"Ichigo\" Otome",  // "otome" is just "maiden", and "Rokudou" is the six realms in Buddhism, but she has a nickname
+        "Samayoeru Hanayome Rei",
+        "Tama",  // a nekomata
+        "Tora",  // also a nekomata
+        "Ubukata Manami",
+    ],
     "Kyousou Giga": [
         "Koto",
         "Lady Koto",
