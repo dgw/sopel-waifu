@@ -2545,6 +2545,15 @@
     "Free! Eternal Summer": [
         "Lori",
     ],
+    "Fukigen na Mononokean": [
+        "Fujiwara Zenko",
+        "Koura",
+        "Shizuku",
+        // no pictures or gender tags for the rest, just going off the character & VA names
+        "Anmo-hime",
+        "Tomori",
+        // sequel (Fukigen na Mononokean: Tsuzuki) only adds picture-less characters so it's skipped
+    ],
     "Fullmetal Panic!": [
         "Chidori \"Kana-chan\" Kaname",
         "Melissa \"Uruz 2\" Mao",
