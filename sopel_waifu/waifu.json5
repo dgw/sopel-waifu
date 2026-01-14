@@ -6545,6 +6545,18 @@
     "Monogatari Series: Second Season": [
         "Gaen Izuko",
     ],
+    "Mononoke": [
+        // Same setting as Ayakashi: Japanese Classic Horror
+        // Skip characters already seen in that series
+        "Hisayo",
+        // "Kayo",  // already seen in Ayakashi; skip
+        "Nomoto Chiyo",
+        "Ochou",  // "butterfly" / お蝶? hmm, but she also has a mother in the cast
+        "Ruri-hime",
+        "Shino",
+        "Yamaguchi Haru",
+        "Ochou's Mother",
+    ],
     "Monster Musume no Iru Nichijou": [
         "Rachnera \"Rachnee\" Arachnera",
         "Lala",
