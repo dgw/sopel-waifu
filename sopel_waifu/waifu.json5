@@ -4527,6 +4527,32 @@
         "Fujishima Kayo",
         "Kusakabe \"Meo\" Charunii",
     ],
+    "Kami-tachi ni Hirowareta Otoko": [
+        "Cilia",
+        // "Eliaria Jamil",  // tagged "child"; skip
+        "Elise Jamil",
+        "Lulutia",
+        "Miya",
+        "Mizelia",
+        "Welanna",
+        "Aroune",
+        "Carla",
+        "Fina",
+        "Glissela",
+        "Jane",
+        "Li Ling",
+        "Lillian",
+        "Maria",
+        "Meiriin",
+        "Selma",
+        // "Shuudoujo",  // "nun; sister", too generic; skip
+    ],
+    "Kami-tachi ni Hirowareta Otoko 2": [
+        "Miyabi Saionji",
+        "Robelia",
+        "Lurie",
+        "Mizelia",
+    ],
     "Kami Nomi": [
         "Ayukawa Tenri",
         "Diana",
