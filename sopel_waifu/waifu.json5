@@ -4811,6 +4811,14 @@
         "Garumi Lou",
         "Fiana Tiary",
     ],
+    "Kaze no Tani no Nausicaa": [
+        // Elected not to include the 'ä' as AniDB doesn't use it
+        "Nausicaa",
+        "Kushana",
+        // "Obaba",  // just "old woman", too generic; skip
+        "Lastelle",
+        "Lastelle no Haha",
+    ],
     "Kaze Tachinu": [
         "Satomi Naoko",
     ],
@@ -6582,6 +6590,14 @@
         "Shino",
         "Yamaguchi Haru",
         "Ochou's Mother",
+    ],
+    "Mononoke-hime": [
+        "San",
+        "Eboshi",
+        "Hii-sama",
+        "Kaya",
+        // "Moro",  // talking wolf; skip
+        "Toki",
     ],
     "Monster Musume no Iru Nichijou": [
         "Rachnera \"Rachnee\" Arachnera",
