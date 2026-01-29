@@ -745,6 +745,11 @@
         "Jacqueline",
         "Shimazaki",
     ],
+    "Arete-hime": [
+        "Arete",
+        "Ample",
+        // "Majo",  // 魔女 just means "witch"; skip as generic
+    ],
     "Aria the Animation": [
         "Alice \"Orange Princess\" Carroll",
         "Aika S. \"Rosen Queen\" Granzchesta",
