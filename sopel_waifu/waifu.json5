@@ -10266,7 +10266,7 @@
         "Anby \"Soldier 0\" Demara",
         "Nekomiya \"Nekomata\" Mana",
         "Nicole Demara",
-        "Soldier 11",  // Soldier 11 is a different clone, not Anby
+        "Soldier 11 \"Harin\"",  // Soldier 11 is a different clone, not Anby
         "Yidhari Murphy",
         "Corin Wickes",
         "Caesar King",
@@ -10289,7 +10289,7 @@
         "Vivian Banshee",
         "Zhao",
         "Pulchra Fellini",
-        "Trigger",
+        "Trigger \"Charon\"",
         "Yixuan",
         "Ju Fufu",
         "Alice Thymefield",
@@ -10299,9 +10299,9 @@
         "Flora \"Seed\"",
         "Dialyn",
         "Sunna",
+        "Aria",
 
         // Upcoming characters (some are already in the game as NPCs)
-        "Aria",
         "Nangong Yu",
         "Cissia",
         "Promeia",
@@ -10315,16 +10315,16 @@
         "Coco",
         "Elfy",
         "Orchidea",
-        "Cecilia",
+        "Cecilia \"Cersea\"",
+        "Sweety",
 
         // Important NPCs
         "Kasa",
         "Rain",
         "Ray Yersin",
-        "Sarah",
-        "Sweety",
+        "Sarah Floren",
         "Colonel Isolde",
-        "Magus Magnusson",  // Technically playable.
+        "Orpheus \"Magus\" Magnusson",  // Technically playable.
     ],
     "Zero no Tsukaima": [
         "Agnès Chevalier de Milan",
