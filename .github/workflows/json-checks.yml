@@ -17,9 +17,9 @@ on:
 jobs:
   schema-lint:
     name: Lint/Validate JSON
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: install-deps
         run: make json5-lint-deps
       - name: check-keys
@@ -28,9 +28,9 @@ jobs:
         run: make schema-check
   whitespace:
     name: Check for whitespace errors
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: install-deps
         run: make whitespace-deps
       - name: check-whitespace
