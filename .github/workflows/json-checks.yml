@@ -26,6 +26,8 @@ jobs:
         run: make duplicates
       - name: check-json-schema
         run: make schema-check
+      - name: check-sort-order
+        run: make sort-check
   whitespace:
     name: Check for whitespace errors
     runs-on: ubuntu-24.04

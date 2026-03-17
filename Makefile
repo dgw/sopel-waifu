@@ -1,5 +1,5 @@
 .DEFAULT_GOAL := lint
-.PHONY: dev install install-dev json5-lint-deps lint duplicates schema-check whitespace whitespace-deps
+.PHONY: dev install install-dev json5-lint-deps lint duplicates schema-check sort sort-check whitespace whitespace-deps
 
 WAIFU_JSON := sopel_waifu/waifu.json5
 WAIFU_SCHEMA := $(WAIFU_JSON).schema
@@ -12,7 +12,7 @@ install:
 install-dev:
 	pip install -U -e .
 
-lint: whitespace duplicates schema-check
+lint: whitespace duplicates schema-check sort-check
 
 json5-lint-deps:
 	pip3 install -U check-jsonschema json5
@@ -25,6 +25,16 @@ duplicates:
 schema-check:
 	@echo "🎯 Running check-jsonschema"
 	check-jsonschema --schemafile $(WAIFU_SCHEMA) $(WAIFU_JSON)
+	@echo ""
+
+sort:
+	@echo "🎯 Sorting top-level keys in $(WAIFU_JSON)"
+	python3 scripts/sort_json5.py $(WAIFU_JSON)
+	@echo ""
+
+sort-check:
+	@echo "🎯 Running sort_check script"
+	python3 scripts/sort_check.py $(WAIFU_JSON)
 	@echo ""
 
 whitespace:
