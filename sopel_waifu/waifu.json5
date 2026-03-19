@@ -126,6 +126,13 @@
         "Natsu",
         "Sophie Charlotte",
     ],
+    "Aikatsu on Parade!": [
+        "Kiseki Raki",
+        "Kiseki Saaya",
+        "Kojima Kokoro",
+        "Kojima Kotomi",
+        "Matsukaze Kotoha",
+    ],
     "Aikatsu Stars!": [
         "Elza Forte",
         "Futaba Aria",
@@ -211,13 +218,6 @@
         "Yukie Grace Forte",
         "Yukino Hotaru",
         "Yurika",
-    ],
-    "Aikatsu on Parade!": [
-        "Kiseki Raki",
-        "Kiseki Saaya",
-        "Kojima Kokoro",
-        "Kojima Kotomi",
-        "Matsukaze Kotoha",
     ],
     "Aikatsu! Idol Katsudou!": [
         "Hikami Sumire",
@@ -425,6 +425,10 @@
         "Yamashita Sumiko",
         "Yanase \"Yananchou\" Mei",
     ],
+    "Akatsuki no Yona": [
+        "Yona",
+        "Yun-Ho",
+    ],
     "AKB0048": [
         "Aida Orine",
         "Ichijou Yuuka",
@@ -464,10 +468,6 @@
         "Mei",
         "Mio",
         "Saya",
-    ],
-    "Akatsuki no Yona": [
-        "Yona",
-        "Yun-Ho",
     ],
     "Akebi-chan no Sailor Fuku": [
         "Akebi Komichi",
@@ -751,6 +751,7 @@
         // "Majo",  // 魔女 just means "witch"; skip as generic
     ],
     "Aria the Animation": [
+        // First of the Aria franchise
         "Alice \"Orange Princess\" Carroll",
         "Aika S. \"Rosen Queen\" Granzchesta",
         "Mizunashi \"Aquamarine\" Akari",
@@ -759,27 +760,33 @@
         "Alicia \"Snow White\" Florence",
         "Athena \"Siren\" Glory",
     ],
+    "Aria the Avvenire": [
+        // Fifth of the Aria franchise
+        "Anya Dostoyevskaya",
+        "Azusa B. McLaren",
+    ],
+    "Aria the Benedizione": [
+        // Seventh of the Aria franchise
+        "Airi S. Granzchesta",
+    ],
+    "Aria the Crepuscolo": [
+        // Sixth of the Aria franchise
+        "Aletta Pace",
+    ],
     "Aria the Natural": [
+        // Second of the Aria franchise
         "Akatsuki no haha",
         "Ayano",
     ],
     "Aria the Origination": [
+        // Fourth of the Aria franchise;
+        // the third is an OVA with no new characters
         "Amatsuchi Akino",
         "Amaranta",
         "Anna",
         "Anzu",
         "Atora",
         "Ayumi",
-    ],
-    "Aria the Avvenire": [
-        "Anya Dostoyevskaya",
-        "Azusa B. McLaren",
-    ],
-    "Aria the Crepuscolo": [
-        "Aletta Pace",
-    ],
-    "Aria the Benedizione": [
-        "Airi S. Granzchesta",
     ],
     "Arifureta Shokugyou de Sekai Saikyou": [
         "Shea Haulia",
@@ -964,13 +971,15 @@
         "Toudou Kaworu",
         "Yoshii Akira",
     ],
-    "Baka to Test to Shoukanjuu: Matsuri": [
-        "Iwashita Ritsuko",
-        "Kikuiri Mayumi",
-    ],
     "Baka to Test to Shoukanjuu Ni!": [
         "Kogure Aoi",
         "Sakamoto Yukino",
+    ],
+    "Baka to Test to Shoukanjuu: Matsuri": [
+        // OVA that was released before "Ni!",
+        // but we're alphabetical 'round here
+        "Iwashita Ritsuko",
+        "Kikuiri Mayumi",
     ],
     "Bakemonogatari": [
         "Senjougahara Hitagi",
@@ -1042,13 +1051,6 @@
         "Yamato Maya",
         "Tsukishima Marina",
     ],
-    "BanG Dream! Morfonication": [
-        "Kurata Mashiro",
-        "Kirigaya Touko",
-        "Hiromachi Nanami",
-        "Futaba Tsukushi",
-        "Yashio Rui",
-    ],
     "BanG Dream! It's MyGO!!!!!": [
         "Chihaya Anon",
         "Kaname Raana",
@@ -1060,6 +1062,15 @@
         "Wakaba \"Mortis\" Mutsumi",
         "Yahata \"Timoris\" Umiri",
         "Yuutenji \"Amoris\" Nyamu",
+    ],
+    "BanG Dream! Morfonication": [
+        // Web series released before MyGO,
+        // but we're alphabetical 'round here
+        "Kurata Mashiro",
+        "Kirigaya Touko",
+        "Hiromachi Nanami",
+        "Futaba Tsukushi",
+        "Yashio Rui",
     ],
     "Barakamon": [
         "Arai Tamako",
@@ -1265,6 +1276,28 @@
         "Vampir",
         "Yamandakka",
     ],
+    "Bishoujo Senshi Sailor Moon Super S": [
+        "CereCere",
+        "JunJun",
+        "PellaPella",
+        "VesVes",
+        "Diana",
+        "Nehellenia",
+        "Zirconia",
+    ],
+    "Bishoujo Senshi Sailor Moon: Sailor Stars": [
+        "Seiya \"Sailor Star Fighter\" Kou",
+        "Yaten \"Sailor Star Healer\" Kou",
+        "Taiki \"Sailor Star Maker\" Kou",
+        "Aya Reiko",
+        "Kakyuu-koujo",
+        "Karasuma Akane",
+        "Nezu \"Sailor Iron Mouse\" Chuuko",
+        "Sailor Aluminum Seiren",
+        "Sailor Galaxia",
+        "Sailor Lead Crow",
+        "Nyanko \"Sailor Tin Nyanko\" Suzu",
+    ],
     "Bishoujou Senshi Sailor Moon S": [
         "Kaiou \"Sailor Neptune\" Michiru",
         "Ten'ou \"Sailor Uranus\" Haruka",
@@ -1291,27 +1324,24 @@
         "Viluy",
         "Waitress",
     ],
-    "Bishoujo Senshi Sailor Moon Super S": [
-        "CereCere",
-        "JunJun",
-        "PellaPella",
-        "VesVes",
-        "Diana",
-        "Nehellenia",
-        "Zirconia",
+    "Black Lagoon": [
+        "Revy (Rebecca) \"Two-Hand\"",
+        "Balalaika (Sofia) \"Fry-Face\" Pavlovna Irinovskaya",
+        "Roberta (Rosarita) \"Bloodhound of Florencia\" Cisneros",
+        "Eda (Edith) Blackwater",
+        "Shenhua \"Yes-Lady\"",
     ],
-    "Bishoujo Senshi Sailor Moon: Sailor Stars": [
-        "Seiya \"Sailor Star Fighter\" Kou",
-        "Yaten \"Sailor Star Healer\" Kou",
-        "Taiki \"Sailor Star Maker\" Kou",
-        "Aya Reiko",
-        "Kakyuu-koujo",
-        "Karasuma Akane",
-        "Nezu \"Sailor Iron Mouse\" Chuuko",
-        "Sailor Aluminum Seiren",
-        "Sailor Galaxia",
-        "Sailor Lead Crow",
-        "Nyanko \"Sailor Tin Nyanko\" Suzu",
+    "Black Lagoon: Roberta's Blood Trail": [
+        // Released after The Second Barrage,
+        // but we're alphabetical 'round here
+        "Fabiola Iglesias",
+        "Cathy",
+    ],
+    "Black Lagoon: The Second Barrage": [
+        "Washimine Yukio",
+        "Frederica \"Sawyer the Cleaner\" Sawyer",
+        "Janet \"Greenback Jane\" Bhai",
+        "Maki",
     ],
     "Black★Rock Shooter": [
         "Black★Rock Shooter",
@@ -1332,23 +1362,6 @@
         "Lunatic",
         "Miya",
         "Monica",
-    ],
-    "Black Lagoon": [
-        "Revy (Rebecca) \"Two-Hand\"",
-        "Balalaika (Sofia) \"Fry-Face\" Pavlovna Irinovskaya",
-        "Roberta (Rosarita) \"Bloodhound of Florencia\" Cisneros",
-        "Eda (Edith) Blackwater",
-        "Shenhua \"Yes-Lady\"",
-    ],
-    "Black Lagoon: The Second Barrage": [
-        "Washimine Yukio",
-        "Frederica \"Sawyer the Cleaner\" Sawyer",
-        "Janet \"Greenback Jane\" Bhai",
-        "Maki",
-    ],
-    "Black Lagoon: Roberta's Blood Trail": [
-        "Fabiola Iglesias",
-        "Cathy",
     ],
     "Blood+": [
         "Otonashi Saya",
@@ -1459,7 +1472,10 @@
         "Shinohara Akari",
         "Sumita Kanae",
     ],
-    "「C」 THE MONEY OF SOUL AND POSSIBILITY CONTROL": [
+    "C": [
+        // Alternate full title that doesn't auto-sort well:
+        // 「C」 THE MONEY OF SOUL AND POSSIBILITY CONTROL
+        // Just plain "C" is the official title in JP, so that's OK.
         "Msyu",
         "Ikuta Hanabi",
         "Jennifer Satou",
@@ -1900,18 +1916,6 @@
         "Tsukimiyama Nagisa",
         "Yano Hiiro",
     ],
-    "Danganronpa: Kibou no Gakuen to Zetsubou no Koukousei The Animation": [
-        "Asahina \"Ultimate Swimming Pro\" Aoi",
-        "Celestia \"Ultimate Gambler\" Ludenberg",
-        "Enoshima \"Ultimate Fashionista\" Junko",
-        "Fukawa \"Ultimate Writing Prodigy\" Touko",
-        "Genocider \"Ultimate Murderous Fiend\" Shou",
-        "Kirigiri \"Ultimate ???\" Kyouko",
-        "Maizono \"Ultimate Pop Sensation\" Sayaka",
-        "Oogami \"Ultimate Martial Artist\" Sakura",
-        "Ikusaba \"Ultimate Soldier\" Mukuro",
-        "Naegi \"Slowpoke\" Komaru",
-    ],
     "Danganronpa 3: The End of Kibougamine Gakuen - Mirai Hen": [
         "Andou \"Ultimate Confectioner\" Ruruka",
         "Gekkougahara \"Former Ultimate Therapist\" Miaya",
@@ -1929,6 +1933,19 @@
         "Owari \"Ultimate Gymnast\" Akane",
         "Sonia \"Ultimate Princess\" Nevermind",
         "Tsumiki \"Ultimate Nurse\" Mikan",
+    ],
+    "Danganronpa: Kibou no Gakuen to Zetsubou no Koukousei The Animation": [
+        // First to release, but we're alphabetical 'round here
+        "Asahina \"Ultimate Swimming Pro\" Aoi",
+        "Celestia \"Ultimate Gambler\" Ludenberg",
+        "Enoshima \"Ultimate Fashionista\" Junko",
+        "Fukawa \"Ultimate Writing Prodigy\" Touko",
+        "Genocider \"Ultimate Murderous Fiend\" Shou",
+        "Kirigiri \"Ultimate ???\" Kyouko",
+        "Maizono \"Ultimate Pop Sensation\" Sayaka",
+        "Oogami \"Ultimate Martial Artist\" Sakura",
+        "Ikusaba \"Ultimate Soldier\" Mukuro",
+        "Naegi \"Slowpoke\" Komaru",
     ],
     "Danna ga Nani o Itte Iruka Wakaranai Ken": [
         "Kaoru",
@@ -2205,6 +2222,18 @@
         "Kure Yakusha",
         "Uehara Nana",
     ],
+    "Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Gaiden: Sword Oratoria": [
+        "Amid Teasanare",
+        "Anacti Autumn",
+        "Aria",
+        "Elfy Colette",
+        "Filvis Sharia",
+        "Meryl Tear",
+        "Revis",
+        "Riine Arshe",
+        "Rurune Ruui",
+        "Tsubaki Colbrand",
+    ],
     "Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka: Familia Myth": [
         "Hestia",
         "Ais \"Sword Princess\" Wallenstein",
@@ -2264,18 +2293,6 @@
         "Noin Unic",
         "Ryana Lietz",
     ],
-    "Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka Gaiden: Sword Oratoria": [
-        "Amid Teasanare",
-        "Anacti Autumn",
-        "Aria",
-        "Elfy Colette",
-        "Filvis Sharia",
-        "Meryl Tear",
-        "Revis",
-        "Riine Arshe",
-        "Rurune Ruui",
-        "Tsubaki Colbrand",
-    ],
     "Durarara!!": [
         "Celty Sturluson",
         "Harima Mika",
@@ -2301,8 +2318,17 @@
         "Mimizu",
         "Sharaku Mikage",
     ],
-    "Eiga Yuru Camp": [
-        "Komaki",
+    "ef - a tale of melodies.": [
+        "Hirono Nagi",
+    ],
+    "ef - a tale of memories.": [
+        "Miyamura Miyako",
+        "Shindou Chihiro",
+        "Shindou Kei",
+        "Amamiya Yuuko",
+        "Asou Sumire",
+        "Hayama \"Miki\" Mizuki",
+        "Izumi Emi",
     ],
     "Egao no Taenai Shokuba desu.": [
         // Tentative anime character list based on manga cast
@@ -2312,6 +2338,9 @@
         "Kakunodate Touko",  // according to MFC, also known as Nikaidou Touko
         "Nashida Arisa",
         "Nekonote",
+    ],
+    "Eiga Yuru Camp": [
+        "Komaki",
     ],
     "Elfen Lied": [
         "Lucy",
@@ -2402,18 +2431,6 @@
         "Utsumi Shizuku",
 
         "Mitsuboshi Kotoha",
-    ],
-    "ef - a tale of melodies.": [
-        "Hirono Nagi",
-    ],
-    "ef - a tale of memories.": [
-        "Miyamura Miyako",
-        "Shindou Chihiro",
-        "Shindou Kei",
-        "Amamiya Yuuko",
-        "Asou Sumire",
-        "Hayama \"Miki\" Mizuki",
-        "Izumi Emi",
     ],
     "Fairy Tail": [
         "Erza \"Titania\" Scarlet",
@@ -2694,6 +2711,19 @@
     "Fuuto Tantei: Kamen Rider Skull no Shouzou": [
         "Melissa",
     ],
+    "Ga-Rei: Zero": [
+        "Isayama Yomi",
+        "Tsuchimiya Kagura",
+        "Isayama Mei",
+        "Jinguuji Ayame",
+        "Manabe Miku",
+        "Nikaidou Kiri",
+        "Yanase Chizuru",
+        "Itabashi Kana",
+        "Izumi Mami",
+        "Kasuga \"Na-chan\" Natsuki",
+        "Nakabayashi Misuzu",
+    ],
     "GA: Geijutsuka Art Design Class": [
         "Noda Miki",
         "Nozaki Namiko",
@@ -2766,19 +2796,6 @@
     "Gatchaman Crowds Insight": [
         "Misudachi Tsubasa",
         "Maruyama Kodama",
-    ],
-    "Ga-Rei: Zero": [
-        "Isayama Yomi",
-        "Tsuchimiya Kagura",
-        "Isayama Mei",
-        "Jinguuji Ayame",
-        "Manabe Miku",
-        "Nikaidou Kiri",
-        "Yanase Chizuru",
-        "Itabashi Kana",
-        "Izumi Mami",
-        "Kasuga \"Na-chan\" Natsuki",
-        "Nakabayashi Misuzu",
     ],
     "Ged Senki": [
         // aka "TALES from EARTHSEA"
@@ -3644,6 +3661,14 @@
         "Kasumi Aika",
         "Maou the Great Stygian of Abe (Temp)",
     ],
+    "Hayate no Gotoku! Can't Take My Eyes Off You": [
+        // Not the first entry released in the franchise,
+        // but we're alphabetical 'round here
+        "Tsugumi Ruri",
+        "Dolly",
+    ],
+    // "Hayate no Gotoku! Cuties" belongs here,
+    // but it doesn't have any new characters
     "Hayate no Gotoku!!": [
         "Aizawa Hinata",
         "Jenny",
@@ -3657,10 +3682,6 @@
         "Hibino Fumi",
         "Sonia \"Sister Fortesia\" Shaflnarz",
         "Sharna Alamgir",
-    ],
-    "Hayate no Gotoku! Can't Take My Eyes Off You": [
-        "Tsugumi Ruri",
-        "Dolly",
     ],
     "Healer Girl": [
         "Fujii Kana",
@@ -3974,40 +3995,6 @@
         "Sawai",
         "Yuasa Shouko",
     ],
-    "IS: Infinite Stratos": [
-        "Cecilia \"Brit-tan\" Alcott",
-        "Laura \"Germany\" Bodewig",
-        "Charlotte \"France\" Dunois",
-        "Huang \"China\" Lingyin",
-        "Sarashiki \"Russia\" Tatenashi",
-        "Shinonono \"Japan\" Houki",
-        "Aikawa Kiyoka",
-        "Chelsea Blankett",
-        "Chloe Chronicle",
-        "Gotanda Ran",
-        "Clarissa Harfouch",
-        "Mayuzumi Kaoruko",
-        "Nohotoke \"Nohohon-san\" Honne",
-        "Orimura \"Brunhilde\" Chifuyu",
-        "Shinonono Tabane",
-        "Takatsuki Shizune",
-        "Yamada Maya",
-    ],
-    "ISLAND": [
-        "Rin Carnation",
-        "Garandou Sara",
-        "Sara Garland",
-        "Hatoma An",
-        "Kurutsu Karen",
-        "Kurutsu Natsumi",
-        "Karin Kurz",
-        "Ohara Kuon",
-        "Ohara Rinne",
-        "Rinné O'Hara",
-        "Sunada Emiri",
-        "Tandori Mei",
-        "Yamabuki Momoka",
-    ],
     "Ichigo Mashimaro": [
         "Ana Coppola",
         "Itou \"Chi-chan\" Chika",
@@ -4073,6 +4060,25 @@
         "Ogata Aliciana",
         "Tennouzu Nazuna",
         "Tsukisuzu Nachi",
+    ],
+    "IS: Infinite Stratos": [
+        "Cecilia \"Brit-tan\" Alcott",
+        "Laura \"Germany\" Bodewig",
+        "Charlotte \"France\" Dunois",
+        "Huang \"China\" Lingyin",
+        "Sarashiki \"Russia\" Tatenashi",
+        "Shinonono \"Japan\" Houki",
+        "Aikawa Kiyoka",
+        "Chelsea Blankett",
+        "Chloe Chronicle",
+        "Gotanda Ran",
+        "Clarissa Harfouch",
+        "Mayuzumi Kaoruko",
+        "Nohotoke \"Nohohon-san\" Honne",
+        "Orimura \"Brunhilde\" Chifuyu",
+        "Shinonono Tabane",
+        "Takatsuki Shizune",
+        "Yamada Maya",
     ],
     "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta": [
         "Houjou Kaori",
@@ -4176,6 +4182,21 @@
         // "Yakutani Chiyu",  // clearly a child; skip
         "Chloe de Châtillon",
         "Beatrice de Médicis",
+    ],
+    "ISLAND": [
+        "Rin Carnation",
+        "Garandou Sara",
+        "Sara Garland",
+        "Hatoma An",
+        "Kurutsu Karen",
+        "Kurutsu Natsumi",
+        "Karin Kurz",
+        "Ohara Kuon",
+        "Ohara Rinne",
+        "Rinné O'Hara",
+        "Sunada Emiri",
+        "Tandori Mei",
+        "Yamabuki Momoka",
     ],
     "Isshuukan Friends.": [
         "Fujimiya Kaori",
@@ -4411,18 +4432,18 @@
         "Schokolade",
         "Amalia Torohovsky",
     ],
+    "Josee to Tora to Sakana-tachi": [
+        "Kumiko \"Josee\"",
+        "Kishimoto Kana",
+        "Ninomiya Mai",
+        "Yamamura Chizu",
+    ],
     "Joshiraku": [
         "Anrakutei Kukuru",
         "Bouhatei \"Breakwater Tetrapod, Teto\" Tetora",
         "Buratei \"Bloody Mary\" Marii",
         "Haroukitei \"Hello Kitty, Kigu\" Kigurumi",
         "Kuurubiyuutei \"Cool Beauty with Glasses, Gan-chan\" Gankyou",
-    ],
-    "Josee to Tora to Sakana-tachi": [
-        "Kumiko \"Josee\"",
-        "Kishimoto Kana",
-        "Ninomiya Mai",
-        "Yamamura Chizu",
     ],
     "Juuni Kokuki": [
         "Nakajima Youko",
@@ -4535,6 +4556,33 @@
         "Uchiki Risa",
         "Aiga Kayo",
     ],
+    "Kami Nomi": [
+        "Ayukawa Tenri",
+        "Diana",
+        "Elucia \"Elsie, Ellie\" de Lute Ima",
+        "Kosaka Chihiro",
+        "Nakagawa Kanon",
+        "Takahara Ayumi",
+        "Terada Miyako",
+        "Aoyama Mio",
+        "Asuka Sora",
+        "Goidou Yui",
+        "Hakua \"Haq-chan, Haku-chan, Haqua\" du Lot Herminium",
+        "Ikoma \"Charagi, Bird Nest, Birdie, Chlorine\" Minami",
+        "Kasuga Kusunoki",
+        "Katsuragi Mari",
+        "Kujou Tsukiyo",
+        "Kurakawa \"Rimyuel\" Akari",
+        "Nora Floriann Leoria",
+        "Lime",
+        "Lune",
+        "Mars",
+        "Minerva",
+        "Nagase Jun",
+        "Nikaido Yuri",
+        "Shiomiya Shiori",
+        "Yoshino Asami",
+    ],
     "Kami-sama no Memo-chou": [
         "Shionji Yuuko",
         "Shinozaki Ayaka",
@@ -4567,33 +4615,6 @@
         "Robelia",
         "Lurie",
         "Mizelia",
-    ],
-    "Kami Nomi": [
-        "Ayukawa Tenri",
-        "Diana",
-        "Elucia \"Elsie, Ellie\" de Lute Ima",
-        "Kosaka Chihiro",
-        "Nakagawa Kanon",
-        "Takahara Ayumi",
-        "Terada Miyako",
-        "Aoyama Mio",
-        "Asuka Sora",
-        "Goidou Yui",
-        "Hakua \"Haq-chan, Haku-chan, Haqua\" du Lot Herminium",
-        "Ikoma \"Charagi, Bird Nest, Birdie, Chlorine\" Minami",
-        "Kasuga Kusunoki",
-        "Katsuragi Mari",
-        "Kujou Tsukiyo",
-        "Kurakawa \"Rimyuel\" Akari",
-        "Nora Floriann Leoria",
-        "Lime",
-        "Lune",
-        "Mars",
-        "Minerva",
-        "Nagase Jun",
-        "Nikaido Yuri",
-        "Shiomiya Shiori",
-        "Yoshino Asami",
     ],
     "Kamichu!": [
         "Hitotsubashi Yurie",
@@ -4634,13 +4655,6 @@
         "Tanya Swedgewood",
         "Volrath Fahren",
     ],
-    "Kämpfer": [
-        "Kondou Mikoto",
-        "Mishima Akane",
-        "Sakura Kaede",
-        "Sangou Shizuku",
-        "Senou Natsuru",
-    ],
     "Kanamemo": [
         "Azuma Hinata",
         "Kitaoka Yume",
@@ -4648,6 +4662,15 @@
         "Nakamachi Kana",
         "Nishida Haruka",
         "Kujiin Mika",
+    ],
+    "Kannagi": [
+        "Aoba Tsugumi",
+        "Kannagi \"Nagi\"",
+        "Zange",
+        "Kimura Takako",
+        "Lolikko Cutie",
+        "Ookouchi Shino",
+        "Yoshida Anna",
     ],
     "Kanojo ga Koushaku-tei ni Itta Riyuu": [
         "Raeliana McMillan",
@@ -4692,6 +4715,17 @@
         "Ichinose Sayuri",
         "Kinoshita Harumi",
         "Kinoshita Nagomi",
+    ],
+    "Kanon": [
+        "Kawasumi Mai",
+        "Minase Nayuki",
+        "Misaka Shiori",
+        "Sawatari Makoto",
+        "Tsukimiya Ayu",
+        "Amano Mishio",
+        "Kurata Sayuri",
+        "Minase Akiko",
+        "Misaka Kaori",
     ],
     "Kanpekisugite Kawaige ga Nai to Kon'yaku Haki Sareta Seijo wa Ringoku ni Urareru": [
         "Philia Adenauer",
@@ -4781,26 +4815,6 @@
         "Yuudachi",
         "Zuikaku",
     ],
-    "Kanon": [
-        "Kawasumi Mai",
-        "Minase Nayuki",
-        "Misaka Shiori",
-        "Sawatari Makoto",
-        "Tsukimiya Ayu",
-        "Amano Mishio",
-        "Kurata Sayuri",
-        "Minase Akiko",
-        "Misaka Kaori",
-    ],
-    "Kannagi": [
-        "Aoba Tsugumi",
-        "Kannagi \"Nagi\"",
-        "Zange",
-        "Kimura Takako",
-        "Lolikko Cutie",
-        "Ookouchi Shino",
-        "Yoshida Anna",
-    ],
     "Karakuri Zoushi Ayatsuri Sakon": [
         "Tachibana Kaoruko",
         "Akizuki Futaba",
@@ -4882,9 +4896,6 @@
         "Soju",
         "Yuuyan",
     ],
-    "Kenyuu Densetsu Yaiba": [
-        "Mine Sayaka",
-    ],
     "Kenja no Deshi wo Nanoru Kenja": [
         "Sakimori \"Mira\" Kagami",
         "Artesia of Conflict",
@@ -4914,6 +4925,17 @@
         "Marika",
         "Miria",
         "Rietsburg Fujin",  // 夫人 = "wife; Mrs; madam", so we can keep her I guess; married to Russel von Rietsburg
+    ],
+    "Kenyuu Densetsu Yaiba": [
+        "Mine Sayaka",
+    ],
+    "Kill la Kill": [
+        "Kiryuuin Satsuki",
+        "Mankanshoku Mako",
+        "Matoi Ryuuko",
+        "Hakodate Omiko",
+        "Harime Nui",
+        "Jakuzure Nonon",
     ],
     "Kimi ga Aruji de Shitsuji ga Ore de": [
         "Kuonji \"Loli\" Miyu",
@@ -5023,14 +5045,6 @@
         "Charolles Iridescence",
         "Elena Kimberlite",
         "Jessica Schwartz",
-    ],
-    "Kill la Kill": [
-        "Kiryuuin Satsuki",
-        "Mankanshoku Mako",
-        "Matoi Ryuuko",
-        "Hakodate Omiko",
-        "Harime Nui",
-        "Jakuzure Nonon",
     ],
     "Knight's & Magic": [
         "Adeltrud Walter",
@@ -5147,12 +5161,6 @@
         "Uchiki Yuki",
         "Yonetani Misaki",
     ],
-    "Koukaku Kidoutai: SAC_2045": [
-        "Esaki Purin",
-    ],
-    "Koukaku Kidoutai: SAC_2045 (2022)": [
-        "Mizukane Suzuka",
-    ],
     "Koukaku Kidoutai Arise: Ghost in the Shell": [
         "Amuri",
         "Hozumi",
@@ -5165,6 +5173,10 @@
     "Koukaku Kidoutai Nyuumon Arise": [
         "Komako",
         "Logiko",
+    ],
+    "Koukaku Kidoutai S.A.C. 2nd GIG": [
+        "Kayabuki Youko",
+        "Narita Akane",
     ],
     "Koukaku Kidoutai Stand Alone Complex": [
         "Chroma",
@@ -5184,9 +5196,11 @@
         "Tokura Eka",
         "Tsujisaki Saori",
     ],
-    "Koukaku Kidoutai S.A.C. 2nd GIG": [
-        "Kayabuki Youko",
-        "Narita Akane",
+    "Koukaku Kidoutai: SAC_2045": [
+        "Esaki Purin",
+    ],
+    "Koukaku Kidoutai: SAC_2045 (2022)": [
+        "Mizukane Suzuka",
     ],
     "Koukyoushihen: Eureka Seven": [
         "Eureka",
@@ -5441,6 +5455,15 @@
     "Kyousou Giga": [
         "Koto",
         "Lady Koto",
+    ],
+    "Kämpfer": [
+        // TODO: this is way down here because of how string sorting works with
+        // accented characters. Ideally it belongs among other "Ka" titles.
+        "Kondou Mikoto",
+        "Mishima Akane",
+        "Sakura Kaede",
+        "Sangou Shizuku",
+        "Senou Natsuru",
     ],
     "Last Exile": [
         "Alvis E. \"Al\" Hamilton",
@@ -7372,11 +7395,6 @@
     "Rec": [
         "Onda Aka",
     ],
-    "Rinne no Lagrange": [
-        "Kyouno \"Maru!\" Madoka",
-        "Laffinty \"Lan\" Fin E Ld Si",
-        "Muginami",
-    ],
     "Renai Boukun": [
         "Guri",
         "Hiyama Akane",
@@ -7388,6 +7406,11 @@
         "Suou",
         "Tiara",
         "Mavuro",
+    ],
+    "Rinne no Lagrange": [
+        "Kyouno \"Maru!\" Madoka",
+        "Laffinty \"Lan\" Fin E Ld Si",
+        "Muginami",
     ],
     "Sabagebu!": [
         "Sonokawa \"Mokarin\" Momoka",
@@ -7777,14 +7800,16 @@
         "Tanabe Kozue",
         "Tokita Ayumi",
     ],
+    "Shinryaku!! Ika Musume": [
+        // Released after Shinryaku!?, but we're strictly alphabetizing so sort
+        // order can be validated in CI
+        "Furukawa Keiko",
+    ],
     "Shinryaku!? Ika Musume": [
         "Mochizuki Tomomi",
         "Nishimura Yuka",
         "Saitou Aiko",
         "Watanabe Ayano",
-    ],
-    "Shinryaku!! Ika Musume": [
-        "Furukawa Keiko",
     ],
     "Shinsekai yori": [
         "Watanabe Saki",
@@ -8285,6 +8310,19 @@
     "Takanashi Rikka Kai: Gekijouban Chuunibyou demo Koi ga Shitai!": [
         "Shichimiya \"Sophia Ring SP Saturn VII\" Satone",
     ],
+    "Tamako Market": [
+        "Kitashirakawa \"Tama\" Tamako",
+        "Asagiri \"Shio\" Shiori",
+        "Makino Kanna",
+        "Tokiwa \"Mido\" Midori",
+        "Hanase \"Florist Princess\" Kaoru",
+        "Kaede",
+        "Kisaragi Yuuko",
+        "Kitashirakawa \"An\" Anko",
+        "Mochimazzi \"Otsuki\" Choi",
+        "Ooji Michiko",
+        "Yumoto Sayuri",
+    ],
     "Tamayura": [
         "Hanawa \"Kao\" Kaoru",
         "Okazaki \"Noriemon\" Norie",
@@ -8313,19 +8351,6 @@
     ],
     "Tamayura: Sotsugyou Shashin": [
         "Shindou Takumi",
-    ],
-    "Tamako Market": [
-        "Kitashirakawa \"Tama\" Tamako",
-        "Asagiri \"Shio\" Shiori",
-        "Makino Kanna",
-        "Tokiwa \"Mido\" Midori",
-        "Hanase \"Florist Princess\" Kaoru",
-        "Kaede",
-        "Kisaragi Yuuko",
-        "Kitashirakawa \"An\" Anko",
-        "Mochimazzi \"Otsuki\" Choi",
-        "Ooji Michiko",
-        "Yumoto Sayuri",
     ],
     "Tanaka-kun wa Itsumo Kedaruge": [
         "Echizen",
@@ -9108,6 +9133,12 @@
         "Taki \"The Idol\"",
         "Yanagi Naoko",
     ],
+    "Top wo Nerae 2! Diebuster": [
+        // It's funny that automatic sort order places 2 before !, huh?
+        "Nono",
+        "Lal'C Melk Mark",
+        "Tycho Science",
+    ],
     "Top wo Nerae! Gunbuster": [
         "Amano Kazumi",
         "Takaya \"Daughter of Defeat\" Noriko",
@@ -9116,11 +9147,6 @@
         "Higuchi Kimiko (née Akai)",
         "Kashiwara Reiko",
         "Linda Yamamoto",
-    ],
-    "Top wo Nerae 2! Diebuster": [
-        "Nono",
-        "Lal'C Melk Mark",
-        "Tycho Science",
     ],
     "Toradora!": [
         "Aisaka \"Palmtop Tiger\" Taiga",
@@ -9882,30 +9908,6 @@
         "Yagami Suzuka",
         "Yuzusawa Shiori",
     ],
-    "Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!": [
-        "Mavis von Austien",
-        "Mile",
-        "Pauline",
-        "Reina",
-        "Kurihara Misato",
-        // "Lenny",  // tagged "child"; skip
-        "Marcela",
-        // "Monica",  // tagged "child"; skip
-        "Oriana",
-        "Adele Gibo",
-        "Alady",
-        // "Anne",  // tagged "child"; skip
-        "August",
-        "Cu Leleia",
-        // "Joshu",  // "research assistant"; skip
-        // "Koryuu (Sherara)",  // a dragon or something, probably skip
-        "Kurihara Haha",
-        "Kurihara Keiko",
-        "Morena Oujo",
-        "Pauline no Haha",
-        // "Prishy",  // tagged "child"; skip
-        // "Uketsukejou",  // "Reception woman"; skip
-    ],
     "Watashi ga Motenai no wa Dou Kangaetemo Omaera ga Warui!": [
         "Kuroki \"Mokocchi\" Tomoko",
         "Iguchi Akari",
@@ -9945,6 +9947,30 @@
         "Gotou \"Goeidou\" Youko",
         "Nagisa",
         "Shii-chan",
+    ],
+    "Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!": [
+        "Mavis von Austien",
+        "Mile",
+        "Pauline",
+        "Reina",
+        "Kurihara Misato",
+        // "Lenny",  // tagged "child"; skip
+        "Marcela",
+        // "Monica",  // tagged "child"; skip
+        "Oriana",
+        "Adele Gibo",
+        "Alady",
+        // "Anne",  // tagged "child"; skip
+        "August",
+        "Cu Leleia",
+        // "Joshu",  // "research assistant"; skip
+        // "Koryuu (Sherara)",  // a dragon or something, probably skip
+        "Kurihara Haha",
+        "Kurihara Keiko",
+        "Morena Oujo",
+        "Pauline no Haha",
+        // "Prishy",  // tagged "child"; skip
+        // "Uketsukejou",  // "Reception woman"; skip
     ],
     "White Album": [
         "Morikawa Yuki",
@@ -10038,11 +10064,11 @@
         // "Rouba",  "Old woman"; too generic, skip
         // remainder of "appears" section is all generics
     ],
-    "xxxHOLiC: Kei": [
-        "Tsuyuri Kohane",  // 11 years old... but also the only meaningful new character
-    ],
     "xxxHOLiC Shunmuki": [
         "Nekomusume",  // kind of generic, but again the only meaningful new character in this OVA
+    ],
+    "xxxHOLiC: Kei": [
+        "Tsuyuri Kohane",  // 11 years old... but also the only meaningful new character
     ],
     "Yahari Ore no Seishun Love Comedy wa Machigatteiru.": [
         "Isshiki Iroha",
@@ -10132,6 +10158,15 @@
         "Suzumura Akari",
         "Yanagi Momoko",
     ],
+    "Yosuga no Sora": [
+        "Amatsume Akira",
+        "Kasugano Sora",
+        "Migiwa \"Ojou\" Kazuha",
+        "Yorihime Nao",
+        "Ifukube Yahiro",
+        "Kuranaga Kozue",
+        "Nogisaka Motoka",
+    ],
     "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e": [
         "Horikita Suzune",
         "Amikura Mako",
@@ -10160,15 +10195,6 @@
         "Wang Mei Yu",
         "Yabu Nanami",
         "Yamashita Saki",
-    ],
-    "Yosuga no Sora": [
-        "Amatsume Akira",
-        "Kasugano Sora",
-        "Migiwa \"Ojou\" Kazuha",
-        "Yorihime Nao",
-        "Ifukube Yahiro",
-        "Kuranaga Kozue",
-        "Nogisaka Motoka",
     ],
     "Yumekui Merry": [
         "Merry Nightmare",
