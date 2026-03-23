@@ -9937,6 +9937,29 @@
         "White Lily",
         "Yamanaka-sensei",
     ],
+    "Watashi no Shiawase na Kekkon": [
+        // Start of the series
+        "Saimori Miyo",
+        "Kanao Hana",
+        "Kudou Hazuki",
+        "Saimori Kanoko",
+        "Saimori Kaya",
+        "Saimori Sumi",
+        "Yurie",
+        "Keiko",
+        // Followed by Watashi no Shiawase na Kekkon: Watashi no Shiawase no Katachi
+        // an OVA which has no new characters
+    ],
+    "Watashi no Shiawase na Kekkon (2025)": [
+        // Second season
+        "Jinnouchi Kaoruko",
+        "Kudou Fuyu",
+        "Mitsu",
+        "Nae",
+        "Natsuyo",
+        // "Shouten no Tenshu",  // just a fancy/formal term for shopkeeper; skip
+        // Followed by third season (2026) that hasn't started yet
+    ],
     "Watashi no Yuri wa Oshigoto Desu!": [
         "Shiraki \"Shirasagi\" Hime",
         "Yano \"Ayanokouji\" Mitsuki",
