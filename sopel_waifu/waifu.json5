@@ -425,6 +425,23 @@
         "Yamashita Sumiko",
         "Yanase \"Yananchou\" Mei",
     ],
+    "Akagami no Shirayuki-hime": [
+        "Shirayuki",
+        "Garack Gazerd",
+        "Kiki Ceylan",
+        "Kihal Toghrul",
+        "Kino",
+        // "Pan-ya no Oba-chan",  // that's generic af, skip
+        // Followed by OVA with no new characters,
+        // "Akagami no Shirayuki-hime: Nandemonai Takaramono, Kono Page"
+    ],
+    "Akagami no Shirayuki-hime (2016)": [
+        // Rona is tagged "child", but she's a whole-ass princess
+        // AND it's Minase Inori as CV
+        "Rona Shenazard",  // Ignored AniDB's romaji ("Sherazad") and obeyed the katakana シェナザード
+        "Torou",
+        "Umihebi",
+    ],
     "Akatsuki no Yona": [
         "Yona",
         "Yun-Ho",
