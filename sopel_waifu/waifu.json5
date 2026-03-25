@@ -10397,14 +10397,14 @@
         /* 1481 */ "Dialyn",
         /* 1491 */ "Sunna",
         /* 1501 */ "Aria",
+        /* 1511 */ "Nangong Yu",
 
         // Upcoming characters (some are already in the game as NPCs)
-        /* 1511 */ "Nangong Yu",
         /* 1521 */ "Cissia",
         /* 1541 */ "Promeia",
-        "Verina",
-        "Norma",
-        "Remielle",
+        /* 1561 */ "Velina",
+        /* 1571 */ "Norma",
+        /* 1581 */ "Remielle",
 
         // Other than ZZZ players who might contribute here (as with the below),
         // currently have no source better than Fandom for NPC names. 😑
