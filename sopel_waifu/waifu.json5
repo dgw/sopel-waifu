@@ -544,6 +544,24 @@
         "Nanako no Haha",
         "Takao no Okaasan",
     ],
+    "Akuyaku Reijou Level 99: Watashi wa Ura Boss Desu ga Maou de wa Arimasen": [
+        "Yumiella Dolkness",
+        "Alicia Ehnleit",
+        "Eleanora Hillrose",
+        "Valschein-koku Joou",  // maybe skip? "Queen of Valschein" is a little generic
+        "Alice",
+        "Becky",
+        "Diva",
+        "Jessica Monford",
+        // "Joshi Seito",  // "schoolgirl" is too generic, skip
+        // "Maid",  // too generic, skip
+        // "Majutsu Kyoushi",  // "magic teacher" is too generic, skip
+        // "Musume",  // whose "daughter" though? too generic, skip
+        // "Obaasan",  // any number of generic meanings here, skip
+        "Rita",
+        "Silk",
+        "Yumiella Haha",
+    ],
     "Akuyaku Reijou nano de Last Boss o Katte Mimashita": [
         "Aileen Lauren Dautriche",
         "Lilia Rainworth",
