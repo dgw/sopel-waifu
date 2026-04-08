@@ -7505,6 +7505,24 @@
     "Rec": [
         "Onda Aka",
     ],
+    "Rekishi ni Nokoru Akujo ni Naru zo": [
+        "Williams Alicia",
+        "Cather Liz",
+        // Supplemented by MAL below here; AniDB's cast list seems incomplete.
+        // *Possible* some of these are actually boys or children, like "Jill";
+        // not all have profile photos, and on MAL the only real heuristic to
+        // guess on is the VA.
+        "Anna",  // no pic
+        "Carol",
+        "Eleanor",  // no pic
+        "Jane",
+        "Marika",
+        "Mel",
+        "Nina",  // no pic
+        "Rebecca",
+        "Rosetta",
+        "Williams Leila",  // using the same name order as AniDB / the katakana
+    ],
     "Renai Boukun": [
         "Guri",
         "Hiyama Akane",
