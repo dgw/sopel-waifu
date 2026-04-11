@@ -2904,6 +2904,16 @@
         "Suirenji Ruka",
         "Tsurugino Kayura",
     ],
+    "Gekijouban Tensei Shitara Slime Datta Ken: Guren no Kizuna Hen": [
+        // sixth chronological entry in the franchise
+        "Towa",
+        "Violet",
+        "Shodai Joou",  // something like "first queen"? not a name
+    ],
+    // "Gekijouban Tensei Shitara Slime Datta Ken: Soukai no Namida Hen": [
+        // ninth chronological entry in the franchise
+        // no new characters
+    // ],
     "Gekijouban Violet Evergarden": [
         "Daisy Magnolia",
         // added "no" to both of these for consistency with other entries;
@@ -8762,6 +8772,99 @@
         "Quina",
         "Satya",
     ],
+    "Tensei Shitara Slime Datta Ken": [
+        // first chronological entry in the franchise
+        "Eren",
+        "Milim Nava",
+        "Shion",  // guise of Ogre (99590)
+        "Shuna",  // guise of Ogre (99591)
+        "Treyni",
+        // "Alice Rondo",  // tagged "child", 9yo, skip
+        "Chloe Aubert",
+        "Doris",
+        "Frey",
+        "Gabiru no Imouto",  // lizard person 🤔
+        "Ginyoku no Tsubasa",
+        "Gobte",  // goblin
+        "Gobwe",  // goblin
+        "Haruna",  // goblin
+        "Henrietta",
+        "Hinata Sakaguchi",
+        "Jane",
+        "Mise no Mama",
+        // "Ogre",  // listed multiple times; included "guises" above instead
+        "Pirino",
+        "Ramiris",
+        "Saika",  // another lizard person 🤔
+        "Sawatari Miho",
+        "Shizu",
+        // "Shoujo",  // too generic, skip
+        "Souka",
+        "Tear",
+        "Touka",
+        "Trya",
+    ],
+    "Tensei Shitara Slime Datta Ken (2019)": [
+        // second chronological entry in the franchise
+        "An",
+        "Elisabe",
+        "Irori",
+        "Tiss",
+        "Ulamuth",
+    ],
+    "Tensei Shitara Slime Datta Ken (2021 Dai 2 Bu)": [
+        // fifth chronological entry in the franchise
+        "Claire",
+        "Lucia",
+        "Luminus Valentine",
+        "Misery",
+        "Rain",
+        "Velzard",
+    ],
+    "Tensei Shitara Slime Datta Ken (2021)": [
+        // fourth chronological entry in the franchise
+        "Albis",
+        "Kirara Mizutani",
+        "Suphia",  // "real cat ears" 👀
+    ],
+    "Tensei Shitara Slime Datta Ken (2024)": [
+        // eighth chronological entry in the franchise
+        "Elmesia El Ru Thalion",
+        "Glenda Attley",
+        // "Maribel Rosso",  // 10yo, skip
+        "Momiji",
+        "Ritus",
+        "Alpha",  // dryad
+        "Beta",  // dryad
+        "Blumund-ouhi",
+        "Delta",  // dryad
+        "Gamma",  // dryad
+        "Gobwa",  // half-goblin
+        "Jiwu",
+        "Kacha",
+        "Kaede",
+        "Kagali",
+    ],
+    // "Tensei Shitara Slime Datta Ken (2026)": [
+        // tenth chronological entry in the franchise
+        // empty for now; still airing (April 2026)
+    // ],
+    "Tensei Shitara Slime Datta Ken: Coleus no Yume": [
+        // seventh chronological entry in the franchise
+        "Chiffon Amadi",
+        "Zenobia Coleus",
+        "Blanc",
+        "Jaune",  // haha, get it, cuz her hair is yellow? (French)
+    ],
+    "Tensei Shitara Slime Datta Ken: Tensura Nikki": [
+        // third chronological entry in the franchise
+        "Lilina",
+        "Akina",
+        "Apito",  // a bee?
+        // "Kokobu",  // looks VERY young, but not tagged "child"; still, skip
+        "Mjurran",
+    ],
+
     "THE iDOLM@STER": [
         "Akizuki \"Ricchan\" Ritsuko",
         "Amami \"Harurun\" Haruka",
