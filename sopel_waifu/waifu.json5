@@ -9632,6 +9632,40 @@
         // There are a few more Tsubasa items in between season 1 and here, but no new characters
         "Amaterasu",
     ],
+    "Tsuki ga Michibiku Isekai Douchuu": [
+        "Mio",
+        "Tomoe",
+        "Ema",
+        "Louisa",
+        "Ranina",
+        // "Rinon",  // 10 years old, skip
+        "Toa",
+        "Aqua",
+        "Elaine",
+        "Eris",
+        "Megami",
+        "Sofia Bulga",
+    ],
+    "Tsuki ga Michibiku Isekai Douchuu Dai Ni Maku": [
+        "Lily Front Gritonia",
+        "Otonashi Hibiki",
+        "Abelia Hopleys",
+        "Chiya Hazuki",
+        "Eva",
+        "Ginebia Shlesha",
+        "Joshua",  // yes, really; "cross-dressing" tag
+        "Luria",
+        "Mora",
+        "Naval Polar",
+        "Rona",
+        "Sif Rembrandt",
+        "Yukinatsu Kazusa",
+        "Yuno Rembrandt",
+    ],
+    // "Tsuki ga Michibiku Isekai Douchuu Dai San Maku": [
+        // third season, no known new characters yet
+        // as of April 2026 had only been announced without airdates
+    // ],
     "Tsundere Akuyaku Reijou Liselotte to Jikkyou no Endou-kun to Kaisetsu no Kobayashi-san": [
         "Liselotte Riefenstahl",
         "Fine",
