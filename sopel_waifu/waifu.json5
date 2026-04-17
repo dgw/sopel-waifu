@@ -7762,6 +7762,41 @@
     "Seijo no Maryoku wa Bannou Desu II": [
         "Claudia Hawke",
     ],
+    "Seirei Gensouki": [
+        "Aishia",
+        "Celia Claire",
+        "Latifa",
+        "Alma",
+        "Christina Beltrum",
+        "Dryas",
+        "Liselotte Cretia",
+        "Orphia",
+        "Sara",
+        "Uzuma",
+        "Aoi",
+        "Ayase Miharu",
+        "Cosette",
+        "Flora Beltrum",
+        "Karasuki Ayame",
+        "Karasuki Shizuku",
+        "Roanna Fontaine",
+        "Ruri",
+        "Saga Kayoko",
+        "Saga Komomo",
+        "Sayo",
+        "Sendou Aki",
+        "Tenashina",
+        "Ursula",
+        "Vanessa Emerle",
+        "Yuba",
+    ],
+    "Seirei Gensouki 2": [
+        // not great data quality for characters who didn't appear in S1 (as of
+        // ~18 months after broadcast), but I'll make educated guesses
+        "Aria Governess",  // name might be goofy, but a governess is definitely feminine
+        "Sumeragi Satsuki",  // plausible: feminine name, voiced by Tomatsu Haruka
+        "Chloe",  // the only one with proper metadata and a picture
+    ],
     "Seirei no Moribito": [
         "Balsa Yonsa",
         "Saya",
