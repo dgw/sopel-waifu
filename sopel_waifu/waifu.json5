@@ -4208,6 +4208,53 @@
     "Isekai no Sata wa Shachiku Shidai": [
         "Shiraishi Yua",
     ],
+    "Isekai Nonbiri Nouka": [
+        "Rurushi Loo",  // "Lulucy Lu",
+        "Tier",  // "Tia"
+        "Ann",
+        "Flora",
+        "Rasutisumoon",
+        "Ria",  // "Lea"
+        "Senna",
+        "Clacasse",
+        "Corone",
+        "Fraurem",
+        "Graffaloon",  // also a dragon form
+        "Granmaria",
+        "Hakuren",
+        "Junea",
+        "Kudel",
+        "Leaf",  // "Leef" (??)
+        "Lili",  // "Leely" (???)
+        "Lise",  // "Leezay" (????)
+        "Loage",
+        "Lumrious",
+        // "Nougyou Shin",  // "God of Agriculture" isn't quite "name"-y enough; skip
+        "Rafa",  // "Lafa" (…)
+        "Rami",  // "Lami" (……)
+        "Rarasha",  // "Lalasha" (………)
+        "Raru",  // "Lalu" (…………)
+        "Rasa",  // "Lasa" (………………)
+        "Ricot",  // "Lecott" (…………………)
+        "Ries",  // "Lees" (……………………)
+        "Rita",  // "Leeta" (really? that's a dabo girl!)
+        "Rosalind",
+        "Ya",
+        "Yuri",
+        "Yuki",  // not a guise of anyone else, as far as I can tell, so this wolf (?) spirit gets her own line
+        "Zabuton",  // same for this spider spirit
+    ],
+    "Isekai Nonbiri Nouka 2": [
+        // None of these have gender tags, or character photos
+        // Purely based on the CVs I'm assuming they're all potential waifus
+        // TODO: This section will need revisiting in a few months (after April
+        // 2026) when the season has finished broadcasting
+        "Gruwald Laby Cole",
+        "Igu",
+        "Mamu",
+        "Rashashi Dorowa",
+        "Ronana",
+    ],
     "Isekai Ojisan": [
         "Alicia Edelcia",
         "Suzailgiererzegalnelvzegilreagranzelga \"Tsundere Elf\" Elga",
