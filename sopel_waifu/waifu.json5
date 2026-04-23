@@ -7261,6 +7261,21 @@
         "Miyauchi \"Hika-nee\" Hikage",
         "Miyauchi \"Nee-nee\" Kazuho",
     ],
+    "Nourin": [
+        // I guess in English this is "No-Rin" officially, but that looks dumb
+        "Kinoshita Ringo",
+        "Nakazawa Minori",
+        "Bekki Natsumi",
+        "Kanegami Torao",
+        "Suzuki Akari",
+        "Yoshida Kochou",
+        // "Kusakabe Yuka",  // guise of Kinoshita Ringo above
+        // "Nakazawa Akina",  // child, 7 years old; skip
+        "Nakazawa Hisako",
+        // "Nakazawa Takumi",  // child, 7 years old; skip
+        "Nakazawa Tsukasa",
+        "Satou Kanae",
+    ],
     "Okashi na Tensei": [
         "Agnes Mille Morteln",
         "Brioche Saruglet Mille Lehtes",  // kek pun, brioche could be called a "sweet" kind of bread
