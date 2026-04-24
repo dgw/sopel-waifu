@@ -3261,6 +3261,32 @@
         "Satou",
         "Tabata Yumi",
     ],
+    "Gin no Saji": [
+        "Mikage Aki",
+        "Fuji Ichiko",
+        "Inada Tamako",  // Multiple entries; her losing/gaining a bunch of weight is a recurring plot point?
+        "Yoshino Mayumi",
+        "Akeno Kotone",
+        "Hachiken Misako",
+        "Ikeda",
+        "Ishizaka Miho",
+        "Kitamachi Minami",
+        "Komaba Haha",
+        // "Komaba Misora",  // skip, sibling of Nino below who is tagged "child"
+        // "Komaba Nino",  // tagged "child", skip
+        "Mikage Haha",
+        "Mikage Sobo",  // I guess if I'm allowing "Haha" I should allow "Sobo" too, even though they're not "names" per se
+        "Mikage Sousobo",  // Ditto above
+        "Sakae Manami",
+        "Suehiro Misato",
+        "Tamako Haha",
+        "Toyonishi Mika",
+    ],
+    "Gin no Saji (2014)": [
+        "Minamikujou Ayame",
+        "Matsuzawa",
+        "Nakaya",
+    ],
     "Gintama": [
         "Kagura",
         "Catherine",
