@@ -2178,6 +2178,25 @@
         "Tsukushi",
         "Yukino",
     ],
+    "DearS": [
+        "Izumi Neneko",
+        "Ren",
+        "Ikuhara Natsuki",
+        "Miu",
+        "Nia",
+        "Rubi",
+        "Yoshimine Mitsuka",
+        "Ikuhara Harumi",
+        // below here, guesses based on VA only; no metadata or character photos
+        // omitting generic characters like "Cook" or "Old Lady"
+        "Biiko",
+        "China",  // チナ
+        "Eiko",
+        "Kuwaoka-san",
+        "Miu's Grandmother",
+        "Oihiko's Mother",
+        "Uchimura-san",
+    ],
     "Death Note": [
         "Amane Misa",
         "Rem",
