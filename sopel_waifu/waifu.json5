@@ -6899,6 +6899,15 @@
         "Satou Akari",
         "Yoshioka Saeko",
     ],
+    "Mitsuwano": [
+        "Aikawa Midori",
+        "Ichinose Mai",
+        "Kikuzuki Riko",
+        // "Gofuku-ya Itami no Oba-chan",  // yeah that's too generic; skip
+        "Kazuha",
+        // "Okami-san",  // "Proprietress" of an inn or something, skip as generic
+        "Shino",
+    ],
     "Mizu Zokusei no Mahou Tsukai": [
         "Lyn",
         "Nina",
