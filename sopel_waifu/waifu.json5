@@ -3782,10 +3782,27 @@
         "Kesshouban \"Platelet\"",
         "Kousankyuu \"Eosinophil\"",
         "Macrophage",
-        "Mast Saibou",
+        "Himansaibou \"Mast Cell\"",
         "NK Saibou",
+        "Seigyosei T Saibou",
         "Sekkekkyuu \"Senpai\" AA5100",
-        "Sekkekkyuu NT4201",
+        "Akamekyuu \"Erythroblast\"",
+        "Sekkekkyuu \"Kouhai\" NT4201",
+        "Oushokubudoukyuukin \"Staphylococcus Aureus\""
+    ],
+    "Hataraku Saibou Black": [
+        // Third season/spin-off
+        "Hakkekkyuu \"White Blood Cell\" 1196",
+        "Hakkekkyuu \"White Blood Cell\" 1212",
+        "Hakkekkyuu \"White Blood Cell\" 8787",
+        "Kansaibou \"Hepatocyte\"",
+        "Kesshouban \"Platelet\"",  // same name as the main Platelet in the original series, but not the same character
+    ],
+    "Hataraku Saibou!!": [
+        // Second season
+        "Kesshouban (Fuku Leader-chan)",
+        "Kesshouban (Ushiro Mae-chan)",
+        "Kyokakukyuu \"Megakaryocyte\"",
     ],
     "Hayate no Gotoku!": [
         "Maria",
