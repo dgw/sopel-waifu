@@ -2290,6 +2290,54 @@
         "Rika",
         "Sanae",
     ],
+    "Dr. Stone": [
+        "Kohaku",
+        "Ogawa Yuzuriha",
+        "Connie Lee",
+        "Darya Nikitina",
+        "Lillian Weinberg",
+        "Momiji Homura",
+        "Ruri",
+        // "Suika",  // tagged "child", skip
+        "Arumi",
+        "Azura",
+        "Berry",
+        "En",
+        "Garnet",
+        "Hokutozai Minami",
+        "Kujaku",
+        "Ruby",
+        "Sango",
+        "Sapphire",
+        "Shirogane",
+        // "Shovel",  // tagged "child", skip
+        // "Suzu",  // tagged "child", skip
+        "Turquoise",
+    ],
+    "Dr. Stone: New World": [
+        // Fourth (?) season, but we're alphabetical
+        "Amaryllis",
+        "Kirisame",
+    ],
+    "Dr. Stone: New World (2023)": [
+        // Continuation of "New World"
+        "Soyuz no Haha",
+    ],
+    "Dr. Stone: Science Future": [
+        // Follows New World (2023)
+        "Charlotte Bony",
+        "Luna Wright",
+        "Maya Biggs",
+    ],
+    "Dr. Stone: Science Future (2025)": [
+        "Chelsea Childe",
+        "Suika",  // Grown-up version of the child character, so she can be included this time
+    ],
+    "Dr. Stone: Stone Wars": [
+        // Second season
+        "Hanada Niki",
+        // "Shishiou Mirai",  // tagged "child", skip
+    ],
     "Dragon Ball": [
         "Bulma",
         "Lunch",
