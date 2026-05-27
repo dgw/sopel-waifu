@@ -3004,6 +3004,13 @@
         "Daisy no Haha",
         "Yuris no Haha",
     ],
+    "Gekijouban Wakaokami wa Shougakusei!": [
+        // "Other" of Wakaokami wa Shougakusei! the series, listed below. The
+        // series released first, so only characters who didn't appear in the
+        // series are included here.
+        "Kise Torako",
+        "Seki Sakiko",
+    ],
     "Gekkan Shoujo Nozaki-kun": [
         "Sakura Chiyo",
         "Kashima \"Prince\" Yuu",
@@ -10512,6 +10519,33 @@
         "Tokita Moeko",
         "Kohashi Otoha",
         "Kohashi Yuzuha",
+    ],
+    "Wakaokami wa Shougakusei!": [
+        "Seki Oriko",
+        "Akino Matsuki",
+        "Miyo",
+        "Seki Mineko",
+        "Suzuki",
+        "Tajima Etsuko",
+        "Akino Takako",
+        "Fujiwara Akari",
+        "Fujiwara Aoi",
+        "Fujiwara Mayuko",
+        "Fujiwara Torako",
+        "Glory Suiryou",
+        "Ikezuki Yoriko",
+        "Inada Erika",
+        "Izumi Hiromi",
+        "Lin Jia-Ling",
+        "Lin Rui-Ling",
+        "Mabuchi Naraka",
+        "Mayama Sumika",
+        "Michiko",
+        "Morino Yuuna",
+        "Nakajima Kyouka",
+        "Nakajima Maya",
+        "Ryuujin",  // unsure if "dragon god" is title-ish or descriptive...
+        "Sakisaka Mayuka",
     ],
     "Wake Up, Girls!": [
         "Hayashida \"Ai\" Airi",
