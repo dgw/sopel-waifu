@@ -7020,8 +7020,9 @@
     ],
     "Momo e no Tegami": [
         "Miyaura Momo",
+        // "Dai Oba",  // skip because this doesn't seem anything like a name
         "Miyaura Ikuko",
-        "Umi",
+        // "Umi",  // skip, listed age is 5yo
     ],
     "Monogatari Series: Second Season": [
         "Gaen Izuko",
