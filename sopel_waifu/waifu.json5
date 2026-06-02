@@ -6993,6 +6993,20 @@
         // "Okami-san",  // "Proprietress" of an inn or something, skip as generic
         "Shino",
     ],
+    "Miyori no Mori": [
+        "Baa-chan",  // I'm convinced this is not as generic as it sounds
+        "Ipponzakura no Sei",
+        "Mashima Miyori",
+        "Okaasan",  // ditto Baa-chan
+        // No character images below here; mostly educated guesses based on CVs
+        "Hidetsugu",
+        "Koko-sensei",
+        "Naoko",
+        "Yoshinaga Moe",
+        "Youko",
+        "Yuki",
+        "Yukiko",
+    ],
     "Mizu Zokusei no Mahou Tsukai": [
         "Lyn",
         "Nina",
