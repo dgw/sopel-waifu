@@ -4930,6 +4930,28 @@
         "Shijou Mitsue",
         "Tama",
     ],
+    "Kamisama Hajimemashita": [
+        "Momozono Nanami",
+        "Nekota Ami",
+        "Numano Himemiko",
+        "Ueshima Kei",
+        // Some guesses on no-picture and no-tags entries, based on CVs
+        "Hanae",  // CV: Hanae
+        "Hiroko",  // CV: Kugimiya Rie
+        // "Isohime",  // skip: this is not a name; "beach-hime" sounds like mermaid
+        "Kamehime",  // may keep this one; something like "turtle princess"
+        "Kitami Chie",  // CV: Chiba Fumika
+        "Kotake",  // CV: Gouda Eri
+        "Koume",  // CV: Sugiura Naoko
+        "Narukami-hime",  // CV: Hyousei; may keep, something like "thunder princess"
+        "Onibaba",
+        "Tayama",  // CV: Katsuki Masako
+        "Tobita Megumi",  // CV: Sadohara Kaori
+        "Umibe Natsuko",  // CV: Terakawa Aimi
+        "Yonomori",
+        "Yukiji",  // not a guess, but: Mimori Suzuko!
+        // No meaningful new characters in OVA "_ (2013)" or second season "_ 2"
+    ],
     "Kamisama ni Natta Hi": [
         "Satou \"Odin\" Hina",
         "CEO",
