@@ -3669,6 +3669,15 @@
         "Rosa Splash",
         "Sakura Glory",
     ],
+    "Gugure! Kokkuri-san": [
+        "Ichimatsu Kohina",
+        "Jimeko",
+        "Onna Inugami",
+        "Tama",
+        "Kureha",
+        // "Noel",  // looks like "child", but not tagged; skip for now
+        "Onna Kokkuri-san",
+    ],
     "Guilty Crown": [
         "Yuzuriha \"Egoist, Inorin\" Inori",
         "Herikawa Miyabi",
