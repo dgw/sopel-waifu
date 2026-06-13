@@ -2484,6 +2484,17 @@
         "Nashida Arisa",
         "Nekonote",
     ],
+    "Eiga Inuyasha: Guren no Houraijima": [
+        // Fourth Inuyasha movie; third one didn't have any new characters
+        // "Ai",  // not tagged "child" but sure looks it; skip
+        "Asagi",
+        "Moegi",  // kind of looks like "child" too, but not as much
+        "Kujaku",
+    ],
+    "Eiga Inuyasha: Kagami no Naka no Mugenjou": [
+        // Second Inuyasha movie; first one didn't have any new characters
+        "Kaguya",
+    ],
     "Eiga Yuru Camp": [
         "Komaki",
     ],
@@ -4314,6 +4325,35 @@
         "Sarutobi Sora",
         "Torikai Hibari",
         "Ushiwaka Yukiji",
+    ],
+    "Inuyasha": [
+        "Higurashi Kagome",
+        "Sango",
+        "Kaede",  // present-day version is "elderly", but there's a Shoujo Jidai version of her too
+        "Kagura",
+        // "Kanna",  // tagged "child", skip
+        "Kikyou",
+        "Kirara",  // nekomata, but nobody said waifus have to be human
+        // "Rin",  // tagged "child", skip
+        "A-Un",  // two-headed dragon demon; again, nobody said waifus have to be human
+        "Abi-hime",
+        "Ayame",
+        "Ayumi",
+        "Botan",
+        "Enju",
+        "Eri",
+        // "Hahaoya",  // "mother", but WHOSE? skip for now
+        "Hitomi",
+        "Izayoi",
+        "Koharu",
+        "Mama",  // literally, ママ. Apparently Kagome's mother. Does she have a real name? idk
+        "Mayu",
+        "Mukade Jourou",  // a... centipede noblewoman demon? sure, why not
+        "Sakasagami no Yura",
+        "Tekkei",
+        "Tsukiyomi",
+        "Tsuyu-hime",
+        "Yuka",
     ],
     "Iriya no Sora, UFO no Natsu": [
         "Iriya Kana",
