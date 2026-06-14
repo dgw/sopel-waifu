@@ -3814,6 +3814,30 @@
         "Raika",
         "Urara",
     ],
+    "Han'you no Yashahime: Sengoku Otogizoushi": [
+        // Follows daughters of Inuyasha
+        "Higurashi Towa",
+        "Moroha",
+        "Setsuna",
+        "Aiya-hime",
+        "Gyokuto",  // unsure of this one; Jisho says it's an archaic term for "moon"
+        "Higurashi Kagome",
+        "Higurashi Mei",
+        "Higurashi Moe",
+        "Jidai-ju no Seirei",
+        "Kin'u",
+        "Kyuuki",
+        // "Mama",  // Same character as in Inuyasha, so skip her now
+        "Rin",
+        // "Sango",  // Same character as in Inuyasha, so skip her now
+        "Yawaragi",
+        "Zero",
+    ],
+    "Han'you no Yashahime: Sengoku Otogizoushi (2021)": [
+        "Rion",
+        // "Kaede",  // Same character as in Inuyasha, so skip her
+        "Sesshoumaru no Haha",
+    ],
     "Hanasaku Iroha": [
         "Matsumae \"Hobiron\" Ohana",
         "Oshimizu \"Nakochi\" Nako",
