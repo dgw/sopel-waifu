@@ -7983,6 +7983,58 @@
         "Laffinty \"Lan\" Fin E Ld Si",
         "Muginami",
     ],
+    "Rurouni Kenshin: Meiji Kenkaku Romantan": [
+        // First entry in the Rurouni Kenshin franchise by broadcast (start) year
+        "Kamiya Kaoru",
+        "Ayame",
+        "Komagata Yumi",
+        "Makimachi Misao",
+        "Sekihara Tae",
+        // "Suzume",  // no "child" tag but really looks like one; skip
+        "Takani Megumi",
+        "Arai Azusa",
+        "Ebisu Marimo",
+        "Kanekura Kaede",
+        "Katsu Itsuko",
+        "Magdalia Sayo",
+        "Masukami",
+        "Moriya Misanagi",
+        "Oguni Hana",
+        // "Oumime",  // appears to be a generic character title "named" for where she's from (Oumi province); skip
+        "Sanjou Tsubame",
+        "Sekihara Sae",
+        "Shura",
+        "Tsubaki",
+        "Tsuruyo",
+    ],
+    "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)": [
+        // Sixth entry in the Rurouni Kenshin franchise by release year
+        // Fifth had no new characters
+        "Elder Peaberry",
+    ],
+    "Rurouni Kenshin: Meiji Kenkaku Romantan - Ishinshishi e no Requiem": [
+        // Second entry in the Rurouni Kenshin franchise by release year
+        "Takatsuki Toki",
+    ],
+    "Rurouni Kenshin: Meiji Kenkaku Romantan - Kyoto Douran": [
+        // Seventh entry in the Rurouni Kenshin franchise by release year
+        "Oshige",
+        // To be followed by an eigth entry.... someday
+        // Rurouni Kenshin: Meiji Kenkaku Romantan (Dai San Ki)
+    ],
+    "Rurouni Kenshin: Meiji Kenkaku Romantan - Seisou Hen": [
+        // Fourth entry in the Rurouni Kenshin franchise by release year
+        "Raikouji Chizuru",
+    ],
+    "Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku Hen": [
+        // Third entry in the Rurouni Kenshin franchise by release year
+        "Yukishiro Tomoe",
+        "Akane",
+        "Ikumatsu",
+        "Kasumi",
+        "Kohagiya no Okami",
+        "Sakura",
+    ],
     "Sabagebu!": [
         "Sonokawa \"Mokarin\" Momoka",
         "Kasugano Urara",
