@@ -8307,10 +8307,10 @@
         "Onigata Masami",
         "Takatou Yukie",
         "Yoshida Mako",
-        "Kamita Kyouko",
-        "Kamita Nozomu",
-        "Kamita Rie",
-        "Kamita Tooru",
+        // "Kamita Kyouko",  // "guise of" Touno Kyouko above; skip
+        // "Kamita Nozomu",  // not tagged "child" but is clearly one; skip
+        // "Kamita Rie",  // not tagged "child" but is clearly one; skip
+        // "Kamita Tooru",  // "guise of" Miyamae Tooru above; skip
         "Nagasawa Shiori",
         "Sanjou Rin",
         "Tokioka Nao",
