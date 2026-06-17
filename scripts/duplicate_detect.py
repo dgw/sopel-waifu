@@ -23,7 +23,10 @@ def validate_data(list_of_pairs):
     if duplicate_keys := ', '.join(k for k,v in key_count.items() if v>1):
         raise ValueError('Duplicate key(s) found: {}'.format(duplicate_keys))
 
-    return dict(list_of_pairs)
+    data_dict = dict(list_of_pairs)
+    total_items = sum(len(v) for v in data_dict.values())
+    print(f"Tracking {total_items:,} characters in {len(data_dict):,} unique titles.")
+    return data_dict
 
 
 # our CLI logic
