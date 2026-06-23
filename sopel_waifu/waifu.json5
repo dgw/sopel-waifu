@@ -3695,18 +3695,24 @@
         "Aizawa Miyabi",
         "Fuyutsuki Azusa",
         "Kanzaki Urumi",
-        "Nomura \"Big Top, Toroko, Tomo\" Tomoko",
+        "Nomura \"Toro-ko\" Tomoko",
+        "Sakurai Ryouko",
+        "Uehara Anko",
+        // "Kadena Nao",  // skipped since she first appeared in the prequel, Shounan Jun'ai-gumi!
+        "Kujirakawa Fuyumi",
+        "Mizuki Nanako",
+        "Murai Juria",
+        "Nagase Nagisa",
+        "Oota Hidemi",
+        "Uchiyamada Yoshiko",
+        // Remainder only appear in MAL list, not in AniDB, for some reason. As
+        // of last revision to this data section (June 2026) they'd already been
+        // here for several years, and there's no reason to scrub characters
+        // just because AniDB doesn't list them. AniDB can be wrong/incomplete.
         "Hoshino Megumi",
         "Iijima Saeko",
         "Izumi Naoko",
-        "Kadena Nao",
         "Kizaki Hitomi",
-        "Kujirakawa Fuyumi",
-        "Mizuki Nanako",
-        "Murai Julia",
-        "Nagase \"Yasha\" Nagisa",
-        "Uchiyamada Yoshiko",
-        "Uehara \"An-chan\" Anko",
     ],
     "Groove Adventure Rave": [
         "Elie, \"Girl Number 3173\"",
@@ -8693,6 +8699,12 @@
         "Niki Al-Bahram",
         "Nilufer Fatma",
         "Olympia",
+    ],
+    "Shounan Jun'ai-gumi!": [
+        // prequel to Great Teacher Onizuka / GTO
+        "Izumo Mariko",
+        "Murakoshi Ayumi",
+        "Kadena Nao",  // same as the one in GTO, who will have to be skipped because of this
     ],
     "Shuumatsu Train Doko e Iku?": [
         "Chikura Shizuru",
