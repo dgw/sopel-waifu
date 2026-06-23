@@ -2259,6 +2259,27 @@
         "Ooi Tooe",
         "Shizuka",
     ],
+    "Detroit Metal City": [
+        "Aikawa Yuri",
+        "Death Records Shachou",
+        "Nina",
+        "Yamano Hanae",
+        // "Fan C",  // forget this generic crap
+        // "Keisatsukan",  // ditto
+        "Tozawa \"Krauser-tan\" Runa",  // full name from the AniDB character desc.
+        "Krauser-tan no Haha",
+        // "MC",  // more than one character with this "name", so skip 'em
+        "Momo",
+        "Negishi Keiko",
+        "Rei",
+        "Ryouta no Haha",
+        "Sae",
+        "Shigemi",  // an actual cow. literally.
+        "Takkun no Haha",
+        "Uemura-san",
+        // "Yuujin A",  // generic, skip
+        // "Yuujin B",  // generic, skip
+    ],
     "Dig Delight Direct Drive DJ": [
         "Kase Mana",
         "Takao Toka",
