@@ -8736,6 +8736,86 @@
         "Kyuushu",
         "Vura",
     ],
+    "Sket Dance": [
+        "Himeko",
+        "Agata Saaya",
+        "Asahina Kikuno",
+        "Fujisaki Akane",
+        "Kibitsu Momoka",
+        "Misora Remi",
+        "Saotome Roman",
+        "Takahashi Chiaki",
+        "Unyuu Mimori",
+        "Usami Hani",
+        "Yabasawa Moe",
+        "Yuuki Reiko",
+        // "Abrashimo Dutch",  // can't tell what kind of entity this even is...
+        // "Abrashimo Vich",  // ditto
+        // "Akanbou",  // an infant, and also "guise of" Kawakami below; skip
+        "Akina",
+        "Biba-chan",
+        // "Chuuma Suzu",  // tagged "child", skip
+        // "Dodondondodon no Kodomo",  // tagged "child", skip
+        "Dodondondodon no Tsuma",
+        "Emi",
+        "Fujisaki Rumi",
+        "Ge-chan",
+        "Gibo",
+        // "Hahaoya",  // too generic, skip
+        "Himeko no Haha",  // there is also a child version of Himeko we will obviously skip
+        "Hirai Yukino",
+        "Horii Kanako",
+        "Inui",
+        "Itou Kumi",
+        "Izumisawa Yukie",
+        "Joanna",
+        // "Joshu",  // "assistant" or "helper"; skip as generic
+        // "Kangofu",  // "nurse"; skip as generic
+        "Kanou Arisa",  // multiple "guises of" same name, rolled into one; pick your favorite ig
+        "Kawakami",
+        "Kijima",
+        "Kirishima Haru",
+        "Kumiko",
+        "Kuramoto Ayumi",
+        "Liberty Maji",
+        "Maccha Azukina",
+        "Marriage Blue",
+        "Mataomi Ai",
+        "Maternity Blue",
+        "Megumi Ogura",
+        "Minakami Himiko",
+        "Misaki",
+        "Morishita Koma",
+        "Nanba Kyouko",
+        "Nikaidou Sara",
+        "Norie-chan",  // robot
+        "OL",  // is this generic??
+        "Obaa-nyan",
+        "Omi Aiko",
+        // "Onizuka Hime",  // "guise of" Himeko, skip
+        "Onoda",
+        "Quecchon",
+        "Reality Maji",
+        "Sacchin",
+        "Sarukawa",
+        "Segawa Fumi",
+        "Shimada Takako",
+        "Shimizu Yoshie",
+        // "Shironuma Sawako",  // "guise of" Himeko, skip
+        "Suemasu",
+        "Sugisaki Ayano",
+        "Takashima Sakiko",
+        "Teruko",
+        "Tomoko",
+        "Tsubaki Ishi no Tsuma",
+        "Usui Haha",
+        "Yagi Kaoru",
+        "Yamauchi Sawa",
+        "Yasuda Saori",
+        "Yumi",
+        // No new characters in the OVA [see below], so it's omitted from the list
+        // ("Sket Dance: Imouto no Nayami ni Nayamu Ani ni Nayamu Imouto to Sono Nakama-tachi")
+    ],
     "Sketchbook: Full Color's": [
         "Asou Natsumi",
         "Kajiwara Sora",
