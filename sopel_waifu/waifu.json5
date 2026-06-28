@@ -8128,11 +8128,22 @@
         "Sakura",
     ],
     "Sabagebu!": [
-        "Sonokawa \"Mokarin\" Momoka",
-        "Kasugano Urara",
-        "Ootori \"Buchou\" Miou",
         "Goutokuji Kayo",
+        "Kasugano Urara",
         "Kyoudou Maya",
+        "Ootori Miou",
+        "Sonokawa \"Mokarin\" Momoka",
+        "Sakura Ena",
+        "Sonokawa Kazue",
+        "Fukukaichou",
+        // "Gakushoku no Oba-chan",  // kinda generic, "cafeteria lady"
+        "Haguro Rozeria",
+        "Inugami",
+        "Isurugi Yayoi",
+        "Model",  // clearly not her name, but there's only one "Model" in the cast and someone might like her enough as a waifu
+        // "Rouba",  // "old woman", very generic; skip
+        // "Ten'in",  // "shop clerk", very generic; skip
+        "Yummy",  // yep, that's her (nick?)name; can't skip a "cat smile" tag girl anyway
     ],
     "Saenai Heroine no Sodatekata": [
         "Hyoudou \"Mitchie\" Michiru",
