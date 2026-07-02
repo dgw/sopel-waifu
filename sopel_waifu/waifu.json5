@@ -8810,6 +8810,14 @@
         "Murakoshi Ayumi",
         "Kadena Nao",  // same as the one in GTO, who will have to be skipped because of this
     ],
+    "Shouwa Genroku Rakugo Shinjuu": [
+        "Konatsu",
+    ],
+    "Shouwa Genroku Rakugo Shinjuu (2016)": [
+        "Miyokichi",
+        // according to AniDB as of July 2026, no new characters after this
+        // (in "Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi Hen")
+    ],
     "Shuumatsu Train Doko e Iku?": [
         "Chikura Shizuru",
         "Hoshi Nadeshiko",
