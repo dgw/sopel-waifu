@@ -2614,6 +2614,18 @@
         // Second Inuyasha movie; first one didn't have any new characters
         "Kaguya",
     ],
+    "Eiga Koe no Katachi": [
+        "Nishimiya Shouko",
+        "Ishida Miyako",
+        "Kawai Miki",
+        "Nishimiya Yuzuru",
+        "Sahara Miyoko",
+        "Ueno Naoka",
+        // "Ishida Maria",  // tagged "child", skip
+        "Nishimiya Ito",
+        "Nishimiya Yaeko",
+        "Shouya no Ane",
+    ],
     "Eiga Yuru Camp": [
         "Komaki",
     ],
