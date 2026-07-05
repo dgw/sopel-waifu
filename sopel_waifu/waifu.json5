@@ -8075,6 +8075,19 @@
         "Louise Tessen",
         "Nancy Grayson",
     ],
+    "Piano no Mori": [
+        "Amamiya Namie",
+        "Ichinose Reiko",
+        "Maruyama Takako",
+        "Shiraishi Yukie",
+        "Shuuhei no Sobo",
+        // "Tannin no Sensei",  // bit too generic, not even attached to a named character; skip
+    ],
+    "Piano no Mori (2018)": [
+        "Sophie Ormesson",
+        "Arisa",
+        //  as of July 2026, AniDB cast for second season of the series (2019) has no new characters
+    ],
     "Pokémon": [
         "Acerola",
         "Bea",
