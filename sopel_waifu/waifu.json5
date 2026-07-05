@@ -8717,11 +8717,24 @@
     ],
     "Shigatsu wa Kimi no Uso": [
         "Miyazono Kaori",
-        "Sawabe Tsubaki",
         "Aiza Nagi",
         "Igawa Emi",
+        "Sawabe Tsubaki",
+        "Arima Saki",
+        "Emi no Haha",
+        "Izumi",
         "Kashiwagi Nao",
+        // "Komugi",  // no "child" tag, but looks like one; skip
+        // "Megu",  // no "child" tag, but looks like one; skip, despite CV Minase Inori :/
+        "Miyazono Suzuko",
+        "Nashida",
+        "Nashida no Sensei",
+        "Ochiai Yuriko",
+        "Satsuki",
         "Seto Hiroko",
+        // "Seto Koharu",  // no "child" tag, but looks like one; skip... also Minase Inori :|
+        "Takeshi no Haha",
+        "Tsubaki no Haha",
     ],
     "Shigofumi": [
         "Fumika",
