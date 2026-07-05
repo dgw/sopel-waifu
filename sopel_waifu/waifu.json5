@@ -7748,6 +7748,70 @@
         "Queen",
         "Kurami \"Chlammy\" Zell",
     ],
+    "Nodame Cantabile": [
+        // first season
+        "Noda Megumi",
+        "Etou Kaori",
+        "Inoue Yuki",
+        "Ishikawa Rena",
+        "Kawano Keiko",
+        "Miki Kiyora",
+        "Momodaira Minako",
+        "Suzuki Kaoru",
+        "Suzuki Moe",
+        "Tagaya Saiko",
+        "Tanaka Makiko",
+        "Aizawa Maiko",
+        "Elise",
+        "Izumi",
+        "Kinjou Shizuka",
+        "Miho",
+        "Mika",
+        "Miyoshi Seiko",
+        // "Miyoshi Yuiko",  // 10yo, skip
+        "Momodaira Sayoko",
+        "Nakamura Midori",
+        "Nina Lutz",
+        "Noda Shizuyo",
+        "Noda Youko",
+        // "Puririn",  // "show-within-a-show character", a 'fairy from outer space' who looks like a kid
+        // "Riona",  // "show-within-a-show character" who looks like a kid
+        "Sakata Chiyo",
+        "Saku Sakura",
+        "Segawa Yurie",
+        "Suganuma Saya",
+        "Yukko",
+    ],
+    "Nodame Cantabile (2009)": [
+        // OVA containing episodes set both before and after the third season.
+        // The characters listed here first appear in the pre-S3 episode
+        // according to AniDB, so for list purposes this should be treated as
+        // occurring between "Paris Hen" and "Finale".
+        "Caroline",
+        "Shima Mai",
+    ],
+    "Nodame Cantabile: Finale": [
+        "Arman",
+        "Lambert",
+        "Maginot",
+        "Michelle",
+        "Mifa",
+        "Namura Rima",
+    ],
+    "Nodame Cantabile: Paris Hen": [
+        // second season
+        "Son Rui",
+        "Tatiana Vishnyova",
+        "Anna",
+        "Catherine",  // There is also a child version AniDB doesn't link as "guise of" this adult character
+        "Celine",
+        "Emanuel",  // yes, tagged as female
+        "Namiki Yuuko",
+        "Noemi Creve",
+        "Roland no Sobo",
+        "Rui no Haha",
+        "Tanya no Haha",
+    ],
     "Non Non Biyori": [
         "Ichijou \"Hotarun\" Hotaru",
         "Koshigaya \"Koma-chan\" Komari",
