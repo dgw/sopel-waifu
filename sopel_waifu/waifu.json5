@@ -3135,6 +3135,11 @@
         "Suirenji Ruka",
         "Tsurugino Kayura",
     ],
+    "Gekijouban Hibike! Euphonium: Chikai no Finale": [
+        // Previous: Liz to Aoi Tori
+        "Ono Miyoko",
+        // Next: Tokubetsu Hen Hibike! Euphonium: Ensemble Contest Hen
+    ],
     "Gekijouban Tensei Shitara Slime Datta Ken: Guren no Kizuna Hen": [
         // sixth chronological entry in the franchise
         "Towa",
@@ -4146,31 +4151,74 @@
         "Emanuela \"Emi\" Pollarola",
     ],
     "Hibike! Euphonium": [
-        "Oumae Kumiko",
-        "Kousaka Reina",
         "Katou Hazuki",
         "Kawashima \"Midori\" Sapphire",
-        "Hitomi \"Lala\" Rara",
-        "Kasaki Nozomi",
-        "Kawashima Kohaku",
-        "Kitamura Kurumi",
+        "Kousaka Reina",
+        "Oumae Kumiko",
         "Matsumoto Michie",
         "Nagase Riko",
         "Nakagawa Natsuki",
-        "Nakano Tsubomi",
         "Nakaseko Kaori",
-        "Niiyama Satomi",
         "Ogasawara Haruka",
-        "Oumae Akiko",
         "Oumae Mamiko",
-        "Saika Yoriko",
         "Saitou Aoi",
-        "Sakai Masako",
-        "Sasaki Azusa",
         "Tanaka Asuka",
-        "Torizuka Hirone",
-        "Yoroizuka Mizore",
         "Yoshikawa Yuuko",
+        "Akamatsu Maki",
+        "Fukui Sayaka",
+        "Hirao Sumiko",
+        "Hitomi Lala",
+        "Inoue Shirabe",
+        "Iwata Keina",
+        "Kabe Tomoe",
+        "Kasaki Nozomi",
+        "Kawashima Kohaku",  // tagged "child", skip
+        "Kishibe Miru",
+        "Maki Chikai",
+        "Matsuzaki Yoko",
+        "Morimoto Michiyo",
+        "Morita Shinobu",
+        "Nakano Tsubomi",
+        "Oda Meiko",
+        "Oumae Akiko",
+        "Saika Yoriko",
+        "Sasaki Azusa",
+        "Sawada Juri",
+        "Shima Rie",
+        "Takahashi Sari",
+        "Takahisa Chieri",
+        "Takano Hisae",
+        "Ueda Hiyoko",
+        "Yoroizuka Mizore",
+        "Yoshizawa Akiko",
+        // These aren't listed on AniDB but are detailed on fan wikis and
+        // reddit. They WERE on the original list I took from MAL in 2020.
+        "Kitamura \"Raina\" Kurumi",
+        "Torizuka Hirone",
+        // Skip recap movie "Gekijouban Hibike! Euphonium: Kitauji Koukou
+        // Suisougaku Bu e Youkoso"; no new characters. Go directly to S2.
+    ],
+    "Hibike! Euphonium 2": [
+        "Niiyama Satomi",
+        "Tanaka Asumi",
+        // No one new in recap movie "Gekijouban Hibike! Euphonium: Todoketai
+        // Melody". Go to "Liz to Aoi Tori" next.
+    ],
+    "Hibike! Euphonium 3": [
+        // Previous: Tokubetsu Hen Hibike! Euphonium: Ensemble Contest Hen
+        "Kuroe Mayu",
+        "Hariya Kaho",
+        "Kamaya Suzume",
+        "Kamiishi Yayoi",
+        "Yoshii Sari",
+        "Kousaka Naomi",
+        "Nase Amika",
+        "Saijou Kanon",
+        "Saijou Mion",
+        "Takekawa Yuki",
+        "Togawa Shiho",
+        // Next WILL be: Saishuu Gakushou Hibike! Euphonium
+        // (As of July 2026, no new characters in AniDB with 1/2 movies out)
     ],
     "Hidamari Sketch": [
         "Hiro",
@@ -6183,6 +6231,47 @@
         "Kagari \"Akko\" Atsuko",
         "Sucy Manbavaran",
         "Lotte Yansson",
+    ],
+    "Liz to Aoi Tori": [
+        "Kenzaki Ririka",
+        "Liz",
+        "Shoujo",  // specific enough in this context, IMO; she is the "Aoi Tori"
+        "Asakura Tamari",
+        "Ashida Seiko",
+        "Ayukawa Kyoko",
+        "Etou Kana",
+        "Fukamachi Sumiko",
+        "Hakase Michiru",
+        "Hashida Maya",
+        "Hattori Nakaba",
+        "Hayashi Rairi",
+        "Higashiura Motoko",
+        "Hiraishi Narumi",
+        "Hiranuma Shiori",
+        "Hisaishi Kanade",
+        "Hosono Haruna",
+        "Hotei Tomomi",
+        "Imura Taku",
+        "Kabutodani Eru",
+        "Katou Miki",
+        "Kikkawa Maya",
+        "Kitada Une",
+        "Kohara Aine",
+        "Kohinata Yume",
+        "Koteyama Suruga",
+        "Machida Michiko",
+        "Matsumoto Kiri",
+        "Nara Machiko",
+        "Otaki Nanami",
+        "Sakasaki Ayako",
+        "Suzuki Mirei",
+        "Suzuki Satsuki",
+        "Takino Sayaka",
+        "Tsuchiya Hibiki",
+        "Uchida Babe",  // "Beibu", which is ... OK then
+        "Yamane Tsumiki",
+        "Yashiki Sanae",
+        // Continue with "Gekijouban Hibike! Euphonium: Chikai no Finale"
     ],
     "Log Horizon": [
         "Akatsuki",
@@ -10362,6 +10451,13 @@
         "Sarashina Chisaki",
         "Suou Yuki",
         "Taniyama Sayaka",
+    ],
+    "Tokubetsu Hen Hibike! Euphonium: Ensemble Contest Hen": [
+        // Previous: Gekijouban Hibike! Euphonium: Chikai no Finale
+        "Kamaya Tsubame",
+        "Inoue Junna",
+        "Sakai Masako",
+        // Next: Hibike! Euphonium 3
     ],
     "Tokubetsuban Free! Take Your Marks": [
         "Matsuoka Miyako",
