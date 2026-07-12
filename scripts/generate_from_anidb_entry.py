@@ -1,10 +1,13 @@
+#!/usr/bin/env python3
 from __future__ import annotations
 
 import argparse
+from collections import deque
 import os
+from pathlib import Path
 import re
 import sys
-from pathlib import Path
+import time
 
 import json5
 from lxml import etree
@@ -23,13 +26,21 @@ class AnimeEntry:
     A simple representation of an AniDB anime entry.
     """
     def __init__(self, aid: int, xml: etree._Element) -> None:
-        self.aid = aid
-        self.xml = xml
+        self._aid = aid
+        self._xml = xml
 
     @classmethod
     def from_xml(cls, xml: etree._Element) -> AnimeEntry:
         aid = int(xml.xpath("/anime")[0].attrib.get("id"))
         return cls(aid=aid, xml=xml)
+
+    @property
+    def aid(self) -> int:
+        return self._aid
+
+    @property
+    def xml(self) -> etree._Element:
+        return self._xml
 
     @property
     def title(self) -> str:
@@ -54,11 +65,23 @@ class AnimeEntry:
         return result
 
     @property
-    def startdate(self) -> str | None:
+    def start_date(self) -> str | None:
         startdate = self.xml.xpath("startdate")[0].text
-        if startdate and startdate != "0000-00-00":
+        if startdate:
+            if startdate == "0000-00-00":
+                return None
+            elif '?' in startdate:
+                return startdate.replace('?', '9')
             return startdate
         return None
+
+    @property
+    def relations(self) -> list[int]:
+        return [
+            int(rel.attrib.get("id"))
+            for rel in self.xml.xpath("relatedanime/anime")
+            if rel.attrib.get("id")
+        ]
 
     def _normalize_character_type(self, char_type: str) -> str:
         char_type = char_type.lower()
@@ -157,6 +180,7 @@ class AniDBClient:
         self._session.headers.update({
             "User-Agent": USER_AGENT,
         })
+        self.last_request = 0.0
 
     @property
     def request_params(self) -> dict[str, str]:
@@ -166,7 +190,11 @@ class AniDBClient:
             "protover": HTTP_API_CLIENT_PROTOVER,
         }
 
-    def fetch_anime_xml(self, aid: int, force_fetch=False) -> etree._Element:
+    def fetch_anime_xml(
+        self,
+        aid: int,
+        force_fetch: bool = False,
+    ) -> etree._Element:
         """
         Fetch an anime entry from AniDB by its ID.
 
@@ -184,6 +212,11 @@ class AniDBClient:
             "request": "anime",
             "aid": aid,
         })
+        if self.cooldown > 0:
+            elapsed = time.time() - self.last_request
+            if elapsed < self.cooldown:
+                time.sleep(self.cooldown - elapsed)
+        self.last_request = time.time()
         response = self._session.get(
             HTTP_API_URL,
             params=params,
@@ -198,7 +231,7 @@ class AniDBClient:
 
         return etree.fromstring(xml_content)
 
-    def fetch_anime(self, aid: int, force_fetch=False) -> AnimeEntry:
+    def fetch_anime(self, aid: int, force_fetch: bool = False) -> AnimeEntry:
         """Parse an anime entry from AniDB into an AnimeEntry, by ID.
 
         `force_fetch` parameter allows bypassing the cached XML and fetching a
@@ -220,6 +253,66 @@ def _parse_aid(value: str) -> int:
     raise ValueError(f"Cannot parse AniDB anime ID from: {value}")
 
 
+def expand_relation_group(
+    client: AniDBClient,
+    starting_aid: int,
+    force_fetch: bool = False,
+) -> list[AnimeEntry]:
+    """Get all related anime entries for a given starting entry
+
+    This function fetches all relations of the starting anime entry and returns
+    a list of AnimeEntry objects sorted by their start dates.
+    """
+    seen: set[int] = set()
+    queue: deque[int] = deque([starting_aid])
+    result: list[AnimeEntry] = []
+
+    while queue:
+        current_aid = queue.popleft()
+        if current_aid in seen:
+            continue
+        seen.add(current_aid)
+
+        print("Fetching AniDB entry: ", current_aid, file=sys.stderr)
+        entry = client.fetch_anime(current_aid, force_fetch=force_fetch)
+        for related_aid in entry.relations:
+            if related_aid not in seen:
+                queue.append(related_aid)
+        result.append(entry)
+
+    # unaired entries should sort to the very end, hence "9999-99-99" fallback
+    return sorted(result, key=lambda e: e.start_date or "9999-99-99")
+
+
+def build_output_mapping(
+    entries: list[AnimeEntry],
+) -> dict[str, list[str]]:
+    """Build a mapping of anime titles to their waifu character names.
+
+    This function takes a list of AnimeEntry objects and constructs a dictionary
+    where each key is the anime title and the value is a list of waifu character
+    names associated with that anime.
+
+    Waifus are included only in the earliest (by start date) entry where they
+    appear, and are alphabetical within groups by cast type (main, secondary,
+    appears). Cameo appearances are excluded.
+    """
+    mapping: dict[str, list[str]] = {}
+    seen: set[int] = set()
+
+    for entry in entries:
+        title = entry.title
+
+        for waifu in entry.waifus:
+            if waifu["cid"] not in seen:
+                if title not in mapping:
+                    mapping[title] = []
+                mapping[title].append(waifu["name"])
+                seen.add(waifu["cid"])
+
+    return mapping
+
+
 def main() -> int:
     # This one is mostly copied from an AI-generated prototype; I don't like
     # writing argparsers. I did clean up unused portions, reformat the code, and
@@ -228,7 +321,7 @@ def main() -> int:
         description="Build waifu list snippet from an AniDB anime entry."
     )
     ap.add_argument(
-        "start",
+        "starting_entry",
         help="AniDB anime ID (e.g. 1234) or full AniDB anime URL."
     )
     ap.add_argument("--delay", type=float, default=2.0, help="Delay between requests (seconds).")
@@ -246,14 +339,18 @@ def main() -> int:
     args = ap.parse_args()
 
     client = AniDBClient(cooldown=args.delay, cache_dir=args.cache_dir)
-    entries = expand_relation_group(client, _parse_aid(args.start), force_fetch=args.no_cache)
-    mapping = build_mapping(client, entries)
+    entries = expand_relation_group(
+        client,
+        _parse_aid(args.starting_entry),
+        force_fetch=args.no_cache
+    )
+    mapping = build_output_mapping(entries)
 
     rendered = json5.dumps(
         mapping, ensure_ascii=False, indent=4, quote_keys=True,
     )
     # [3:-3] removes the outer braces
-    sys.stdout.write(rendered[3:-3] + ",\n")
+    sys.stdout.write(rendered[2:-3] + ",\n")
     return 0
 
 
