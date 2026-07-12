@@ -60,8 +60,33 @@ class AnimeEntry:
             return startdate
         return None
 
+    def _normalize_character_type(self, char_type: str) -> str:
+        char_type = char_type.lower()
+        match char_type:
+            case "appears in":
+                return "appears"
+            case "secondary cast in":
+                return "secondary"
+            case "main character in":
+                return "main"
+            case "cameo appearance in":
+                return "cameo"
+        raise RuntimeError(f"Unknown character type: {char_type}")
+
+    def _character_type_sort_key(self, char_type: str) -> int:
+        match char_type:
+            case "main":
+                return 0
+            case "secondary":
+                return 1
+            case "appears":
+                return 2
+            case "cameo":
+                return 3
+        raise RuntimeError(f"Unknown character type: {char_type}")
+
     @property
-    def characters(self) -> dict[str, dict[str, str]]:
+    def characters(self) -> list[dict[str, str]]:
         # TODO: Anime XML doesn't include character tags (needed for filtering
         # based on things like "child" age range) nor "guise of" relationships
         # needed to deduplicate disguises or alter egos (e.g. Sailor Moon /
@@ -79,18 +104,45 @@ class AnimeEntry:
                 result[char_id] = {
                     "cid": char_id,
                     "name": char_name,
-                    "type": char.attrib.get("type"),
+                    "type": self._normalize_character_type(
+                        char.attrib.get("type"),
+                    ),
                     "gender": char_gender,
                 }
-        return result
+        sorted_result = sorted(
+            result.values(),
+            key=lambda r: (self._character_type_sort_key(r["type"]), r["name"])
+        )
+        return sorted_result
 
     @property
-    def waifus(self) -> dict[str, dict[str, str]]:
-        return {
-            char_id: char_info
-            for char_id, char_info in self.characters.items()
-            if char_info.get("gender") == "female"
-        }
+    def waifus(self) -> list[dict[str, str]]:
+        """Get a list of waifu-eligible characters from this anime entry.
+
+        Excludes "male" characters but returns all others, as AniDB somewhat
+        regularly stores less popular (read: "appears in") female characters
+        without a gender value.
+
+        Characters are deduplicated by name, relying on the sorting from the
+        class's own `characters` property to ensure that higher-tier instances
+        of a character are kept over lower ones (e.g. "main" over "secondary",
+        and both over "appears").
+
+        "cameo" type characters are skipped; they're usually from a different
+        franchise and don't belong in the waifu list for THIS show.
+        """
+        seen_names = set()
+        result = []
+        for char in self.characters:
+            if (
+                char["name"] in seen_names
+                or char["type"] == "cameo"
+            ):
+                continue
+            if char["gender"] == "female":
+                result.append(char)
+                seen_names.add(char["name"])
+        return result
 
 
 class AniDBClient:
@@ -114,13 +166,16 @@ class AniDBClient:
             "protover": HTTP_API_CLIENT_PROTOVER,
         }
 
-    def fetch_anime_xml(self, aid: int) -> etree._Element:
+    def fetch_anime_xml(self, aid: int, force_fetch=False) -> etree._Element:
         """
         Fetch an anime entry from AniDB by its ID.
+
+        `force_fetch` parameter allows bypassing the cached XML and fetching a fresh
+        copy from the API.
         """
         if self.cache_dir:
             cache_file = self.cache_dir / f"{aid}.xml"
-            if cache_file.exists():
+            if cache_file.exists() and not force_fetch:
                 with open(cache_file, "rb") as f:
                     return etree.fromstring(f.read())
 
@@ -143,11 +198,13 @@ class AniDBClient:
 
         return etree.fromstring(xml_content)
 
-    def fetch_anime(self, aid: int) -> AnimeEntry:
+    def fetch_anime(self, aid: int, force_fetch=False) -> AnimeEntry:
+        """Parse an anime entry from AniDB into an AnimeEntry, by ID.
+
+        `force_fetch` parameter allows bypassing the cached XML and fetching a
+        fresh copy from the API; it's passed to `fetch_anime_xml()`.
         """
-        Fetch an anime entry from AniDB by its ID and parse it into an AnimeEntry.
-        """
-        xml_root = self.fetch_anime_xml(aid)
+        xml_root = self.fetch_anime_xml(aid, force_fetch=force_fetch)
         return AnimeEntry.from_xml(xml_root)
 
 
@@ -165,7 +222,8 @@ def _parse_aid(value: str) -> int:
 
 def main() -> int:
     # This one is mostly copied from an AI-generated prototype; I don't like
-    # writing argparsers. I did clean up formatting and unused portions.
+    # writing argparsers. I did clean up unused portions, reformat the code, and
+    # add a few things... but the skeleton is very much from """AI""".
     ap = argparse.ArgumentParser(
         description="Build waifu list snippet from an AniDB anime entry."
     )
@@ -180,10 +238,15 @@ def main() -> int:
         default=Path(__file__).resolve().parent / ".anidb_cache",
         help="Disk cache directory for AniDB API/scrape responses.",
     )
+    ap.add_argument(
+        "--no-cache",
+        action="store_true",
+        help="Ignore cached AniDB XML and fetch fresh copies from the API.",
+    )
     args = ap.parse_args()
 
     client = AniDBClient(cooldown=args.delay, cache_dir=args.cache_dir)
-    entries = expand_relation_group(client, _parse_aid(args.start))
+    entries = expand_relation_group(client, _parse_aid(args.start), force_fetch=args.no_cache)
     mapping = build_mapping(client, entries)
 
     rendered = json5.dumps(
