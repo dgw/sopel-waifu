@@ -6692,6 +6692,43 @@
         "Tsukinoki Koto",
         "Komari Hina",
     ],
+    "Maken-ki!": [
+        "Amaya \"Haru\" Haruko",
+        "Himegami Kodama",
+        "Kushiya Inaho",
+        "Airiru Finian",
+        "Akaza Chacha",
+        "Amato Tomika",
+        "Amato Yuuka",
+        "Kinua Garetto",
+        "Midia Demitra",
+        "Minerva Martha",
+        "Nijou Aki",
+        "Riru Finian",
+        "Rokujou Minori",
+        "Shinatsu Azuki",
+        "Syria Ootsuka",
+        "Takaki Furan",
+        "Yan Min",
+        "Minaya Uruchi",
+        // "Nozuchi",  // appears to be a young child; skip
+        "Satou Kimi",
+        "Yamato Kikyou",
+        "Yamato Otohime",
+        // OVA ("Maken-ki!: Natsu Da! Mizugi Da! Gasshuku Da!") has no new chars
+        // Next: Maken-ki! Two: Takeru Nyotaika!? Minami no Shima de Supoon
+    ],
+    "Maken-ki! Two": [
+        // Previous: Maken-ki! Two: Takeru Nyotaika!? Minami no Shima de Supoon
+        // (yes, an OVA comes *before* the season)
+        "Kinoshita Yumika",
+        "Shimoyanagi Mahiru",
+    ],
+    "Maken-ki! Two: Takeru Nyotaika!? Minami no Shima de Supoon": [
+        "Ooyama Takeko",
+        "Usui Kenko",
+        // Next: Maken-ki! Two
+    ],
     "Mamahaha no Tsurego ga Motokano datta": [
         "Irido \"Ayai\" Yume",
         "Higashira Isana",
