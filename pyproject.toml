@@ -49,6 +49,7 @@ dependencies = [
 [dependency-groups]
 generator = [
   "lxml",
+  "pyperclip",
 ]
 
 [project.urls]

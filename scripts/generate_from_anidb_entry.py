@@ -11,6 +11,7 @@ import time
 
 import json5
 from lxml import etree
+import pyperclip
 import requests
 
 
@@ -352,8 +353,12 @@ def main() -> int:
     rendered = json5.dumps(
         mapping, ensure_ascii=False, indent=4, quote_keys=True,
     )
-    # [3:-3] removes the outer braces
-    sys.stdout.write(rendered[2:-3] + ",\n")
+    # [2:-3] removes the outer braces
+    rendered = rendered[2:-3] + ",\n"
+    sys.stderr.write("\nGenerated snippet:\n\n")
+    sys.stdout.write(rendered)
+    pyperclip.copy(rendered)
+    sys.stderr.write("\n📋 Copied the above snippet to the clipboard.\n")
     return 0
 
 
