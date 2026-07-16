@@ -10,7 +10,7 @@ install:
 	pip install -U .
 
 install-dev:
-	pip install -U -e .
+	pip install -U -e . --group generator
 
 lint: whitespace duplicates schema-check sort-check
 

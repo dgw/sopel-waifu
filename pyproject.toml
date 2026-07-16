@@ -46,6 +46,11 @@ dependencies = [
   "sqlalchemy",  # let Sopel itself enforce a version constraint
 ]
 
+[dependency-groups]
+generator = [
+  "lxml",
+]
+
 [project.urls]
 "Homepage" = "https://github.com/dgw/sopel-waifu"
 "Bug Tracker" = "https://github.com/dgw/sopel-waifu/issues"
