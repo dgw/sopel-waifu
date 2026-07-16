@@ -208,6 +208,10 @@ class AniDBClient:
         if self.cache_dir:
             cache_file = self.cache_dir / f"{aid}.xml"
             if cache_file.exists() and not force_fetch:
+                print(
+                    "Using cached entry: {}".format(cache_file),
+                    file=sys.stderr
+                )
                 with open(cache_file, "rb") as f:
                     return etree.fromstring(f.read())
 
@@ -277,7 +281,13 @@ def expand_relation_group(
             continue
         seen.add(current_aid)
 
-        print("Fetching AniDB entry: ", current_aid, file=sys.stderr)
+        print(
+            "Fetching AniDB entry: {0:>8}{1}".format(
+                current_aid,
+                " (forced)" if force_fetch else ""
+            ),
+            file=sys.stderr
+        )
         entry = client.fetch_anime(current_aid, force_fetch=force_fetch)
         for related_aid in entry.relations:
             if related_aid not in seen:
