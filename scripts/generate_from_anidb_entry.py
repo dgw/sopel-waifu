@@ -68,9 +68,12 @@ class AnimeEntry:
     def start_date(self) -> str | None:
         startdate = self.xml.xpath("startdate")[0].text
         if startdate:
-            if startdate == "0000-00-00":
+            if startdate in ("0000-00-00", "1970-01-01", "unknown"):
+                # I've only seen "1970-01-01" in the wild, but the others are
+                # more sensible values that I wish the API would use instead.
                 return None
             elif '?' in startdate:
+                # This might not actually happen? Needs more test data.
                 return startdate.replace('?', '9')
             return startdate
         return None
