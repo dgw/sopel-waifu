@@ -1,10 +1,14 @@
 .DEFAULT_GOAL := lint
-.PHONY: dev install install-dev json5-lint-deps lint duplicates schema-check sort sort-check whitespace whitespace-deps
+.PHONY: dev entry install install-dev json5-lint-deps lint duplicates schema-check sort sort-check whitespace whitespace-deps
 
 WAIFU_JSON := sopel_waifu/waifu.json5
 WAIFU_SCHEMA := $(WAIFU_JSON).schema
 
 dev: json5-lint-deps whitespace-deps install-dev
+
+entry:
+    # Script must prompt for an entry ID or URL if not provided as an argument
+	python3 scripts/generate_from_anidb_entry.py
 
 install:
 	pip install -U .

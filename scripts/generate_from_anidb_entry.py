@@ -336,6 +336,7 @@ def main() -> int:
     )
     ap.add_argument(
         "starting_entry",
+        nargs="?",  # prompted later if empty (None)
         help="AniDB anime ID (e.g. 1234) or full AniDB anime URL."
     )
     ap.add_argument("--delay", type=float, default=2.0, help="Delay between requests (seconds).")
@@ -351,6 +352,12 @@ def main() -> int:
         help="Ignore cached AniDB XML and fetch fresh copies from the API.",
     )
     args = ap.parse_args()
+
+    if args.starting_entry is None:
+        args.starting_entry = input("Entry ID or URL: ").strip()
+        if not args.starting_entry:
+            print("No entry provided; exiting.", file=sys.stderr)
+            return 1
 
     client = AniDBClient(cooldown=args.delay, cache_dir=args.cache_dir)
     entries = expand_relation_group(
