@@ -158,6 +158,12 @@ class AnimeEntry:
         "cameo" type characters are skipped; they're usually from a different
         franchise and don't belong in the waifu list for THIS show.
         """
+        # TODO: Track and return "seen" character IDs as well, which would make
+        # it easier for callers to omit "guise of" entries that were already
+        # skipped in an earlier entry.
+        # Example: c151072 "Kikoyu" is in both a18204 (skipped, same-entry name
+        # match) and a19580 (script returns this one; though this SPECIFIC case
+        # could be deduplicated by name only, tracking IDs would be more robust)
         seen_names = set()
         result = []
         for char in self.characters:
