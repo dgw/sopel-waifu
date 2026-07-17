@@ -4866,6 +4866,40 @@
         "Serizawa Maiko",
         "Yamasato",
     ],
+    "Jidouhanbaiki ni Umarekawatta Ore wa Meikyuu o Samayou": [
+        "Lammis",
+        "Filmina",
+        "Hulemy",
+        "Shui",
+        "Acowi",
+        "Fia",
+        "Hoxie",
+        "Kanashi",
+        "Kesha",
+        // "May",  // tagged "child", skip
+        "Munami",
+        "Okami-san",
+        "Shirley",
+        "Suco",
+        "Suori",
+        "Uliwa",
+        "Yadoya no Okami",
+        "Yumite",
+    ],
+    "Jidouhanbaiki ni Umarekawatta Ore wa Meikyuu o Samayou 2nd Season": [
+        "Kikoyu",
+        "Hajimari no Kaichou",
+        "Kayolings",
+        "Meiro no Kaichou",
+        "Sulream",
+    ],
+    "Jidouhanbaiki ni Umarekawatta Ore wa Meikyuu o Samayou 3rd Season": [
+        // "Kikoyu",  // a "guise of" the one in S2; skip
+        "Pity",
+        "Hayachi",
+        "Moeder",
+        "Qyoehkotek",
+    ],
     "Jigoku Shoujo": [
         "Enma Ai",  // tagged "child", but also "eternal youth" - plus the main character kinda has to be listed
         "Ai no Sobo",
