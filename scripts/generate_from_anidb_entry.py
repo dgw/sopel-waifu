@@ -208,9 +208,31 @@ class AniDBClient:
         """
         Fetch an anime entry from AniDB by its ID.
 
-        `force_fetch` parameter allows bypassing the cached XML and fetching a fresh
-        copy from the API.
+        `force_fetch` parameter allows bypassing the cached XML and fetching a
+        fresh copy from the API.
         """
+        max_cache_age_seconds = 24 * 60 * 60  # 1 day
+        if self.cache_dir:
+            cache_file = self.cache_dir / f"{aid}.xml"
+            if cache_file.exists() and not force_fetch:
+                cache_age = time.time() - cache_file.stat().st_mtime
+                if cache_age > max_cache_age_seconds:
+                    print(
+                        "Cached entry is too old ({:,} seconds); fetching fresh copy: {}".format(
+                            int(cache_age),
+                            cache_file,
+                        ),
+                        file=sys.stderr
+                    )
+                    cache_file = None
+                else:
+                    print(
+                        "Using cached entry: {}".format(cache_file),
+                        file=sys.stderr
+                    )
+                    with open(cache_file, "rb") as f:
+                        return etree.fromstring(f.read())
+
         if self.cache_dir:
             cache_file = self.cache_dir / f"{aid}.xml"
             if cache_file.exists() and not force_fetch:
