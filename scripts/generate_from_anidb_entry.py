@@ -15,6 +15,8 @@ import pyperclip
 import requests
 
 
+CACHE_REFETCH_AGE_SECONDS = 24 * 60 * 60  # 1 day
+CACHE_PURGE_AGE_SECONDS = 7 * 24 * 60 * 60  # 1 week
 HTTP_API_URL = os.getenv("ANIDB_HTTP_API_URL") or "http://api.anidb.net:9001/httpapi"
 HTTP_API_CLIENT = "sopelwaifuhelper"
 HTTP_API_CLIENT_VERSION = "2"
@@ -191,6 +193,24 @@ class AniDBClient:
             "User-Agent": USER_AGENT,
         })
         self.last_request = 0.0
+        self._clean_cache()
+
+    def _clean_cache(self) -> None:
+        if not self.cache_dir:
+            return
+        if not self.cache_dir.exists():
+            return
+        for cache_file in self.cache_dir.glob("*.xml"):
+            cache_age = time.time() - cache_file.stat().st_mtime
+            if cache_age > CACHE_PURGE_AGE_SECONDS:
+                print(
+                    "Purging old cached entry ({:,} seconds): {}".format(
+                        int(cache_age),
+                        cache_file,
+                    ),
+                    file=sys.stderr
+                )
+                cache_file.unlink()
 
     @property
     def request_params(self) -> dict[str, str]:
@@ -211,12 +231,11 @@ class AniDBClient:
         `force_fetch` parameter allows bypassing the cached XML and fetching a
         fresh copy from the API.
         """
-        max_cache_age_seconds = 24 * 60 * 60  # 1 day
         if self.cache_dir:
             cache_file = self.cache_dir / f"{aid}.xml"
             if cache_file.exists() and not force_fetch:
                 cache_age = time.time() - cache_file.stat().st_mtime
-                if cache_age > max_cache_age_seconds:
+                if cache_age > CACHE_REFETCH_AGE_SECONDS:
                     print(
                         "Cached entry is too old ({:,} seconds); fetching fresh copy: {}".format(
                             int(cache_age),
