@@ -1922,7 +1922,7 @@
         "Lylie Kisha",
     ],
     "Cross Ange: Tenshi to Ryuu no Rondo": [
-        "Angelise \"Ange\" Ikaruga Misurugi",
+        "Angelise \"Ange\" Ikaruga Misurugi",  // AniDB just has "Ange", but come on
         "Chris",
         "Emma Bronson",
         "Ersha",
@@ -1944,6 +1944,7 @@
         "Akiho",
         "Angelise Ikaruga Misurugi",
         "Coco",
+        // "Daimiko",  // Jisho doesn't have this compound; definitely something generic like "head shrine maiden", so skip
         "Doctor Gecko",
         "Hikaru",
         "Hilda no Haha",
@@ -1959,7 +1960,9 @@
         "Naga",
         "Nonna",
         "Olivier",
+        // "Onna Kyoushi",  // "female instructor" is too generic, skip
         "Pamela",
+        // "Sara",  // a child, skip
         "Sara no Haha",
         "Tanya",
         "Tomomi",
