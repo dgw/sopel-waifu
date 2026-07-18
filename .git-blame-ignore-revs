@@ -1,4 +1,9 @@
-# switching to JSON5 format (adding trailing commas in bulk, mostly)
+# These first two entries shift most of the blame from format reworks I've done
+# over the years to my initial import of the list Peorth gave me from the old
+# imouto-baka bot, which makes it more obvious what's never been touched since.
+## format rework: list -> plain JSON
+16838ab45a747247d94c726d3fbd1b3e3ea5ba1a
+## format rework: plain JSON -> JSON5
 6fcd9f472a769f3d131578854b2b25cacec62aab
 
 # auto-sort when adding sorting scripts
