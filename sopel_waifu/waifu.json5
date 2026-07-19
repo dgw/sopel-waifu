@@ -2832,6 +2832,17 @@
         "Selene \"The Moon Dragon God\"",
         "Touka",
     ],
+    "FLAG": [
+        "Shirasu Saeko",
+        // Below are educated guesses based on VA names and outside research.
+        // None of these have pictures, gender tags, or even transliterated
+        // names on AniDB, but other sources confirm they exist—even the ones
+        // AniDB doesn't mention AT ALL (Rowell & Lisa).
+        "Chris Eversalt",
+        "Hakan Aqbal",
+        "Rowell Su-Ming",
+        "Lisa",
+    ],
     "Flip Flappers": [
         "Kokomine \"Pure Blade\" Cocona",
         "Papika \"Pure Barrier\"",
