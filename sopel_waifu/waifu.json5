@@ -11936,6 +11936,21 @@
         "Matsuki",
         "Misago",
     ],
+    "Yomigaeru Sora: Rescue Wings": [
+        "Hasegawa Megumi",
+        "Nishida Kazumi",
+        // "Hongou Atsuko",  // tagged "child"; skip
+        "Hongou Midori",
+        "Inoue Natsuko",
+        "Nakakura Chiemi",
+        // "Obasan",  // too generic; skip
+        "Okada Keiko",
+        // "Okada Sakura",  // tagged as a child in external character DB, and looks like one; skip
+        "Shaura Yoshiko",
+        "Shirabyoushi no Haha",
+        "Uchida Misae",
+        // "Yumi",  // tagged "child"; skip
+    ],
     "Yoru no Kurage wa Oyogenai": [
         "Kouzuki \"Yoru\" Mahiru",
         "Takanashi Kim Anouk \"Kimura-chan\" Mei",
