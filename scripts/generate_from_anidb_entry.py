@@ -235,7 +235,14 @@ class AniDBClient:
             cache_file = self.cache_dir / f"{aid}.xml"
             if cache_file.exists() and not force_fetch:
                 cache_age = time.time() - cache_file.stat().st_mtime
-                if cache_age > CACHE_REFETCH_AGE_SECONDS:
+                if cache_age < CACHE_REFETCH_AGE_SECONDS:
+                    print(
+                        "Using cached entry: {}".format(cache_file),
+                        file=sys.stderr
+                    )
+                    with open(cache_file, "rb") as f:
+                        return etree.fromstring(f.read())
+                else:
                     print(
                         "Cached entry is too old ({:,} seconds); fetching fresh copy: {}".format(
                             int(cache_age),
@@ -243,24 +250,6 @@ class AniDBClient:
                         ),
                         file=sys.stderr
                     )
-                    cache_file = None
-                else:
-                    print(
-                        "Using cached entry: {}".format(cache_file),
-                        file=sys.stderr
-                    )
-                    with open(cache_file, "rb") as f:
-                        return etree.fromstring(f.read())
-
-        if self.cache_dir:
-            cache_file = self.cache_dir / f"{aid}.xml"
-            if cache_file.exists() and not force_fetch:
-                print(
-                    "Using cached entry: {}".format(cache_file),
-                    file=sys.stderr
-                )
-                with open(cache_file, "rb") as f:
-                    return etree.fromstring(f.read())
 
         params = self.request_params.copy()
         params.update({
