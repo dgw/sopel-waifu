@@ -11240,6 +11240,20 @@
         "Yang Guifei",
         "Yu Mei-ren",
     ],
+    "Tytania": [
+        // "Lydia",  // 10 years old, skip
+        "Catherine",
+        "Francia",
+        "Kallen",
+        "Lira Florenz",
+        "Miranda Casimir",
+        // "Obaa-chan",  // too generic, skip
+        "Serafin Coopers",
+        "Theresa Tytania",
+        // "Uba",  // "wet nurse"; too generic, skip
+        "Laetitia Tyrandia",
+        "Sonia",
+    ],
     "Uchi no Ko no Tame Naraba, Ore wa Moshikashitara Maou mo Taoseru Kamo Shirenai.": [
         "Rita Krugel",
         "Clarissa",
