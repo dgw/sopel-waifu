@@ -8844,6 +8844,25 @@
     "Seijo no Maryoku wa Bannou Desu II": [
         "Claudia Hawke",
     ],
+    "Seikai no Monshou": [
+        "Abriel Nei Debrusc Borl Paryun Lafiel",
+        "Abriel Nei Debrusc Spunej Ramaj",
+        "Gyumuryua",
+        "Lexshu Wef-Robell Plakia",
+        "Spoor Aron Sekpadao Letopanyu Peneju",
+        "Yunseryua",
+        "Lina Clint",
+        "Seelnay",
+        // Next: Seikai no Senki
+    ],
+    "Seikai no Senki": [
+        // Previous: Seikai no Monshou
+        // There are other entries in this relation graph, but none of them have
+        // new characters to mention so they aren't in this list.
+        "Atosuryua Syun-Atos Baron Febdash Roi",
+        "Ekuryua Wef Tryuz Noel",
+        "Keneeshu Wef Stumal Kipeil",
+    ],
     "Seirei Gensouki": [
         "Aishia",
         "Celia Claire",
