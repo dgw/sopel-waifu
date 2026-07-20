@@ -7686,6 +7686,43 @@
         "Centorea \"Cerea\" Shianus",
         "Suu \"Slime Girl\"",
     ],
+    "Mouretsu Pirates": [
+        "Chiaki Kurihara",
+        "Katou Marika",  // actually two guises, one student and one pirate captain
+        "Ai Hoshimiya",
+        "April Lambert",
+        "Asta Alhanko",
+        "Belinda Percy",
+        "Coorie",
+        "Endou Mami",
+        "Flora Chapie",
+        // Gruier is tagged as "child", but sister Grunhilde isn't
+        // Both appear as their older selves (I guess) in the sequel film, so
+        // keep them here where they first show up... Seems least messy.
+        "Gruier Serenity",
+        "Grunhilde Serenity",
+        "Izumi Yunomoto",
+        "Jenny Dolittle",
+        "Katou Ririka",
+        "Kobayashimaru Shouko",
+        "Lilly Bell",
+        "Luca",
+        "Lynn Lambretta",
+        "Maki Harada",
+        "Misa Grandwood",
+        "Mylene Certon",
+        "Natalia Glennorth",
+        "Sasha Staple",
+        "Talvikki Launo",
+        "Ursula Abramov",
+        "Yayoi Yoshitomi",
+        "Quartz Christie",
+    ],
+    "Mouretsu Pirates: Abyss of Hyperspace - Akuu no Shin'en": [
+        // lots of "guise of" characters already listed above; omitted here
+        // most are I suppose older versions of the previous cast
+        "Scarlet Cipher",
+    ],
     "Moyashimon": [
         "Hasegawa Haruka",
         "Mutou \"Miss Agriculture\" Aoi",
