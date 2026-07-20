@@ -204,8 +204,8 @@ class AniDBClient:
             cache_age = time.time() - cache_file.stat().st_mtime
             if cache_age > CACHE_PURGE_AGE_SECONDS:
                 print(
-                    "Purging old cached entry ({:,} seconds): {}".format(
-                        int(cache_age),
+                    "Purging old cached entry ({:,} days): {}".format(
+                        _seconds_to_days(cache_age),
                         cache_file,
                     ),
                     file=sys.stderr
@@ -244,8 +244,8 @@ class AniDBClient:
                         return etree.fromstring(f.read())
                 else:
                     print(
-                        "Cached entry is too old ({:,} seconds); fetching fresh copy: {}".format(
-                            int(cache_age),
+                        "Cached entry is too old ({:,} days); fetching fresh copy: {}".format(
+                            _seconds_to_days(cache_age),
                             cache_file,
                         ),
                         file=sys.stderr
@@ -283,6 +283,11 @@ class AniDBClient:
         """
         xml_root = self.fetch_anime_xml(aid, force_fetch=force_fetch)
         return AnimeEntry.from_xml(xml_root)
+
+
+def _seconds_to_days(seconds: float) -> float:
+    """Convert seconds to days, rounded to 2 decimal places."""
+    return round(seconds / (24 * 60 * 60), 2)
 
 
 def _parse_aid(value: str) -> int:
