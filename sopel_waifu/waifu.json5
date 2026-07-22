@@ -7741,6 +7741,29 @@
         "Sasaki Nako",
         "Sayo",
     ],
+    "Musekinin Galaxy Tylor": [
+        // Previous: Musekinin Kanchou Tylor (1995)
+        "Goza 168-sei",
+        "Dolly",
+    ],
+    "Musekinin Kanchou Tylor": [
+        "Yuriko Star",
+        "Azalyn D'el Kran Rykun",
+        "Emi Hanner",
+        "Harumi Nakagawa",  // Haha very funny, age tag of "3". She's a robot.
+        "Kyon-Hwa Kim",
+        "Shia Has",
+        "Yumi Hanner",
+        // First OVA following has no new characters; _ (1995) next.
+    ],
+    "Musekinin Kanchou Tylor (1995)": [
+        "Karlson",
+        "Kogure-fujin",
+        "Miranda",
+        // Next: Musekinin Galaxy Tylor
+        // (There's another OVA before, and one after, neither with new
+        // characters. So we skip ahead to 2017.)
+    ],
     "Mushikaburi Hime": [
         "Elianna Bernstein",
         "Agnes",
