@@ -11577,6 +11577,36 @@
         "Uzaki Tsuki",
         "Uzaki Yanagi",
     ],
+    "VanDread": [
+        "Barnette Orangello",
+        "Dita Liebely",
+        "Jura Basil Elden",
+        "Meia Gisborn",
+        "Buzam A. Calessa",
+        "Ezra Vieil",
+        "Gascogne Rheingau",
+        "Magno Vivan",
+        // "Paiway Underberg",  // hmm, 11yo..... no "child" tag, but skip I guess
+        "Parfet Balblair",
+        "Amarone Slaintheav",
+        "Belvedere Coco",
+        "Celtic Midori",
+        "Fanita",
+        "Meia no Faama",
+        "Meia no Ooma",
+        "Seran",
+    ],
+    "VanDread the Second Stage": [
+        "Misty Cornwell",
+        "Gascogne no Ane",
+        // "Grandma",  // pretty generic without a proper name; skip
+        // "Kahula",  // wow, I don't remember seeing a "baby" tag before; skip
+        "Liz",
+        "Rebecca",
+        "Shirley",
+        "Valore",
+        // Not included: A couple summary OVAs with no new characters
+    ],
     "Vinland Saga": [
         "Anne",
         "Arnheid",
