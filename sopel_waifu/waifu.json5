@@ -9847,6 +9847,34 @@
         "Minna-Dietlinde \"Fürstin\" Wilcke",
         "Charlotte E. \"Shirley\" Yeager",
     ],
+    "Suisei no Gargantia": [
+        "Amy",
+        "Bellows",
+        // "Grace",  // pet hamster-squirrel-thing; skip
+        "Mayta",
+        "Melty",
+        "Ridget",
+        "Saaya",
+        "Ada Matsumoto",
+        "Aleria",
+        "Babaa",  // exactly this in katakana
+        // "Gargantia Norikumiin",  // "Gargantia crew member"; there are several with the same "name"
+        "Isabella Artlyal",
+        "Kuraria",
+        "Linaria",
+        "Loche",
+        // "Oldham no Joshu",  // "Oldham's assistant", but also looks like a child? skip
+        "Onderia",
+        "Paraem",
+        "Parinuri",
+        "Rackage",
+        "Sharon",
+        "Storia",  // HORIE YUI
+    ],
+    "Suisei no Gargantia: Meguru Kouro, Haruka": [
+        "Reamer",
+        // "Ryuuguujou Shunou",  // "Dragon King Palace Leader"; a title, not a name, so skip
+    ],
     "Sukitte Ii na yo.": [
         "Tachibana Mei",
         "Kitagawa Megumi",
