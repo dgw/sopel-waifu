@@ -10370,7 +10370,23 @@
         // "Kokobu",  // looks VERY young, but not tagged "child"; still, skip
         "Mjurran",
     ],
-
+    "Terra e... (2007)": [
+        // This is an "Alternative version" of a 1980 movie by the same title.
+        // AniDB has very little data (no translated/localized names, character
+        // photos, etc.) for the movie, so let's just use the 2007 TV series as
+        // the main entry.
+        "Brau",
+        "Era",
+        "Karina",
+        "Mahiru",
+        "Michelle Piper",
+        "Mother Eliza",
+        "Nina",
+        "Physis",  // "フィシス" first appears in the 1980 movie, the only obvious crossover entry
+        "Ruri",
+        "Swena Dalton",
+        "Yae",
+    ],
     "THE iDOLM@STER": [
         "Akizuki \"Ricchan\" Ritsuko",
         "Amami \"Harurun\" Haruka",
