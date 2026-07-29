@@ -3215,6 +3215,13 @@
         "Ono Miyoko",
         // Next: Tokubetsu Hen Hibike! Euphonium: Ensemble Contest Hen
     ],
+    "Gekijouban Majestic Prince: Kakusei no Idenshi": [
+        // Previous: Ginga Kikoutai Majestic Prince
+        "An Medikum",
+        "Dioruna",
+        "Yui Magallanes",
+        "Patricia",
+    ],
     "Gekijouban Tensei Shitara Slime Datta Ken: Guren no Kizuna Hen": [
         // sixth chronological entry in the franchise
         "Towa",
@@ -3588,6 +3595,28 @@
         "Minamikujou Ayame",
         "Matsuzawa",
         "Nakaya",
+    ],
+    "Ginga Kikoutai Majestic Prince": [
+        "Irie Tamaki",
+        "Kugimiya Kei",
+        "Amane Hazuki",
+        "Lutier",
+        "Saionji Reika",
+        "Suzukaze Rin",
+        "Theoria",
+        // "Anna",  // in character photo, appears to be a child; skip
+        // "Caster",  // seems to be a generic description, as in she's a (news) caster; skip
+        "Irina",
+        "Jane",
+        "Kuroki Anju",  // "androgynous" tag, voiced by a woman, keep for now
+        "Marie",
+        "Mayu",
+        "Naomi",
+        "Natori Shion",
+        "Rona",
+        "Rula",
+        "Yamada Peko",
+        // Next: Gekijouban Majestic Prince: Kakusei no Idenshi
     ],
     "Gingitsune": [
         "Saeki Makoto",
