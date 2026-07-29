@@ -128,8 +128,12 @@ class AnimeEntry:
         for char in self.xml.xpath("characters/character"):
             char_id = char.attrib.get("id")
             char_name = char.find("name").text
+            char_type = char.find("charactertype").attrib.get("id")
             char_gender = char.find("gender").text
-            if all([char_id, char_name, char_gender]):
+            if (
+                all([char_id, char_name, char_type, char_gender])
+                and char_type == "1"  # "Character", not "Organization" or etc.
+            ):
                 result[char_id] = {
                     "cid": char_id,
                     "name": char_name,
@@ -174,7 +178,7 @@ class AnimeEntry:
                 or char["type"] == "cameo"
             ):
                 continue
-            if char["gender"] == "female":
+            if char["gender"] != "male":
                 result.append(char)
                 seen_names.add(char["name"])
         return result
