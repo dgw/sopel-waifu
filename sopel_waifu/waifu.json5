@@ -1593,6 +1593,33 @@
         "Sakurai \"Yuki-nee\" Yukino",
         "Sakurai \"Shi-chan\" Shizuku",
     ],
+    "Captain Earth": [
+        "Mutou Hana",
+        "Yomatsuri Akari",
+        "Ai",
+        "Hino Rita",
+        "Lin",
+        "Moco",
+        "Setsuna",
+        "Aizawa Ayana",
+        "Andou Nio",
+        // "Announcer",  // nope, generic af
+        "Asanoda Kumiko",  // let's assume this is the "young adult" version, not the younger-looking guise
+        // "Hana (Youshouki)",  // "Hana (early childhood)", and a guise of the real Mutou-san, so skip
+        // "Lappa",  // squirrel, would be funny to include as a joke but I honestly don't know if it's considered femme... so skip
+        "Makino Hitomi",
+        // "Manager",  // generic af, skip
+        "Marimura Mao",
+        "Mia",
+        "Nakamori Naoko",
+        // "Onna Shujin",  // not a name; "proprietress" or similar
+        // "Pack",  // agender, non-human, male seiyuu
+        "Pitz",  // squirrel joke, no gender tag, female seiyuu; tentatively keep
+        // "Queen",  // not if she doesn't even have a name after her title
+        "Rena",
+        "Sasaki Saori",
+        "Yomatsuri Tsubaki",
+    ],
     "Casshern Sins": [
         "Lyuze",
         "Leda",
