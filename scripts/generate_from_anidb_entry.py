@@ -116,6 +116,14 @@ class AnimeEntry:
 
     @property
     def characters(self) -> list[dict[str, str]]:
+        """Get a list of all characters from this anime entry.
+
+        Note that some "Appears" characters might not be included in the XML,
+        and are therefore not returned here. The AniDB API doesn't provide cast
+        entries not linked to a full character entry with a character ID (CID),
+        usually background characters who don't appear enough to justify a full
+        entry according to their editing guidelines.
+        """
         # TODO: Anime XML doesn't include character tags (needed for filtering
         # based on things like "child" age range) nor "guise of" relationships
         # needed to deduplicate disguises or alter egos (e.g. Sailor Moon /

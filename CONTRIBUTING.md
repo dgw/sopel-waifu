@@ -35,14 +35,36 @@ fetch what information it can from AniDB's API for *that relation group* (all
 prequels, sequels, OVAs, etc. that AniDB knows about) and copy a snippet to the
 clipboard for you.
 
-**IMPORTANT: Do not submit this snippet without checking it first.** The script
-cannot account for any of the below conditions, nor other edge cases the author
-hasn't yet documented:
+**IMPORTANT: Do not submit this snippet without checking it first against the
+cast list yourself.** The generator script cannot account for any of the below
+conditions, nor other edge cases the author hasn't yet documented:
 
 - "child" characters
 - characters whose "name" is just a title or generic description, e.g. "Shoujo"
   ("girl"), "Kyoushi" ("instructor")
 - characters with no gender set (only "male" is excluded; all others are
   included for manual review)
+- characters without their own character page; these are usually background
+  characters in the "Appears" section
 
+When you omit a character due to one of these cases, it's preferred to comment
+out their name rather than deleting it, and indicate which reason was applied.
+For example:
 
+```json5
+        // "Pitz",  // pet squirrel, and gender unclear; skip
+```
+
+Please also put any additions the script didn't pick up after a comment, e.g.:
+
+```json5
+    "Uchuu no Stellvia": [
+        /* ... top of list omitted for brevity ... */
+        "Renge Ren",
+        "Kazamatsuri Natasha",
+        // Incomplete character entries that belong per educated guesses
+        // These don't appear in the XML since they don't have full entries w/CIDs
+        "Akiko Mills",
+        "Kusanagi Youko",
+    ],
+```

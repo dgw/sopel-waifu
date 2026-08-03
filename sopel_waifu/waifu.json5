@@ -11517,6 +11517,25 @@
         "Oikawa Kaa-san",
         "Shimada Kaa-san",
     ],
+    "Uchuu no Stellvia": [
+        "Arisa Glennorth",
+        "Katase Shima",
+        "Fujisawa Yayoi",
+        "Katase Chiaki",
+        "Kayama Akira",
+        // "Kazamatsuri Rinna",  // hmm, "child" tag... skip
+        "Leila Barthes",
+        "Machida Ayaka",
+        "Mia Glennorth",
+        "Najima Gable",
+        "Otoyama Youko",
+        "Renge Ren",
+        "Kazamatsuri Natasha",
+        // Incomplete character entries that belong per educated guesses
+        // These don't appear in the XML since they don't have full entries w/CIDs
+        "Akiko Mills",
+        "Kusanagi Youko",
+    ],
     "Uchuu Senkan Tiramisu": [
         "Ligier Leroy",
         "Shigeruko Honda",
