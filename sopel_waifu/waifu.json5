@@ -8563,6 +8563,19 @@
         "Arisa",
         //  as of July 2026, AniDB cast for second season of the series (2019) has no new characters
     ],
+    "Planetes": [
+        "Tanabe Ai",
+        "Clair Rondo",
+        "Edelgard Rivera",
+        "Fee Carmichael",
+        "Chapeau",
+        "Cita Sullivan",
+        "Hoshino Haruko",
+        "Lucie Ascham",
+        // "Nono",  // tagged as "child", 12yo who looks 20-ish due to Lunar birth; skip
+        "Sally Silverstone",
+        "Vanli",
+    ],
     "Pokémon": [
         "Acerola",
         "Bea",
