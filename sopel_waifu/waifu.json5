@@ -1754,6 +1754,45 @@
         "Noritake Kaoruko",  // no gender tag, but Kaoruko is usually feminine
         "Senoo Yuzuki",  // no gender tag, but Yuzuki is usually feminine
     ],
+    "Choujikuu Yousai Macross": [
+        "Hayase Misa",
+        "Lynn Minmay",
+        "Claudia La Salle",
+        "Kim Kabirov",
+        "Lap Lamiz",
+        "May",
+        "Milia Fallyna",
+        "Panapp",
+        "Pocky",
+        "Shammy Milliome",
+        "Vanessa Laird",
+        "Jamis Merin",
+        // "Komilia Maria Fallyna Jenius",  // baby, skip
+        "Lynn Feichun",
+        "Lynn Shigeyo",
+        "Mariko",
+        // Next: Choujikuu Yousai Macross: Ai Oboete Imasuka
+    ],
+    "Choujikuu Yousai Macross II: Lovers Again": [
+        // Previous: Choujikuu Yousai Macross: Ai Oboete Imasuka
+        // Skipped Choujikuu Yousai Macross: Flash Back 2012, which has no new characters
+        "Ishtar",
+        "Silvie Gena",
+        "Amy Rock",
+        "Elensh",
+        "Kujou Saori",
+        "Nastasha Tot",
+        "Wendy Ryder",
+        // Next: Macross Plus
+    ],
+    "Choujikuu Yousai Macross: Ai Oboete Imasuka": [
+        // Previous: Choujikuu Yousai Macross
+        // "Milia 639",  // guise of Milia Fallyna from before, skip
+        // "Moruk Lap Lamiz",  // guise of Lap Lamiz from before, skip
+        "Tewanton 3565",
+        // Skip Choujikuu Yousai Macross: Flash Back 2012, which has no new characters
+        // Next: Choujikuu Yousai Macross II: Lovers Again
+    ],
     "Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku You Desu!": [
         "Ichijou Aoi",
         "Kanzaki Keine",
@@ -6672,6 +6711,113 @@
         "Sata Kaa-san",
         "Yoshida Ryouko",
         "Yoshida Seiko",
+    ],
+    "Macross 7": [
+        // Previous: Macross Plus
+        "Mylene Flare Jenius",
+        "Houjou Akiko",
+        "Kim Saintlaurent",
+        "Miho Miho",
+        // "Milia Fallyna Jenius",  // guise of Milia Fallyna from previous series, skip
+        "Sally Saint Ford",
+        "Sivil",
+        "Veffidas Feaze",
+        "Alice Holiday",
+        "Berman",
+        "Chitose Ripple",
+        "Colette",
+        // "Glavil",  // not enough information to confidently include; skip
+        // "Hanataba no Shoujo",  // "flower girl"; generic, skip
+        "Hennessy",
+        "Ho Shidoku",
+        "Janet Johnson",
+        "Kaneko Michel",  // no picture, but keeping for now
+        "Marilyn Linkerbell",  // no picture, but keeping for now
+        "Mike",  // yes really, no it's not a dude
+        "Rex",  // ditto, not a dude
+        "Siam",
+        "Zomd",  // taking the DB's gender tag at face value, though the character image isn't clear to me
+        // Next: Macross 7: Ginga ga Ore o Yonde Iru!
+    ],
+    "Macross 7 Encore": [
+        // Previous: Macross 7: Ginga ga Ore o Yonde Iru!
+        "Chlore",
+        "Jessica",
+        "Tranquil",
+        // Next: Macross Dynamite 7
+    ],
+    "Macross 7: Ginga ga Ore o Yonde Iru!": [
+        // Previous: Macross 7
+        "Emilia Jenius",
+        "Margarita",
+        // Next: Macross 7 Encore
+    ],
+    "Macross Delta": [
+        // aka: Macross Δ
+        // Previous: Macross Frontier
+        // Several entries chronologically before/after this got skipped due to no new characters
+        "Freyja Wion",
+        "Mirage Farina Jenius",
+        "Beth Muscat",
+        "Kaname Buccaneer",
+        "Makina Nakajima",
+        "Mikumo Guynemer",  // tagged as 3yo, but... idk what's going on, that's an adult
+        "Mizuki Yuuri",
+        "Nina O'Brien",
+        "Reina Prowler",
+        "Claire Paddle",
+        "Liddy Le Grown",
+        // Next: n/a (yet?)
+    ],
+    "Macross Dynamite 7": [
+        // Previous: Macross 7 Encore
+        "Elma Huili",
+        "Liza Huili",
+        // "Kyapi",  // non-humanoid, no gender tag; skip
+        "Maria Velazquez Huili",
+        "Sazapi",
+        // Next: Macross Zero
+    ],
+    "Macross Frontier": [
+        // Previous: Macross Zero
+        "Ranka Lee",
+        "Sheryl Nome",
+        "Canaria Berstein",
+        "Catherine Glass",
+        "Grace O'Connor",
+        "Klan Klan",
+        "Matsuura Nanase",
+        "Mina Roshan",
+        "Monica Lange",
+        "Ram Hoa",
+        // "Ai-kun",  // "insect, pet"; skip
+        // "Keitai-kun",  // someone's mobile phone/comm unit
+        "Miranda Merin",
+        "Nene Rora",
+        "Ranshe Mei",
+        "Raramia Reremia",
+        // "Vajra",  // non-humanoid, no tags, too ambiguous; skip
+        // Next: Macross Delta
+    ],
+    "Macross Plus": [
+        // Previous: Choujikuu Yousai Macross II: Lovers Again
+        "Myung Fang Lone",
+        "Lucy Macmillan",
+        "Sharon Apple",
+        "Kate Masseau",
+        // Skip Macross Plus Movie Edition, which has no new characters
+        // Next: Macross 7
+    ],
+    "Macross Zero": [
+        // Previous: Macross Dynamite 7
+        // Skipped Macross XX, as it seems to have no new characters
+        "Mao Nome",  // probably deserves skipping for being 11yo, but... main cast, not tagged "child"
+        "Sara Nome",
+        "Aries Turner",
+        "Katie",
+        "Nora Polyansky",
+        // "Tori no Hito",  // "bird person"; too ambiguous, skip
+        // Next: Macross Frontier
     ],
     "Made in Abyss": [
         "Riko",
