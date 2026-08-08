@@ -4111,6 +4111,40 @@
         "Claes",
         "Angelica",
     ],
+    "Hachimitsu to Clover": [
+        "Hanamoto Hagumi",
+        "Yamada Ayumi",
+        "Harada Rika",
+        "Takemoto Mitsuko",
+        "Teshigawara Miwako",
+        "Akemi",
+        // "Akiko Obasan",  // eh, pretty generic
+        "Chouko",  // this is actually a given name
+        "Hasegawa Megumi",
+        // "Jimuin",  // "office staff"; skip
+        "Kaishou Yuuko",
+        // "Kangoshi",  // "nurse"; skip
+        "Kouda-kyouju",  // like "Professor Kouda"; this is fine
+        "Mizue",
+        // "Obaasan",
+        // "Okusan",
+        // "Oooba",
+        "Saionji Midori",  // a literal dog… gag opportunity :)
+        "Satou-sensei",
+        // "Sensei",  // not even a name? skip
+        "Yamada Haha",
+    ],
+    "Hachimitsu to Clover II": [
+        "Emma",
+        // "Hahaoya",  // *whose* mother? skip
+        "Hanamoto Haha",
+        "Hiromi",
+        // "Musume",  // *whose* daughter? skip
+        "Negishi Haha",
+        "Satsuki-sensei",
+        // "Tsuma",  // *whose* wife? skip
+        "Youko",
+    ],
     "Hachinantte, Sore wa Nai Deshou!": [
         // Not many ages specified. Nobody *looks* like a kid, so... YOLO?
         "Amalie",
