@@ -3662,6 +3662,72 @@
         "Matsuzawa",
         "Nakaya",
     ],
+    "Ginga Eiyuu Densetsu": [
+        // Previous: Ginga Eiyuu Densetsu: Waga Yuku wa Hoshi no Taikai
+        "Frederica Greenhill",
+        "Hildegard von Mariendorf",
+        // "Bucock-fujin",  // "Bucock's wife"; fairly generic
+        // "Charlotte Phyllis Caselnes",  // tagged "child", skip
+        "Cornelia Windsor",
+        "Dominique Saint-Pierre",
+        "Elfriede von Kohlrausch",
+        "Elisabeth von Braunschweig",
+        "Ewanselin Mittermeyer",
+        // "Hans no Tsuma",  // "Hans' wife"; fairly generic
+        "Hortance Caselnes",
+        "Jessica Edwards",
+        // "Josei Heishi",  // "woman soldier"; skip, generic
+        "Katerose von Kreutzer",
+        // "Katherine I",  // baby
+        // "Kempf no Tsuma",  // "Kempf's wife"; fairly generic
+        "Klara",
+        // "Lang-fujin",  // "Lang's wife"; fairly generic
+        // "Magdalena",  // omit for lack data; would also be confusing with the other fully-named Magdalena
+        "Magdalena von Westpfahl",
+        "Marika von Feuerbach",
+        // "Meyer-fujin",  // "Meyer's wife"; fairly generic
+        "Mittermeyer no Haha",
+        "Sabine von Littenheim",
+        "Susanna von Benemunde",
+        "Therese Wagner",
+        "Vier von Kleingelt",
+        // Next: Ginga Eiyuu Densetsu Gaiden: Ougon no Tsubasa
+    ],
+    "Ginga Eiyuu Densetsu Gaiden": [
+        // Previous: Ginga Eiyuu Densetsu Gaiden: Ougon no Tsubasa
+        "Dorothea von Schaffhausen",
+        "Elisabeth von Luneberg",
+        // "Huber-fujin",  // "Huber's wife"; fairly generic
+        "Johanna von Basel",
+        "Kircheis no Haha",
+        // "Kurlich-fujin",  // "Kurlich's wife"; fairly generic
+        // "Roufujin",  // "old woman", way too generic
+        "Valerie Lynn Fitzsimmons",
+        // "Waitress",  // too generic
+        // Next: Ginga Eiyuu Densetsu Gaiden (1999)
+    ],
+    "Ginga Eiyuu Densetsu Gaiden (1999)": [
+        "Adelaide",
+        "Christine von Littenheim",
+        // "Frederica Greenhill (Shoujo)",  // younger version of existing character; skip
+        // "Margareta von Herxheimer",  // "child" tag, skip
+        "Miriam Rosas",
+        // "Onna Ishi",  // "woman doctor"? skip, generic
+        // "Sabine von Littenheim",  // "child" tag, skip
+        // As of August 2026, all following entries only have "guise of" people
+        // already seen in previous entries, so this is where it ends rn.
+    ],
+    "Ginga Eiyuu Densetsu Gaiden: Ougon no Tsubasa": [
+        // Previous: Ginga Eiyuu Densetsu
+        "Claribelle von Musel",
+        // Next: Ginga Eiyuu Densetsu Gaiden
+    ],
+    "Ginga Eiyuu Densetsu: Waga Yuku wa Hoshi no Taikai": [
+        // Beginning of the Ginga Eiyuu Densetsu franchise; came out before the 110-episode OVA
+        // What a sausage fest!
+        "Annerose von Grunewald",
+        // Next: Ginga Eiyuu Densetsu
+    ],
     "Ginga Kikoutai Majestic Prince": [
         "Irie Tamaki",
         "Kugimiya Kei",
