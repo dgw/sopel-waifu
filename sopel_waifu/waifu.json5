@@ -6075,6 +6075,26 @@
         "Shirakawa Minato",
         // Next: Hello!! Kin'iro Mosaic
     ],
+    "Kin'iro no Chord: Blue Sky": [
+        // Previous: Kin'iro no Chord: Primo Passo
+        // Skipped Kin'iro no Chord: Secondo Passo - no new characters
+        "Kohinata Kanade",
+        "Enjouji Saeka",
+        "Hasekura Nia",
+        "Mikage Ryouko",
+        "Myouga Shiori",
+    ],
+    "Kin'iro no Chord: Primo Passo": [
+        "Fuyuumi Shouko",
+        "Hino Kahoko",
+        "Amou Nami",
+        "Kobayashi Nao",
+        "Mori Manami",
+        "Sakimoto Mizue",
+        "Shouji Megumi",
+        "Takatou Mio",
+        // Next: Kin'iro no Chord: Blue Sky
+    ],
     "Kino no Tabi: The Beautiful World": [
         "Kino",
         // "Sakura",  // tagged "child"; skip
