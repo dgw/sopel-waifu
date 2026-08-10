@@ -3281,6 +3281,11 @@
         "Ono Miyoko",
         // Next: Tokubetsu Hen Hibike! Euphonium: Ensemble Contest Hen
     ],
+    "Gekijouban Kin'iro Mosaic: Thank You!!": [
+        // Previous: Hello!! Kin'iro Mosaic
+        // Skipped Kin'iro Mosaic: Pretty Days - no new characters
+        "Higurashi Hina",
+    ],
     "Gekijouban Majestic Prince: Kakusei no Idenshi": [
         // Previous: Ginga Kikoutai Majestic Prince
         "An Medikum",
@@ -4416,6 +4421,12 @@
         "Honosaka Shinobu",
         "Karasuma Ria",
         "Nagisa Shouko",
+    ],
+    "Hello!! Kin'iro Mosaic": [
+        // Previous: Kin'iro Mosaic
+        "Higurashi Kana",
+        "Kuzehashi Akari",
+        // Next: Gekijouban Kin'iro Mosaic: Thank You!!
     ],
     "Hentai Ouji to Warawanai Neko": [
         "Azuki \"Komame-chan\" Azusa",
@@ -6044,12 +6055,25 @@
         "Hiba Manami",
         "Yuzuki Kaoruko",
     ],
-    "Kiniro Mosaic": [
+    "Kin'iro Mosaic": [
         "Alice Cartelet",
         "Inokuma Youko",
         "Komichi Aya",
         "Kujou Karen",
         "Oomiya \"Shino\" Shinobu",
+        "Karasuma Sakura",
+        "Oomiya Isami",
+        // "A Class no Tannin",
+        // "A Gumi Joshi Seito",
+        "Alice no Mama",
+        // "Inokuma Mitsuki",  // "child" tag; skip
+        "Karen no Mama",
+        "Matsubara Honoka",
+        "Matsuki-san",
+        // "Obaa-chan",
+        "Shinobu no Okaasan",
+        "Shirakawa Minato",
+        // Next: Hello!! Kin'iro Mosaic
     ],
     "Kino no Tabi: The Beautiful World": [
         "Kino",
