@@ -12653,6 +12653,84 @@
         "Yabu Nanami",
         "Yamashita Saki",
     ],
+    "Yume-iro Patissiere": [
+        "Amano Ichigo",
+        "Caramel",
+        "Chocolat",
+        "Honey",
+        "Koshiro Miya",
+        "Marron",
+        "Mint",
+        "Tennouji Mari",
+        "Vanilla",
+        "Yamagishi Lemon",
+        "Amano Kyouko",
+        "Amano Michiko",
+        "Amano Natsume",
+        // "Amelie",  // "child" tag; skip
+        "Ameya Noriko",
+        "Andou Masayo",
+        // "Andou Momoe",  // no "child" tag, but is clearly one; skip
+        "Anouk",
+        "Aragaki Natsuki",
+        // "Ayu",  // another non-"child" tag who looks like one; skip
+        "Ayukawa Youko",
+        "Black Cherry",
+        "Cherry",
+        "Chinen Mika",
+        "Clara Hunt",
+        "Dominic Darrieux",
+        "Elizabeth",
+        "Emma",
+        "Estragon",
+        // "Floor Manager",  // too generic; skip
+        "Francois Adjani",
+        // "Hahaoya",
+        "Hanabusa Yayoi",
+        "Hayami Erika",
+        // "Hitomi",  // untagged looks-like-a-child; skip
+        "Isabella Antonetti",
+        // "Josei Ten`in",  // "female clerk"; too generic, skip
+        "Kanda Sayuri",
+        "Kashino Miyabi",
+        "Kashino Rei",
+        "Katie Capucine",
+        "Katou Rumi",
+        "Kirishima Harue",
+        "Koizumi Kanako",
+        // "Koizumi Ringo",  // untagged looks-like-a-child; skip
+        // "Kyuutei Patissier Onna",  // eh, "Court Patissier Woman"? too generic
+        "Laurier",
+        "Marie Reine",
+        "Mariko",
+        "Marjoram",
+        // "Mayu",  // untagged looks-like-a-child; skip
+        "Michelle",
+        "Mihara Rie",
+        "Mori Miki",
+        "Mylene",
+        "Nakajima Ikue",
+        // "Nurse",
+        // "Onee-san A",
+        // "Onee-san B",
+        // "Onna Kanchou",  // "Woman Director", say; too generic
+        "Orange",
+        "Peach",
+        "Reiko-sensei",
+        "Sayama Chinatsu",
+        "Sugar",
+        "Sully",
+        "Tachibana Azuki",
+        "Uehara Emi",
+        "Uehara Rina",
+        "Yomogi",
+        // Next: Yume-iro Patissiere SP Professional
+    ],
+    "Yume-iro Patissiere SP Professional": [
+        // Previous: Yume-iro Patissiere
+        // Skipped Yume-iro Patissiere: Mune Kyun Tropical Island!, which has no new characters
+        "Maize",
+    ],
     "Yumekui Merry": [
         "Merry Nightmare",
         "Albireo",
