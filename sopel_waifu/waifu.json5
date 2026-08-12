@@ -12041,6 +12041,18 @@
         "Nitani Yukari",
         "Yoshii Masako",
     ],
+    "Uta no Prince-sama: Maji Love 1000%": [
+        "Nanami Haruka",
+        // "Kuppuru",  // a literal cat, no gender tag
+        "Shibuya Tomochika",
+        // "Obaa-chan",  // too generic
+        // Skipped Maji Love 2000%, which had only an unnamed teacher to add;
+        // and skipped Maji Love Revolutions, which had no new characters
+    ],
+    "Uta no Prince-sama: Maji Love Legend Star": [
+        "Tateishi Shizuka",
+        // Remaining Uta no Prince-sama entries have no new characters and are skipped
+    ],
     "Utawarerumono": [
         "Eruruu",
         "Aruruu",
