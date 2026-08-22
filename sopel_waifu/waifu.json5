@@ -6242,6 +6242,53 @@
         "Shindou Kokoro",
         "Shuri",
     ],
+    "Komi-san wa, Komyushou Desu.": [
+        "Komi Shouko",
+        "Agari Himiko",
+        "Inaka Nokoko",
+        "Komi Shuuko",
+        "Nakanaka Omoharu",
+        "Onemine Nene",
+        "Onigashima Akako",
+        "Osana Najimi",  // lmfao really?
+        "Otori Kaede",
+        "Tadano Hitomi",
+        "Yadano Makeru",
+        "Yamai Ren",
+        // "Akachan",  // generic, also literally a baby
+        "Arai Kamiko",
+        "Gorimi",
+        // "Hahaoya",  // too generic
+        "Karisu Maki",
+        "Katou Mikuni",
+        "Kishi Himeko",
+        // "Komi Akira",  // "child" tag
+        "Komi Ryouko",
+        "Komi Yuiko",
+        // "Kyoutou",  // lit. "vice principal"; skip, generic
+        "Netsuno Chika",
+        "Odoka Shizuka",
+        "Satou Amami",
+        // "Tannin",  // lit. "homeroom teacher"; skip, generic
+        "Teshigawara Hoshiko",
+        "Ushiroda Eiko",
+    ],
+    "Komi-san wa, Komyushou Desu. (2022)": [
+        "Sasaki Ayami",
+        "Ase Shibuki",
+        "Emoyama Yuragi",
+        "Isagi Kiyoko",
+        "Katai Ai",
+        "Manbagi Rumiko",
+        "Michisato Laura",
+        // "Onemine Nana",  // "child" tag
+        // "Onemine Nono",  // "child" tag
+        "Saiko Chii",
+        // "Shokola",  // cat, no gender tag; skip
+        "Sukida Lily",
+        "Tadano Jeanne",
+        "Tenjouin Ryouko",
+    ],
     "Kono Oto Tomare!": [
         "Houzuki Satowa",
         "Kudoo Isaki",
