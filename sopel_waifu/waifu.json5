@@ -1473,6 +1473,7 @@
         "Gotou Futari",
         "Gotou Michiyo",
         "Iwashita Shima",
+        // "Jimihen",  // dog of unspecified gender; skip
         "Mii-tan",
         "Shimizu Eliza",
     ],
@@ -4659,6 +4660,7 @@
         "Hikube Esu",
         "Kawai Ino",
         "Nakanai Karane",
+        // "Oba-chan",  // too generic, skip
         "Tatakudo Ramu",
     ],
     "Hitsugi no Chaika": [
