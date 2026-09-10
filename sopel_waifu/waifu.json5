@@ -6577,6 +6577,30 @@
         "Sakuragi Miyuki",
         "Sakuragi Yaeka",
     ],
+    "Kumo Desu ga, Nanika?": [
+        "\"Watashi\"",
+        "Ariel",
+        // "D",  // "NOT SEEN ON SCREEN" tag, hmm... skip?
+        "Feirune",  // a dragon, but explicitly gendered unlike some beasts
+        "Filimos Harrifenas",
+        "Karnatia Seri Anabald",
+        "Sophia Keren",
+        "Suresia",
+        // "Ten no Koe",  // "NOT SEEN ON SCREEN" tag, no pic, skip
+        "Yurin Ullen",
+        // "\"Watashi\" (Karada Tantou)",  // skip the "Watashi" data entities
+        // "\"Watashi\" (Mahou Tantou 1 Gou)",  // skip the "Watashi" data entities
+        // "\"Watashi\" (Mahou Tantou 2 Gou)",  // skip the "Watashi" data entities
+        // "Akumu no Zanshi",  // no gender
+        "Anna",
+        "Kudou Sachi",
+        "Kushitani Asaka",
+        "Sanatoria",
+        "Sariel",
+        "Seras Keren",
+        "Shiro",
+        "Yaana",
+    ],
     "Kumo no Mukou, Yakusoku no Basho": [
         "Sawatari Sayuri",
     ],
