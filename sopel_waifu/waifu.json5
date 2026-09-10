@@ -11730,6 +11730,23 @@
         "Ninomiya Saeko",
         "Ooshima \"Oojima\" Chizuru",
     ],
+    "Tondemo Skill de Isekai Hourou Meshi": [
+        // "Sui",  // can't really say that a slime even has gender
+        "Agni",
+        "Kishar",
+        "Ninrir",
+        "Rusalka",
+        "Annette",
+        "Franka",
+        "Marie",
+        "Michaela",
+        "Oono Kanon",
+        "Rita",
+        "Vianca",
+        "Yoshida Rio",
+        // The only new waifu in S2 (Iris) is a child; empty array isn't
+        // allowed, so skip the whole section instead
+    ],
     "Tonikaku Kawaii": [
         "Yuzaki \"Tsukuyomi\" Tsukasa",
         "Arisugawa Aya",
