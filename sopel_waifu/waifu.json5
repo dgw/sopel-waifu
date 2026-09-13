@@ -9282,6 +9282,25 @@
         "Tsunemori Akane",
         "Funahara Yuki",
     ],
+    "Re:Monster": [
+        "Alma Timiano",
+        "Asue",
+        "Burasato",
+        "Damumi",
+        "Emery Furlat",
+        "Felicia Timiano",
+        // "Gobue",  // guise of Asue
+        // "Gobumi",  // guise of Damumi
+        // "Hobusato",  // guise of Burasato
+        // "Hobusei",  // guise of Supesei
+        "Rubelia Walline",
+        "Rubiria",
+        "Spinel Fairn",
+        "Supesei",
+        // "Dryad",  // too generic
+        "Sara",
+        // TODO: Omitting Re:Monster 2 as it hasn't aired yet (Sept. 2026)
+    ],
     "Rec": [
         "Onda Aka",
     ],
