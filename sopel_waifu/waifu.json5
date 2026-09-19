@@ -3202,6 +3202,37 @@
         "Usami Mayumi",
         "Yoshikawa",
     ],
+    "Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chuu": [
+        "Arianne Glenis Maple",
+        "Chiyome",
+        "Glenis",
+        "Ivin",
+        "Juliana Merol Melissa Rhoden Olav",
+        "Ferna",
+        // "Helina",  // "child" tag
+        "Lauren",
+        // "Marca",  // no "child" tag but really looks it; skip
+        "Rita",
+        "Seona",
+        "Seriarna",
+    ],
+    "Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chuu II": [
+        "Tsubone",
+        // remainder guessed from CVs (September 2026) as metadata wasn't complete
+        // "Kusuriya no Tenshu",  // too generic, male CV
+        // "Mashura",  // male CV
+        // "Nise Arc",  // male CV
+        // "Nise Arianne",  // male CV
+        "Nise Ponta",
+        // "Petros",  // male CV
+        "Rovelis",
+        // "Sendai Ryoushu",  // male CV
+        "Shea",
+        // "Sil",  // male CV
+        // "Sonchou",  // male CV
+        "Toreasa",
+        // @TODO: Prune any "male" chars at some point once metadata's fleshed out
+    ],
     "Gakuen iDOLM@STER": [
         "Arimura Mao",
         "Fujita Kotone",
