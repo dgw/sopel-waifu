@@ -7535,6 +7535,25 @@
         "Toyo",
         "Oume",
     ],
+    "Maou-sama, Retry!": [
+        "Aku",
+        "Angel White",
+        "Killer Queen",
+        "Luna Elegant",
+        "Kirino Yuu",
+        "Kyon",
+        "Mikan",
+        "Momo",
+        "Tron",
+        // "Eagle",  // "child" tag; older guise appears in "R" (S2)
+        "Ebifry Butterfly",
+        "Mink",
+        "Organ",
+    ],
+    "Maou-sama, Retry! R": [
+        "Eagle",
+        "Fujisaki Akane",
+    ],
     "Maoyuu Maou Yuusha": [
         "Maou \"Demon Queen, Dark Lady, Crimson Scholar\"",
     ],
