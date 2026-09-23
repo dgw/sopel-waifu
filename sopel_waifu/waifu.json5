@@ -5270,6 +5270,41 @@
         "Serizawa Maiko",
         "Yamasato",
     ],
+    "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.": [
+        "Maple",
+        "Sally",
+        "Iz",
+        "Kasumi",
+        "May",
+        "Mii",
+        // "Oboro",  // animal sidekick
+        // "Syrup",  // animal sidekick
+        "Yui",
+        // "Dorazou",  // literal dragon, no gender tag
+        "Frederica",
+        "Honjou Kaede",
+        // "Ichidaime Kikaishin",  // robot monster
+        "Misery",
+        // "Nidaime Kikaishin",  // robot monster
+        // "Shiromine Risa",  // Sally above is "guise of" Risa, but has higher billing
+    ],
+    "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. 2": [
+        // "Bell",  // animal sidekick
+        // "Clear",  // animal sidekick
+        // "Earth",  // golem
+        // "Fay",  // gamiliar spirit
+        // "Haku",  // animal sidekick
+        "Hinata",
+        // "Ignis",  // animal sidekick
+        "Lily",
+        // "Notes",  // animal sidekick
+        // "Ray",  // animal sidekick
+        // "Shadow",  // animal sidekick
+        // "Tsukimi",  // animal sidekick
+        "Velvet",
+        // "Wen",  // animal sidekick
+        // "Yukimi",  // animal sidekick
+    ],
     "Jidouhanbaiki ni Umarekawatta Ore wa Meikyuu o Samayou": [
         "Lammis",
         "Filmina",
