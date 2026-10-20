@@ -1581,6 +1581,21 @@
         "Seto no Musume",
         // S2 coming... no idea when, but it was announced earlier in 2026.
     ],
+    "Boys Be...": [
+        "Kazama Yumi",
+        "Mizutani Aki",
+        "Nitta Chiharu",
+        // "Fujiki Risa",  // "child" tag, skip
+        "Horikawa Natsue",
+        "Kanzaki Sayaka",
+        "Kawai Erika",
+        "Kurihara Aya",
+        "Morio Junna",
+        "Nitta Nao",
+        "Sayama Shouko",
+        // "Shoujo",  // have an actual name, or be excluded
+        "Takano Mizuki",
+    ],
     "Break Blade": [
         "Sigyn Erster",
         "Cleo Saburaf",
