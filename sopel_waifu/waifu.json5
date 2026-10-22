@@ -9124,6 +9124,41 @@
         // "Village Kid",  // no pic, "child" tag, no gender; skip skip skip
         // As of September 2026, second season yet unaired
     ],
+    "Nurarihyon no Mago": [
+        "Ienaga Kana",
+        "Hari-onna",
+        "Keikain Yura",
+        "Kejourou",
+        "Maki Saori",
+        "Nura Wakana",
+        // "Oikawa Tsurara",  // "guise of" Yukionna
+        "Sasami",
+        "Torii Natsumi",
+        "Yosuzume",
+        "Yukionna",
+        // "Asajigahara no Kijo",  // actually multiple entities under one name
+        "Hanako",
+        "Koke-hime",
+        // "Rentei",  // fish shikigami
+        // "Rokuson",  // deer(?) shikigami
+        // "Sannokuchi",  // demon, unspecified gender, stick drawing
+        "Setsura",
+        // "Tanrou",  // wolf(?) shikigami
+        "Torii Hibari",
+    ],
+    "Nurarihyon no Mago: Gekitou Dai Futsal Taikai! Nuragumi W Cup!!": [
+        "Hagoromo-Gitsune",  // "guise of" the one in sequel Sennen Makyou, but this released first
+    ],
+    "Nurarihyon no Mago: Sennen Makyou": [
+        // "Kyoukotsu (Musume)",  // "child" tag
+        "Reira",
+        "Yodo-dono",
+        "You-hime",
+        // "Yukari",  // demon, "seems to be the only child in the Toono village", though no "child" tag
+        "Shiragiku",
+        "Yamabuki Otome",
+        // Skip 2012 OVA, no new characters
+    ],
     "Okashi na Tensei": [
         "Agnes Mille Morteln",
         "Brioche Saruglet Mille Lehtes",  // kek pun, brioche could be called a "sweet" kind of bread
