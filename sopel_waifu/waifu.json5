@@ -10505,6 +10505,33 @@
         "Murakoshi Ayumi",
         "Kadena Nao",  // same as the one in GTO, who will have to be skipped because of this
     ],
+    "Shounen Onmyouji": [
+        "Fujiwara no Akiko",
+        // "Mokkun",  // no gender tag, non-human
+        "Kazane",
+        // "Kyuuki",  // no gender tag, non-human
+        "Taiin",  // one of those "actually ancient" little girl characters JP is famous for
+        "Ten'itsu",
+        "Abe no Tsuyuki",
+        "Chigaeshi no Miko",
+        "Chuuguu Sadako",
+        // "Enki",  // no gender tag, non-human
+        "Fujiwara no Keiko",
+        // "Gaku",  // no gender tag, non-human
+        // "Hitotsuki",  // no gender tag, non-human
+        // "Kai",  // no gender tag, non-human
+        "Kouchin",
+        "Naishinnou Nagako",
+        // "Onna Jutsusha",  // too generic, something like "fortune teller woman"
+        "Sakimori no Tsuma",
+        // "Shun",  // no gender tag, non-human
+        // "Soushu (Hidari no Karasu)",  // no gender tag, non-human
+        // "Takao no Kami",  // no gender tag, non-human
+        // "Tatsuki",  // no gender tag, non-human
+        "Tenkou",
+        "Utsugi",
+        "Wakana",
+    ],
     "Shouwa Genroku Rakugo Shinjuu": [
         "Konatsu",
     ],
