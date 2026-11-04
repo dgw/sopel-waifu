@@ -791,6 +791,91 @@
         "Chie",
         "Yumi",
     ],
+    "Ao no Exorcist": [
+        "Kamiki Izumo",
+        "Kirigakure Shura",
+        "Moriyama Shiemi",
+        // "Astaroth",  // no gender, non-human, multiple instances
+        // "Bariyon",  // no gender, non-human
+        // "Behemoth",  // no gender, non-human
+        // "Butsu Zou",  // no gender, inanimate(?)
+        // "Caliburn",  // no gender, sentient weapon
+        "Casper",
+        // "Chuuchi",  // no gender, non-human
+        // "Dokkalfr",  // no gender, non-human
+        // "Gufuu",  // no gender, non-human
+        "Imai",
+        // "Kamen no Otoko",  // literally a noh mask
+        "Kamiki Tamamo",
+        // "Kamiki Tsukumo",  // three years old
+        // "Kannon Zou",  // no gender, inanimate(?)
+        "Kashino",
+        "Kinoshita",
+        // "Leaper",  // no gender, non-human
+        "Mai",
+        // "Malkin",  // no gender, non-human
+        "Michelle Neigaus",
+        "Momoi-tenchou",  // at least she has a surname
+        // "Naberius",  // no gender, non-human
+        // "Nii-chan",  // no gender, non-human
+        "Nishiwaki",
+        // "Onna Kyoushi",  // skip, generic ("woman instructor")
+        "Oomoto",
+        "Paku Noriko",
+        // "Peg Lantern",  // no gender, non-human
+        // "Sakamoto Yui",  // no age tag, but looks very childish
+        "Seto",
+        "Shiemi no Haha",
+        "Shiemi no Sobo",
+        // "Yamada",  // no gender, character photo too ambiguous
+        "Yoshikuni",
+        "Yuri Egin",
+        // skip Ao no Exorcist Gekijouban; seems there are no new characters
+        // Next: Ao no Exorcist: Kyoto Fujouou Hen
+    ],
+    "Ao no Exorcist: Kyoto Fujouou Hen": [
+        // Previous: Ao no Exorcist
+        "Shima Mamushi",
+        "Houjou Ao",
+        "Houjou Nishiki",
+        "Satoru no Haha",
+        "Suguro Torako",
+        // "Ucchusma",  // no gender, non-human(?)
+        // skip KFH OVA; no new characters
+        // Next: Ao no Exorcist: Shimane Illuminati Hen
+    ],
+    "Ao no Exorcist: Shimane Illuminati Hen": [
+        // Previous: Ao no Exorcist: Kyoto Fujouou Hen
+        "Toudou Homare",
+        // "Kamiki Tamamo",  // guise of the one listed in first season
+        "Mayuko",
+        // "Shemihaza",  // guise of Shiemi no Haha from first season
+        // "Takara Tsukiko",  // 8yo; guise of Kamiki Tsukumo from first season
+        "Yoshida Maria",
+        // Next: Ao no Exorcist: Yuki no Hate Hen
+    ],
+    "Ao no Exorcist: Yosuga Hen": [
+        // Previous: Ao no Exorcist: Yuki no Hate Hen
+        "Jenny Kal",
+        // "Shemihaza",  // guise of Shiemi no Sobo from earlier
+        "Iblis",
+        // "Kamiki Tamamo",  // guise of herself from another season
+        "Makiko Lincoln",
+        "Miwa Yoshi",
+        "Niko-chan",
+        // "Obaba",  // that's not a name...
+        // "Shiemi",  // guise of Shiemi no Haha from earlier season
+        // "Yuri",  // child guise of Yuri Egin from earlier
+    ],
+    "Ao no Exorcist: Yuki no Hate Hen": [
+        // Previous: Ao no Exorcist: Shimane Illuminati Hen
+        "Kirigakure Tatsuko",
+        "Lucy Yang",
+        "Shima Jun",
+        // "Shima Ten",  // educated guess from pic & Yumi's age below that she's untagged "child"
+        // "Shima Yumi",  // 10yo
+        // Next: Ao no Exorcist: Yosuga Hen
+    ],
     "Ao no Kanata no Four Rhythm": [
         "Arisaka Mashiro",
         "Ichinose Rika",
