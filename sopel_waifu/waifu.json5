@@ -5126,6 +5126,25 @@
         "Torikai Hibari",
         "Ushiwaka Yukiji",
     ],
+    "Inukami!": [
+        "Nadeshiko",
+        "Youko",
+        "Furano",
+        "Gokyouya",
+        "Igusa",
+        "Imari",
+        // "Maro-san",  // non-human, no gender
+        "Sayoka",
+        "Sendan",
+        "Souke",
+        "Tayune",  // the "random waifu" AniDB served me that got this show added
+        "Tensou",
+        // "Tomohane",  // "child" tag
+        // "Baba",  // this seems like a description, not a name
+        // "Kawahira Kayano",  // "child" tag, guise of Souke
+        "Shindou Kei",
+        // "Socrates",  // non-human, no gender
+    ],
     "Inuyasha": [
         "Higurashi Kagome",
         "Sango",
