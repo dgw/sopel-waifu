@@ -6261,6 +6261,24 @@
         "Lisa",
         "Sue",
     ],
+    "Kaze no Stigma": [
+        "Kannagi Ayano",
+        "Katherine McDonald",
+        "Kudou Nanase",
+        "Kurahashi Izumi",
+        "Lapis",  // "guise of" CuiLing, described as the entity "made in CuiLing's image by Bernhardt"; treating as a separate char
+        "Shinomiya Yukari",
+        "Tachibana Kirika",
+        "CuiLing",  // spoiler description sounds like my interpretation for Lapis is correct
+        "Oogami Misao",
+        "Suzuhara Kanon",
+        "Tiana",
+        "Tsuwabuki Ayumi",  // "child" tag, but is a clone of Mayumi who doesn't have one; keep for now
+        "Tsuwabuki Kureha",
+        "Tsuwabuki Mayumi",
+        // "Vlitra",  // non-human, no gender
+        // "Zenon",  // non-human, no gender
+    ],
     "Kaze no Tani no Nausicaa": [
         // Elected not to include the 'ä' as AniDB doesn't use it
         "Nausicaa",
