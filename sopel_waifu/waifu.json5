@@ -13977,16 +13977,18 @@
         /* 1571 */ "Norma Hollowell",
         /* 1581 */ "Remielle Dan",
         /* 1591 */ "Sigrid de L'Azur",
-
-        // Upcoming characters (some are already in the game as NPCs)
         /* 1611 */ "Claret Flint",
         /* 1621 */ "Roxy Ifrita Pryce",
+        /* 1641 */ "Phoenix Reffaella",
+
+        // Upcoming characters (some are already in the game as NPCs)
         // Three clones (?) of the original Lady Sunbringer
         // TODO: more detailed notes after stable release
         /* 1601 */ "Eldreda Sunbringer",
         /* 1602 */ "Lindverne Sunbringer",
         /* 1603 */ "Dracaene Sunbringer",
-        /* 1641 */ "Phoenix Reffaella",
+        /* 1651 */ "Kafka",
+        /* 1661 */ "Robin",
         /* ???? */ "The Storyteller",
 
         // Other than ZZZ players who might contribute here (as with the below),
